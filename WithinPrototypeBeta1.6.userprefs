@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Global.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Clicked.cs" Line="82" Column="6" />
+      <File FileName="Assets\Scripts\Global.cs" Line="91" Column="5" />
+      <File FileName="Assets\Scripts\ZoomInOnDoubleClick.cs" Line="41" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="E:\WithinPrototypeBeta1.6\Assets\Scripts\Global.cs" line="76" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
