@@ -59,6 +59,7 @@ public class ClickControl : MonoBehaviour {
 	void OnDoubleClick()
 	{
 		doubleClickHelper = false;
+		this.GetComponent<ZoomInOut>().moving = true;
 		zio.Zoom (go);
 	}
 }
