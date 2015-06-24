@@ -1,8 +1,17 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ZoomInOut.cs">
+    <Files>
+      <File FileName="Assets\Scripts\ZoomInOut.cs" Line="69" Column="4" />
+      <File FileName="Assets\Scripts\Global.cs" Line="22" Column="15" />
+      <File FileName="Assets\Scripts\ClickControl.cs" Line="63" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets\Scripts\ZoomInOut.cs" line="76" offsetX="611" offsetY="1183" expression="current.position" liveUpdate="False" />
+    <Watch file="Assets\Scripts\ZoomInOut.cs" line="76" offsetX="898" offsetY="1184" expression="dest.position" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>

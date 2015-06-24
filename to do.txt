@@ -1,4 +1,3 @@
 To do:
   - Esconder vela dsp de la animacion
   - Arreglar orbitacion (PIVOT POINTS)
-iuiuhiuuihi
