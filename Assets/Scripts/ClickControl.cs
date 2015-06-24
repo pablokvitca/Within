@@ -33,9 +33,17 @@ public class ClickControl : MonoBehaviour {
 		if (doubleClickStart != -1 && Time.time - doubleClickStart > 0.5f && doubleClickHelper) {
 			//Single click code HERE!
 			if (go.tag == "Animated" || go.tag == "caja partes") {
-				pa.RunAnimation(go);
+				try {
+					pa.RunAnimation(go);
+				} catch {
+					Debug.Log("This object (" + this.ToString() + ") is not animated into.");
+				}
 			} else {
-				ins.ManageInventory(go);
+				try {
+					ins.ManageInventory(go);
+				} catch {
+					Debug.Log("This object (" + this.ToString() + ") cannot be inventored into.");
+				}
 			}
 			doubleClickStart = -1;
 			Debug.Log ("Single click!");
@@ -59,7 +67,16 @@ public class ClickControl : MonoBehaviour {
 	void OnDoubleClick()
 	{
 		doubleClickHelper = false;
-		this.GetComponent<ZoomInOut>().moving = true;
-		zio.Zoom (go);
+		if (Global.camMoving) {
+			Debug.Log ("Camera is already moving. Please wait for it to finish.");
+		} else {
+			try {
+				this.GetComponent<ZoomInOut> ().moving = true;
+				Global.camMoving = true;
+				zio.Zoom (go);
+			} catch {
+				Debug.Log("This object (" + this.ToString() + ") cannot be zoomed into.");
+			}
+		}
 	}
 }

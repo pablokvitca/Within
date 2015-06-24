@@ -18,6 +18,9 @@ public class Global : MonoBehaviour {
 	public string[,] unitingMatrix = new string[3,3];
 
 	public bool[] stateHolders;
+
+	static public bool camMoving = false;
+
 	// Use this for initialization
 	void Start () {
 		FillUnitingMatrix ();
@@ -231,5 +234,14 @@ public class Global : MonoBehaviour {
 			i++;
 		}
 		return found;
+	}
+
+	public bool IsNear (Transform obj, Transform destiny, float nearFactor) {
+		return ((obj.position.x - destiny.position.x <= nearFactor
+			&& obj.position.y - destiny.position.y <= nearFactor
+			&& obj.position.z - destiny.position.z <= nearFactor)
+			&& (obj.position.x - destiny.position.x >= -nearFactor
+			&& obj.position.y - destiny.position.y >= -nearFactor
+			&& obj.position.z - destiny.position.z >= -nearFactor));
 	}
 }

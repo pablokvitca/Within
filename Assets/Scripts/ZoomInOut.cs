@@ -17,58 +17,51 @@ public class ZoomInOut : MonoBehaviour {
 
 	private Transform destHolder;
 
-	public float smooth = 1.5f;         // The relative speed at which the camera will catch up.
+	public float smooth = 1.5f; // The relative speed at which the camera will catch up.
+	public float near = 0.25f;
 
 	void Start() {
 		glo = GameObject.Find("ScriptGlobal").GetComponent<Global>();
-		destHolder = glo.GameObjectFinder("RoomStructure").gameObject.transform.GetChild(0).gameObject.transform;
+		Global.camMoving = moving;
+		destHolder = cameraHolder.transform;
 	}
 
 	public void Zoom(GameObject dclicked)
 	{
-		if (!(Camera.main.transform.position == cameraHolder.transform.position)) {
-			Debug.Log (dclicked.ToString () + "was LEFT Double Clicked!");
-			Debug.Log ("Zooming in");
-			destHolder = cameraHolder.transform;
-			Debug.Log ("Zooming in finished");
-			if (ZoomFinished(Camera.main.transform, cameraHolder.transform))
-				moving = false;
-			else
-				moving = true;
+		if (moving) {
+			if (!glo.IsNear (Camera.main.transform, cameraHolder.transform, near)) {
+				Debug.Log (dclicked.ToString () + "was LEFT Double Clicked!");
+				Debug.Log ("Zooming in");
+				destHolder = cameraHolder.transform;
+				Debug.Log ("Zooming in finished");
+				if (ZoomFinished (Camera.main.transform, destHolder))
+					moving = false;
+				else
+					moving = true;
+			} else {
+				Debug.Log ("Zooming out");
+				destHolder = cameraPrev.transform;
+				Debug.Log ("Zooming out finished");
+				if (ZoomFinished (Camera.main.transform, destHolder))
+					moving = false;
+				else
+					moving = true;
+			}
 		} else {
-			Debug.Log ("Zooming out");
-			destHolder = cameraPrev.transform;
-			Debug.Log ("Zooming out finished");
-			if (ZoomFinished(Camera.main.transform, cameraPrev.transform))
-				moving = false;
-			else
-				moving = true;
+			Debug.Log("Camera is already moving. Please wait for it to finish.");
 		}
-		/*if (!(Camera.main.transform.position == cameraHolder.transform.position)) {
-			Debug.Log (dclicked.ToString () + "was LEFT Double Clicked!");
-			Debug.Log ("Zooming in");
-			MoveAndTurnCamera (Camera.main, cameraHolder);
-			Debug.Log ("Zooming in finished");
-			if (ZoomFinished(Camera.main.transform, cameraHolder.transform))
-				moving = false;
-			else
-				moving = true;
-		} else {
-			Debug.Log ("Zooming out");
-			MoveAndTurnCamera(Camera.main, cameraPrev);
-			Debug.Log ("Zooming out finished");
-			if (ZoomFinished(Camera.main.transform, cameraPrev.transform))
-				moving = false;
-			else
-				moving = true;
-		}*/
 	}
 
 	void Update() {
+		Global.camMoving = moving;
 		if (moving) {
 			// Lerp the camera's position between it's current position and it's new position.
-			Camera.main.transform.position = Vector3.Lerp(Camera.main.transform.position, destHolder.position, smooth * Time.deltaTime);
-			SmoothLookAt();
+			SmoothTranslate(Camera.main, Camera.main.transform, destHolder, smooth);
+			SmoothLookAt(Camera.main, Camera.main.transform, destHolder, smooth);
+			if (ZoomFinished(Camera.main.transform, destHolder))
+				moving = false;
+			else
+				moving = true;
 
 			//Snaps
 			//cam.transform.position = holder.transform.position;
@@ -76,19 +69,15 @@ public class ZoomInOut : MonoBehaviour {
 		}
 	}
 	
-	void SmoothLookAt ()
-	{	
-		// Create a rotation based on the relative position of the player being the forward vector.
-		Quaternion lookAtRotation = Quaternion.LookRotation(Camera.main.transform.position, transform.position);
-		
-		// Lerp the camera's rotation between it's current rotation and the rotation that looks at the player.
-		Camera.main.transform.rotation = Quaternion.Lerp(Camera.main.transform.rotation, lookAtRotation, smooth * Time.deltaTime);
+	void SmoothTranslate (Camera cam, Transform current, Transform dest, float timeFactor) {	
+		cam.transform.position = Vector3.Lerp(current.position, dest.position, timeFactor * Time.deltaTime);
+	}
+
+	void SmoothLookAt (Camera cam, Transform current, Transform dest, float timeFactor) {	
+		cam.transform.rotation = Quaternion.Lerp(current.rotation, dest.rotation, timeFactor * Time.deltaTime);
 	}
 
 	bool ZoomFinished (Transform current, Transform dest) {
-		if (current.position == dest.position)
-			return true;
-		else
-			return false;
+		return glo.IsNear (current, dest, near);
 	}
 }
