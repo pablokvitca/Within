@@ -13,6 +13,7 @@ public class ClickControl : MonoBehaviour {
 	PlayAnimations pa;
 	InventorySystem ins;
 	ZoomInOut zio;
+	DragTurn dt;
 
 	// Use this for initialization
 	void Start () {
@@ -21,6 +22,7 @@ public class ClickControl : MonoBehaviour {
 		pa = this.GetComponent<PlayAnimations> ();
 		ins = this.GetComponent<InventorySystem> ();
 		zio = this.GetComponent<ZoomInOut> ();
+		dt = this.GetComponent<DragTurn> ();
 	}
 	
 	// Update is called once per frame
@@ -51,17 +53,29 @@ public class ClickControl : MonoBehaviour {
 	}
 
 	void OnMouseUp() {
-		Debug.Log("yey (" + go.ToString() + "was LEFT clicked)");
-		if ((Time.time - doubleClickStart) < 0.3f)
-		{
-			this.OnDoubleClick();
-			doubleClickStart = -1;
-			doubleClickHelper = true;
+		bool rot = false;
+		try {
+			rot = dt.isRotating;
+		} catch {
+			Debug.Log ("0341");
 		}
-		else
-		{
-			doubleClickStart = Time.time;
+		if (!rot) {
+			Debug.Log ("yey (" + go.ToString () + "was LEFT clicked)");
+			if ((Time.time - doubleClickStart) < 0.3f) {
+				this.OnDoubleClick ();
+				doubleClickStart = -1;
+				doubleClickHelper = true;
+			} else {
+				doubleClickStart = Time.time;
+			}
+		} else {
+			Debug.Log("This object is being rotated");
+			dt.isRotating = false;
 		}
+	}
+
+	void OnMouseDown() {
+		
 	}
 	
 	void OnDoubleClick()
