@@ -71,9 +71,11 @@ public class ClickControl : MonoBehaviour {
 			Debug.Log ("Camera is already moving. Please wait for it to finish.");
 		} else {
 			try {
-				this.GetComponent<ZoomInOut> ().moving = true;
-				Global.camMoving = true;
-				zio.Zoom (go);
+				if (!Global.camMoving) {
+					Global.camMoving = true;
+					this.GetComponent<ZoomInOut> ().moving = true;
+					zio.Zoom (go);
+				}
 			} catch {
 				Debug.Log("This object (" + this.ToString() + ") cannot be zoomed into.");
 			}

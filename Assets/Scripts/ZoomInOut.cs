@@ -53,7 +53,6 @@ public class ZoomInOut : MonoBehaviour {
 	}
 
 	void Update() {
-		Global.camMoving = moving;
 		if (moving) {
 			// Lerp the camera's position between it's current position and it's new position.
 			SmoothTranslate(Camera.main, Camera.main.transform, destHolder, smooth);
@@ -62,10 +61,11 @@ public class ZoomInOut : MonoBehaviour {
 				moving = false;
 			else
 				moving = true;
+			Global.camMoving = moving;
 
 			//Snaps
-			//cam.transform.position = holder.transform.position;
-			//cam.transform.rotation = holder.transform.rotation;
+			//Camera.main.transform.position = destHolder.position;
+			//Camera.main.transform.rotation = destHolder.rotation;
 		}
 	}
 	
