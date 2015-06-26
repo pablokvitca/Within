@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Combinar.cs" />
      <Compile Include="Assets\Scripts\DragTurn.cs" />
      <Compile Include="Assets\Scripts\FollowMouse.cs" />
+     <Compile Include="Assets\Scripts\GeneralThings.cs" />
      <Compile Include="Assets\Scripts\Global.cs" />
      <Compile Include="Assets\Scripts\Helps.cs" />
      <Compile Include="Assets\Scripts\Inven.cs" />

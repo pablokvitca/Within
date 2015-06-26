@@ -8,10 +8,16 @@ public class Helps : MonoBehaviour {
 	public Transform transformacion;
 	public int matPos;
 	bool click = false;
-	
+
+	//For Animation
+	public float max = 2.0f;
+	public float speed = 0.001f;
+	private Vector3 starting;
+	private bool goingUp = true;
+
 	// Use this for initialization
 	void Start () {
-
+		starting = this.transform.position;
 	}
 	
 	// Update is called once per frame
@@ -31,8 +37,22 @@ public class Helps : MonoBehaviour {
 		if (Input.GetKey (KeyCode.S)) {
 			click = false;
 		}
+
+		//AnimateHelp
+		AnimateHelp ();
 	}
-	
+
+	void AnimateHelp() {
+		if (goingUp)
+			this.transform.position += new Vector3(0, speed, 0);
+		else
+			this.transform.position -= new Vector3(0, speed, 0);
+		if (this.transform.position.y - starting.y >= max)
+			goingUp = false;
+		if (this.transform.position.y - starting.y < 0)
+			goingUp = true;
+	}
+
 	void OnMouseUp() {
 		if (click)
 			click = false;

@@ -40,7 +40,7 @@ public class Global : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
 	public void objetoarr (string nombre){
@@ -243,5 +243,19 @@ public class Global : MonoBehaviour {
 			&& (obj.position.x - destiny.position.x >= -nearFactor
 			&& obj.position.y - destiny.position.y >= -nearFactor
 			&& obj.position.z - destiny.position.z >= -nearFactor));
+	}
+
+	public void ClearTurnFlags () {
+		GameObject[] gameobjs = GetAllGameObjectsChilds (GameObject.Find ("ScriptGlobal")).ToArray ();
+		foreach (GameObject go in gameobjs) {
+			try {
+				DragTurn DT = go.GetComponent<DragTurn>();
+				if (DT.isRotating || DT.mayRotate || DT.timer != -1)
+					Debug.Log("A Turn Flag was Cleared.");
+				DT.isRotating = false;
+				DT.mayRotate = false;
+				DT.timer = -1;
+			} catch {}
+		}
 	}
 }

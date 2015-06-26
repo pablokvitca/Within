@@ -8,7 +8,8 @@ public class DragTurn : MonoBehaviour {
 	public bool isRotating;
 	public Vector3 mouseReference;
 	public float dragSensitivity = 0.4f;
-	private bool mayRotate;
+	public bool mayRotate;
+	public float timer;
 	private Vector3 mouseOffset;
 	private Vector3 rotation;
 
@@ -18,9 +19,15 @@ public class DragTurn : MonoBehaviour {
 	}
 	
 	void Update() {
+		if (mayRotate && Time.time - timer > dragSensitivity * 2) {
+			Debug.Log("Timer died out. (" + Time.time.ToString() + ")&(" + timer.ToString() + ")");
+			mayRotate = false;
+			timer = -1;
+		}
 		if (mayRotate && Input.mousePosition != mouseReference) {
 			mayRotate = false;
 			isRotating = true;
+			timer = -1;
 		}
 		if(isRotating) {
 			// offset
@@ -40,6 +47,8 @@ public class DragTurn : MonoBehaviour {
 	void OnMouseDown() {
 		// rotating flag
 		mayRotate = true;
+
+		timer = Time.time;
 		
 		// store mouse
 		mouseReference = Input.mousePosition;
