@@ -7,7 +7,8 @@ public class DragTurn : MonoBehaviour {
 	public GameObject toTurn;
 	public bool isRotating;
 	public Vector3 mouseReference;
-	public float dragSensitivity;
+	public float dragSensitivity = 0.4f;
+	private bool mayRotate;
 	private Vector3 mouseOffset;
 	private Vector3 rotation;
 
@@ -17,6 +18,10 @@ public class DragTurn : MonoBehaviour {
 	}
 	
 	void Update() {
+		if (mayRotate && Input.mousePosition != mouseReference) {
+			mayRotate = false;
+			isRotating = true;
+		}
 		if(isRotating) {
 			// offset
 			mouseOffset = (Input.mousePosition - mouseReference);
@@ -34,9 +39,11 @@ public class DragTurn : MonoBehaviour {
 	
 	void OnMouseDown() {
 		// rotating flag
-		isRotating = true;
+		mayRotate = true;
 		
 		// store mouse
 		mouseReference = Input.mousePosition;
 	}
+
+
 }

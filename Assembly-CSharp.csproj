@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Lasers.cs" />
      <Compile Include="Assets\Scripts\BackToMenu.cs" />
      <Compile Include="Assets\Scripts\BotonInventario.cs" />
      <Compile Include="Assets\Scripts\ClickControl.cs" />
