@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: db725324856758142a684b6f461daccf
+timeCreated: 1435157868
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Anillo inferior
+    100002: Anillo inferior003
+    100004: anillo superior
+    100006: anillo superior003
+    100008: Borde arriba arriba
+    100010: Borde arriba arriba003
+    100012: Borde arriba arriba004
+    100014: Boton023
+    100016: Boton2
+    100018: Botondos001
+    100020: color
+    100022: color003
+    100024: Laser Azul
+    100026: Laser Cuerpo
+    100028: Laser Cuerpo003
+    100030: Laser Cuerpo004
+    100032: Laser Rojo
+    100034: Laser Verde
+    100036: //RootNode
+    400000: Anillo inferior
+    400002: Anillo inferior003
+    400004: anillo superior
+    400006: anillo superior003
+    400008: Borde arriba arriba
+    400010: Borde arriba arriba003
+    400012: Borde arriba arriba004
+    400014: Boton023
+    400016: Boton2
+    400018: Botondos001
+    400020: color
+    400022: color003
+    400024: Laser Azul
+    400026: Laser Cuerpo
+    400028: Laser Cuerpo003
+    400030: Laser Cuerpo004
+    400032: Laser Rojo
+    400034: Laser Verde
+    400036: //RootNode
+    2300000: Anillo inferior
+    2300002: Anillo inferior003
+    2300004: anillo superior
+    2300006: anillo superior003
+    2300008: Borde arriba arriba
+    2300010: Borde arriba arriba003
+    2300012: Borde arriba arriba004
+    2300014: Boton023
+    2300016: Boton2
+    2300018: Botondos001
+    2300020: color
+    2300022: color003
+    2300024: Laser Cuerpo
+    2300026: Laser Cuerpo003
+    2300028: Laser Cuerpo004
+    3300000: Anillo inferior
+    3300002: Anillo inferior003
+    3300004: anillo superior
+    3300006: anillo superior003
+    3300008: Borde arriba arriba
+    3300010: Borde arriba arriba003
+    3300012: Borde arriba arriba004
+    3300014: Boton023
+    3300016: Boton2
+    3300018: Botondos001
+    3300020: color
+    3300022: color003
+    3300024: Laser Cuerpo
+    3300026: Laser Cuerpo003
+    3300028: Laser Cuerpo004
+    4300000: Borde arriba arriba003
+    4300002: Laser Cuerpo003
+    4300004: Botondos001
+    4300006: Boton023
+    4300008: color003
+    4300010: Laser Cuerpo004
+    4300012: Borde arriba arriba004
+    4300014: anillo superior003
+    4300016: Anillo inferior003
+    4300018: Boton2
+    4300020: color
+    4300022: anillo superior
+    4300024: Anillo inferior
+    4300026: Laser Cuerpo
+    4300028: Borde arriba arriba
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
