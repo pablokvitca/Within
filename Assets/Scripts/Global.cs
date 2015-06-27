@@ -52,11 +52,13 @@ public class Global : MonoBehaviour {
 	}
 
 	public void desobjeto (string nombre){
-		int i = 0;
-		while (Inventario[i]!=nombre)
-			i++;
-		Inventario [i] = "";
-		holdersGO [i] = null;
+		try {
+			int i = 0;
+			while (Inventario[i] != nombre)
+				i++;
+			Inventario [i] = "";
+			holdersGO [i] = null;
+		} catch {}
 	}
 
 	public string Unite(string A, string B) {
@@ -76,30 +78,6 @@ public class Global : MonoBehaviour {
 			Debug.Log(objeto.name + "2111");
 			if(nowOrbitingName != "")
 				GameObjectFinder(nowOrbitingName).SetActive(false);
-			/*if (objeto.name != "Vela") { //Cambiar a exists in list de NoOrbitables
-				if (objeto.name != "Vela prendida") { //Unity compila mal, me obliga a hacer varios 'if' uno detro del otro
-					if (objeto.name != "LlaveHole") { //En ves de usar, correctamente, '&&' u '||' dentro de un unico if
-						nowOrbitingName = "";
-						nowOrbitingName = objeto.name;
-						objeto.gameObject.SetActive (true);
-						GameObject cam = GameObject.Find ("CamaraOrbit");
-						Camera camara = cam.GetComponent<Camera> ();
-						camara.GetComponent<Camera> ().depth = 5;
-						GameObject o = GameObject.Find ("Orbiting");
-						Debug.Log(objeto.transform.position.ToString());
-						Debug.Log(o.transform.position.ToString());
-						objeto.transform.position = o.transform.position;
-						//objeto.GetComponent<Renderer>().enabled=true;
-						Debug.Log (objeto.gameObject.transform.position.ToString() + "2058");
-					} else {
-						Debug.Log ("Este objeto no se puede orbitar. Lo sentimos.");
-					}
-				} else {
-					Debug.Log ("Este objeto no se puede orbitar. Lo sentimos.");
-				}
-			} else {
-				Debug.Log ("Este objeto no se puede orbitar. Lo sentimos.");
-			}*/
 			if (objeto.name == "Vela" || objeto.name == "Vela prendida" || objeto.name == "LlaveHole") {
 				Debug.Log ("Este objeto no se puede orbitar. Lo sentimos.");
 			} else {
@@ -127,10 +105,10 @@ public class Global : MonoBehaviour {
 				numint = bot.GetComponent<NumInt>();
 				int nume2 = numint.numarray;
 				string nuevoobjeto = Unite(Inventario[nume2], Inventario[nume]);
-				if (nuevoobjeto!="") {
+				if (nuevoobjeto != "") {
 					//borro imagen, deshabilito botones
-					Inventario[nume]="";
-					Inventario[nume2]="";
+					Inventario[nume] = "";
+					Inventario[nume2] = "";
 					//GameObject Inventario2 = GameObject.Find (Combinado);
 					GameObject Inventario2 = GameObjectFinder(Combinado);
 					UnityEngine.UI.Button btn = Inventario2.GetComponent<UnityEngine.UI.Button> ();
@@ -152,13 +130,7 @@ public class Global : MonoBehaviour {
 					Sprite sprite = getspr.sprite;
 					objetoarr(nuevoobjeto);
 					codigo.AddGO (sprite);
-					//place vela & animate
-					if (nuevoobjeto == "Llave") { // Esto esta feo
-						GameObjectFinder("Vela prendida").SetActive(true);
-						Debug.Log(GameObjectFinder("Vela prendida").transform.position.ToString() + "0333");
-						GameObjectFinder("Vela prendida").GetComponent<Animator>().SetBool("openNow", true);
-						//Esconder vela dsp de animacion
-					}
+
 					getspr.visible=false;
 					contarobj=0;
 					Combinado="";
@@ -178,19 +150,16 @@ public class Global : MonoBehaviour {
 	}
 
 	public void SacardelInventario(string objeto) {
-		int num = 0;
-		for (int i=0; i<5; i++) {
-			if (objeto == Inventario[i])
-				num=i+1;
-		}
-		GameObject Carlos;
-
-			Carlos=GameObject.Find("Inventario " + num.ToString());
-			
-				UnityEngine.UI.Button but = Carlos.GetComponent<UnityEngine.UI.Button>();
-				but.interactable=false;
-				but.image.sprite = default(Sprite);
-			
+		try {
+			int num = 0;
+			for (int i = 0; i < 5; i++)
+				if (objeto == Inventario[i])
+					num = i + 1;
+			GameObject Carlos = GameObject.Find("Inventario " + num.ToString());
+			UnityEngine.UI.Button but = Carlos.GetComponent<UnityEngine.UI.Button>();
+			but.interactable = false;
+			but.image.sprite = default(Sprite);
+		} catch {}
 
 	}
 

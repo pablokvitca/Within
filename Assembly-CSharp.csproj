@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\Helps.cs" />
      <Compile Include="Assets\Scripts\Inven.cs" />
      <Compile Include="Assets\Scripts\InventorySystem.cs" />
+     <Compile Include="Assets\Scripts\Keys.cs" />
      <Compile Include="Assets\Scripts\Lasers.cs" />
      <Compile Include="Assets\Scripts\LoadCreditos.cs" />
      <Compile Include="Assets\Scripts\LoadInstrucciones.cs" />

@@ -70,14 +70,5 @@ public class Clicked : MonoBehaviour {
 			isDragging = true;
 
 		}*/
-		/* motivos por los que unity es una mierda:
-		 * no funciona.
-		 * nunca
-		 * incentiva a la gente a no querer programar
-		 * y al suicidio
-		 * te obligan a usarlo para hacer juegos que no queres hacer
-		 * etc
-		 * :)
-		 */
 	}
 }

@@ -3,6 +3,7 @@ using System.Collections;
 
 public class DragTurn : MonoBehaviour {
 
+	public char axis = 'z';
 	public GameObject dragged;
 	public GameObject toTurn;
 	public bool isRotating;
@@ -34,8 +35,17 @@ public class DragTurn : MonoBehaviour {
 			mouseOffset = (Input.mousePosition - mouseReference);
 			
 			// apply rotation
-			rotation.z = -(mouseOffset.x + mouseOffset.y) * dragSensitivity;
-			
+			switch (axis) {
+				case 'x':
+					rotation.x = -(mouseOffset.x + mouseOffset.y) * dragSensitivity;
+				break;
+				case 'y':
+					rotation.y = -(mouseOffset.x + mouseOffset.y) * dragSensitivity;
+				break;
+				case 'z':
+					rotation.z = -(mouseOffset.x + mouseOffset.y) * dragSensitivity;
+				break;
+			}
 			// rotate
 			toTurn.transform.Rotate(rotation);
 			

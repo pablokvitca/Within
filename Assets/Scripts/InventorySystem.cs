@@ -44,7 +44,7 @@ public class InventorySystem : MonoBehaviour {
 		//Inventoriado de Objetos - END
 	}
 
-	bool IsInInventory(string nameTarget) {
+	public bool IsInInventory(string nameTarget) {
 		Global sg = GameObject.Find ("ScriptGlobal").GetComponent<Global> ();
 		foreach (string name in gl.Inventario) {
 			if (name == nameTarget)
