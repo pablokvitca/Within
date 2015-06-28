@@ -56,6 +56,18 @@ public class Clicking : MonoBehaviour {
 					Debug.Log ("You need a fire & wax");
 				}
 			break;
+		case "Cabeza": //ACA HAY QUE HACER QUE APAREZCAN LOS LASERS EN EL PORTALASERS
+			if (invs.IsInInventory ("lasers juntos")) {
+				gl.GameObjectFinder ("lasers").SetActive (true);
+				sglob.Selected = "lasers juntos";
+				objetoquevaalpresionarse = gl.GameObjectFinder("lasers");
+				GameObject ls = gl.GameObjectFinder("lasers");
+				ls.SetActive(true);
+				Debug.Log(ls.transform.position.ToString() + "0352");
+			} else {
+				Debug.Log ("You need a fire & wax");
+			}
+			break;
 		}
 			
 		if (sglob.Selected == objetoquevaalpresionarse.name) {
