@@ -59,6 +59,23 @@ public class Lasers : MonoBehaviour {
 		go.transform.position = ReceptorPossiblePositions[Random.Range(0, ReceptorPossiblePositions.Length - 1)].transform.position;
 	}
 
+	Vector3 NewPosition(GameObject go, GameObject laser) {
+		//Get min & max positions for the receptor to be inside the room
+		//TODO: make it a little smaller.
+		Vector3 min = new Vector3 (GameObject.Find ("LeftWall" ).gameObject.transform.position.x, GameObject.Find ("Ceiling").gameObject.transform.position.y, GameObject.Find ("FrontWall").gameObject.transform.position.z);
+		Vector3 max = new Vector3 (GameObject.Find ("RightWall").gameObject.transform.position.x, GameObject.Find ("Floor"  ).gameObject.transform.position.y, GameObject.Find ("BackWall" ).gameObject.transform.position.z);
+		RaycastHit hit;
+		go.transform.position = new Vector3 (Random.Range (min.x, max.x), Random.Range (min.y, max.y), Random.Range (min.z, max.z));
+		GameObject newGO = new GameObject ().transform.LookAt (go.transform.position);
+		Vector3 dir = newGO.transform.rotation.eulerAngles;
+		while (!Physics.Raycast(laser.transform.position, dir, out hit, Mathf.Infinity)) {
+			go.transform.position = new Vector3 (Random.Range (min.x, max.x), Random.Range (min.y, max.y), Random.Range (min.z, max.z));
+			newGO = new GameObject ().transform.LookAt (go.transform.position);
+			dir = newGO.transform.position;
+		}
+		return dir;
+	}
+
 	void ChangeColor(GameObject go) {
 		go.GetComponent<MeshRenderer>().material.color = colores[Random.Range(0, colores.Length - 1)];
 	}

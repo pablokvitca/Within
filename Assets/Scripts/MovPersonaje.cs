@@ -15,13 +15,13 @@ public class MovPersonaje : MonoBehaviour {
 	
 	void Update() {
 		if (Input.GetKey(KeyCode.W) && CanMoveTowardsDirection(this.transform.parent.gameObject, this.transform.parent.forward, sensitivity))
-			this.transform.parent.position += this.transform.parent.transform.forward * speed;
+			this.transform.parent.position += new Vector3(this.transform.parent.transform.forward.x * speed, 0, this.transform.parent.transform.forward.z * speed);
 		if (Input.GetKey(KeyCode.S) && CanMoveTowardsDirection(this.transform.parent.gameObject, -this.transform.parent.forward, sensitivity))
-			this.transform.parent.position -= this.transform.parent.transform.forward * speed;
+			this.transform.parent.position -= new Vector3(this.transform.parent.transform.forward.x * speed, 0, this.transform.parent.transform.forward.z * speed);
 		if (Input.GetKey(KeyCode.A) && CanMoveTowardsDirection(this.transform.parent.gameObject, -this.transform.parent.right, sensitivity))
-			this.transform.parent.position -= this.transform.parent.transform.right * speed;
+			this.transform.parent.position -= new Vector3(this.transform.parent.transform.right.x * speed, 0, this.transform.parent.transform.right.z * speed);
 		if (Input.GetKey(KeyCode.D) && CanMoveTowardsDirection(this.transform.parent.gameObject, this.transform.parent.right, sensitivity))
-			this.transform.parent.position += this.transform.parent.transform.right * speed;
+			this.transform.parent.position += new Vector3(this.transform.parent.transform.right.x * speed, 0, this.transform.parent.transform.right.z * speed);
 		this.transform.localPosition = Vector3.zero;
 	}
 
