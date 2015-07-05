@@ -44,9 +44,9 @@ public class Lasers : MonoBehaviour {
 						ChangePosition (go);
 						ChangeColor (go);
 						cantHits++;
+						Debug.Log ("Targets agarrados: " + cantHits.ToString());
 					}
 				}
-				
 			}
 		} else {
 			this.GetComponent<LineRenderer>().enabled = false;

@@ -2,7 +2,6 @@
 using System.Collections;
 
 public class Clicked : MonoBehaviour {
-	
 	public Sprite sprite;
 	public bool visible;
 	public float rotationSpeed = 10.0F;
@@ -16,6 +15,8 @@ public class Clicked : MonoBehaviour {
 	public Global sg;
 	GameObject cm;
 	Inven sg2;
+	RotacionObjetos script;
+
 
 	// Use this for initialization
 	void Start () {
@@ -29,28 +30,21 @@ public class Clicked : MonoBehaviour {
 
 	}
 	// Update is called once per frame
-	void Update () {
+		void Update () {
 		if (sg.Orbit) {
-			if (isDragging && Input.GetMouseButton (0)) {
-				theSpeed = new Vector3 (-Input.GetAxis ("Mouse X"), Input.GetAxis ("Mouse Y"), 0.0F);
-				avgSpeed = Vector3.Lerp (avgSpeed, theSpeed, Time.deltaTime * 5);
-			} else {
-				if (isDragging) {
-					theSpeed = avgSpeed;
-					isDragging = false;
+			try {
+				GameObject go = GameObject.Find (sg.nowOrbitingName);
+				go.GetComponent<RotacionObjetos> ().enabled = true;
+				if (Input.GetMouseButton (1)) {
+					sg.Orbit = false;
+					//this.GetComponent<Renderer>().enabled=false;
+					sg.GameObjectFinder (sg.nowOrbitingName).SetActive (false);
+					sg.nowOrbitingName = "";
+					//.gameObject.SetActive(false);
+					c.GetComponent<Camera> ().depth = -2;
+					go.GetComponent<RotacionObjetos> ().enabled = false;
 				}
-				float i = Time.deltaTime * lerpSpeed;
-				theSpeed = Vector3.Lerp (theSpeed, Vector3.zero, i);
-			}
-			transform.Rotate (Camera.main.transform.up * theSpeed.x * rotationSpeed, Space.World);
-			transform.Rotate (Camera.main.transform.right * theSpeed.y * rotationSpeed, Space.World);
-			if (Input.GetMouseButton(1)) {
-				sg.Orbit=false;
-				//this.GetComponent<Renderer>().enabled=false;
-				sg.GameObjectFinder(sg.nowOrbitingName).SetActive(false);
-				sg.nowOrbitingName = "";
-				//.gameObject.SetActive(false);
-				c.GetComponent<Camera>().depth=-2;
+			} catch {
 			}
 		}
 	}

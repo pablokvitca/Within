@@ -1,0 +1,2047 @@
+fileFormatVersion: 2
+guid: ed3b9047e6137df4f93df0c068e6dd11
+timeCreated: 1435787737
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: anillo 002
+    100002: anillo 003
+    100004: anillo 1
+    100006: bombilla004
+    100008: bombilla005
+    100010: bombilla006
+    100012: bombilla007
+    100014: bombilla008
+    100016: bombilla009
+    100018: bombilla010
+    100020: bombilla011
+    100022: bombilla012
+    100024: bombilla013
+    100026: bombilla014
+    100028: bombilla015
+    100030: bombilla016
+    100032: bombilla017
+    100034: bombilla018
+    100036: bombilla019
+    100038: bombilla020
+    100040: bombilla021
+    100042: bombilla022
+    100044: bombilla023
+    100046: bombilla024
+    100048: bombilla025
+    100050: bombilla026
+    100052: bombilla027
+    100054: bombilla028
+    100056: bombilla029
+    100058: bombilla030
+    100060: Cadena
+    100062: Cadena004
+    100064: Cadena007
+    100066: Cadena008
+    100068: Cadena009
+    100070: Cadena010
+    100072: Cadena011
+    100074: Cadena012
+    100076: Cadena013
+    100078: Cadena014
+    100080: Cadena015
+    100082: Cadena016
+    100084: Cadena2
+    100086: Cadena3 y 4
+    100088: Cadena5
+    100090: Cadena6
+    100092: //RootNode
+    100094: conexion
+    100096: Eslabon curvo
+    100098: Eslabon curvo001
+    100100: Eslabon curvo002
+    100102: Eslabon curvo003
+    100104: Eslabon curvo004
+    100106: Eslabon curvo005
+    100108: Eslabon curvo006
+    100110: Eslabon curvo007
+    100112: Eslabon curvo008
+    100114: Eslabon curvo009
+    100116: Eslabon curvo010
+    100118: Eslabon curvo011
+    100120: Eslabon curvo012
+    100122: Eslabon curvo013
+    100124: Eslabon curvo014
+    100126: Eslabon curvo015
+    100128: Eslabon curvo016
+    100130: Eslabon curvo017
+    100132: Eslabon curvo018
+    100134: Eslabon curvo019
+    100136: Eslabon curvo020
+    100138: Eslabon curvo021
+    100140: Eslabon curvo022
+    100142: Eslabon curvo023
+    100144: Eslabon curvo024
+    100146: Eslabon curvo025
+    100148: Eslabon curvo026
+    100150: Eslabon curvo027
+    100152: Eslabon curvo028
+    100154: Eslabon curvo029
+    100156: Eslabon curvo030
+    100158: Eslabon curvo031
+    100160: Eslabon curvo032
+    100162: Eslabon curvo033
+    100164: Eslabon curvo034
+    100166: Eslabon curvo035
+    100168: Eslabon curvo036
+    100170: Eslabon curvo037
+    100172: Eslabon curvo038
+    100174: Eslabon curvo039
+    100176: Eslabon curvo040
+    100178: Eslabon curvo041
+    100180: Eslabon curvo042
+    100182: Eslabon curvo043
+    100184: Eslabon curvo044
+    100186: Eslabon curvo045
+    100188: Eslabon curvo046
+    100190: Eslabon curvo047
+    100192: Eslabon curvo048
+    100194: Eslabon curvo049
+    100196: Eslabon curvo050
+    100198: Eslabon curvo051
+    100200: Eslabon curvo052
+    100202: Eslabon curvo053
+    100204: Eslabon curvo054
+    100206: Eslabon curvo055
+    100208: Eslabon curvo056
+    100210: Eslabon curvo057
+    100212: Eslabon curvo058
+    100214: Eslabon curvo059
+    100216: Eslabon curvo060
+    100218: Eslabon curvo061
+    100220: Eslabon curvo062
+    100222: Eslabon curvo063
+    100224: Eslabon curvo064
+    100226: Eslabon curvo065
+    100228: Eslabon curvo066
+    100230: Eslabon curvo067
+    100232: Eslabon curvo068
+    100234: Eslabon curvo069
+    100236: Eslabon curvo070
+    100238: Eslabon curvo071
+    100240: Eslabon curvo072
+    100242: Eslabon curvo073
+    100244: Eslabon curvo074
+    100246: Eslabon curvo075
+    100248: Eslabon curvo076
+    100250: Eslabon curvo077
+    100252: Eslabon curvo078
+    100254: Eslabon curvo079
+    100256: Eslabon curvo080
+    100258: Eslabon curvo081
+    100260: Eslabon curvo082
+    100262: Eslabon curvo083
+    100264: Eslabon curvo084
+    100266: Eslabon curvo085
+    100268: Eslabon curvo086
+    100270: Eslabon curvo087
+    100272: Eslabon curvo088
+    100274: Eslabon curvo089
+    100276: Eslabon curvo090
+    100278: Eslabon curvo091
+    100280: Eslabon curvo092
+    100282: Eslabon curvo093
+    100284: Eslabon curvo094
+    100286: Eslabon curvo095
+    100288: Eslabon curvo096
+    100290: Eslabon curvo097
+    100292: Eslabon curvo098
+    100294: Eslabon curvo099
+    100296: Eslabon curvo100
+    100298: Eslabon curvo101
+    100300: Eslabon curvo102
+    100302: Eslabon curvo103
+    100304: Eslabon curvo104
+    100306: Eslabon curvo105
+    100308: Eslabon curvo106
+    100310: Eslabon curvo107
+    100312: Eslabon curvo108
+    100314: Eslabon curvo109
+    100316: Eslabon curvo110
+    100318: Eslabon curvo111
+    100320: Eslabon curvo112
+    100322: Eslabon curvo113
+    100324: Eslabon curvo114
+    100326: Eslabon curvo115
+    100328: Eslabon curvo116
+    100330: Eslabon curvo117
+    100332: Eslabon curvo118
+    100334: Eslabon curvo119
+    100336: Eslabon curvo120
+    100338: Eslabon curvo121
+    100340: Eslabon curvo122
+    100342: Eslabon curvo123
+    100344: Eslabon curvo124
+    100346: Eslabon curvo125
+    100348: Eslabon curvo126
+    100350: Eslabon curvo127
+    100352: Eslabon curvo128
+    100354: Eslabon curvo129
+    100356: Eslabon curvo130
+    100358: Eslabon curvo131
+    100360: Eslabon curvo132
+    100362: Eslabon curvo133
+    100364: Eslabon curvo134
+    100366: Eslabon curvo135
+    100368: Eslabon curvo136
+    100370: Eslabon curvo137
+    100372: Eslabon curvo138
+    100374: Eslabon curvo139
+    100376: Eslabon curvo140
+    100378: Eslabon curvo141
+    100380: Eslabon curvo142
+    100382: Eslabon curvo143
+    100384: Eslabon curvo144
+    100386: Eslabon curvo145
+    100388: Eslabon curvo146
+    100390: Eslabon curvo147
+    100392: Eslabon curvo148
+    100394: Eslabon curvo149
+    100396: Eslabon curvo150
+    100398: Eslabon curvo151
+    100400: Eslabon curvo152
+    100402: Eslabon curvo153
+    100404: Eslabon curvo154
+    100406: Eslabon curvo155
+    100408: Eslabon curvo156
+    100410: Eslabon curvo157
+    100412: Eslabon curvo158
+    100414: Eslabon curvo159
+    100416: Eslabon recto
+    100418: Eslabon recto001
+    100420: Eslabon recto002
+    100422: Eslabon recto003
+    100424: Eslabon recto004
+    100426: Eslabon recto005
+    100428: Eslabon recto006
+    100430: Eslabon recto007
+    100432: Eslabon recto008
+    100434: Eslabon recto009
+    100436: Eslabon recto010
+    100438: Eslabon recto011
+    100440: Eslabon recto012
+    100442: Eslabon recto013
+    100444: Eslabon recto014
+    100446: Eslabon recto015
+    100448: Eslabon recto016
+    100450: Eslabon recto017
+    100452: Eslabon recto018
+    100454: Eslabon recto019
+    100456: Eslabon recto020
+    100458: Eslabon recto021
+    100460: Eslabon recto022
+    100462: Eslabon recto023
+    100464: Eslabon recto024
+    100466: Eslabon recto025
+    100468: Eslabon recto026
+    100470: Eslabon recto027
+    100472: Eslabon recto028
+    100474: Eslabon recto029
+    100476: Eslabon recto030
+    100478: Eslabon recto031
+    100480: Eslabon recto032
+    100482: Eslabon recto033
+    100484: Eslabon recto034
+    100486: Eslabon recto035
+    100488: Eslabon recto036
+    100490: Eslabon recto037
+    100492: Eslabon recto038
+    100494: Eslabon recto039
+    100496: Eslabon recto040
+    100498: Eslabon recto041
+    100500: Eslabon recto042
+    100502: Eslabon recto043
+    100504: Eslabon recto044
+    100506: Eslabon recto045
+    100508: Eslabon recto046
+    100510: Eslabon recto047
+    100512: Eslabon recto048
+    100514: Eslabon recto049
+    100516: Eslabon recto050
+    100518: Eslabon recto051
+    100520: Eslabon recto052
+    100522: Eslabon recto053
+    100524: Eslabon recto054
+    100526: Eslabon recto055
+    100528: Eslabon recto056
+    100530: Eslabon recto057
+    100532: Eslabon recto058
+    100534: Eslabon recto059
+    100536: Eslabon recto060
+    100538: Eslabon recto061
+    100540: Eslabon recto062
+    100542: Eslabon recto063
+    100544: Eslabon recto064
+    100546: Eslabon recto065
+    100548: Eslabon recto066
+    100550: Eslabon recto067
+    100552: Eslabon recto068
+    100554: Eslabon recto069
+    100556: Eslabon recto070
+    100558: Eslabon recto071
+    100560: Eslabon recto072
+    100562: Eslabon recto073
+    100564: Eslabon recto074
+    100566: Eslabon recto075
+    100568: Eslabon recto076
+    100570: Eslabon recto077
+    100572: Eslabon recto078
+    100574: Eslabon recto079
+    100576: Eslabon recto080
+    100578: Eslabon recto081
+    100580: Eslabon recto082
+    100582: Eslabon recto083
+    100584: Eslabon recto084
+    100586: Eslabon recto085
+    100588: Eslabon recto086
+    100590: Eslabon recto087
+    100592: Eslabon recto088
+    100594: Eslabon recto089
+    100596: Eslabon recto090
+    100598: Eslabon recto091
+    100600: Eslabon recto092
+    100602: Eslabon recto093
+    100604: Eslabon recto094
+    100606: Eslabon recto095
+    100608: Eslabon recto096
+    100610: Eslabon recto097
+    100612: Eslabon recto098
+    100614: Eslabon recto099
+    100616: Eslabon recto100
+    100618: Eslabon recto101
+    100620: Eslabon recto102
+    100622: Eslabon recto103
+    100624: Eslabon recto104
+    100626: Eslabon recto105
+    100628: Eslabon recto106
+    100630: Eslabon recto107
+    100632: Eslabon recto108
+    100634: Eslabon recto109
+    100636: Eslabon recto110
+    100638: Eslabon recto111
+    100640: Eslabon recto112
+    100642: Eslabon recto113
+    100644: Eslabon recto114
+    100646: Eslabon recto115
+    100648: Eslabon recto116
+    100650: Eslabon recto117
+    100652: Eslabon recto118
+    100654: Eslabon recto119
+    100656: Eslabon recto120
+    100658: Eslabon recto121
+    100660: Eslabon recto122
+    100662: Eslabon recto123
+    100664: Eslabon recto124
+    100666: Eslabon recto125
+    100668: Eslabon recto126
+    100670: Eslabon recto127
+    100672: Eslabon recto128
+    100674: Eslabon recto129
+    100676: Eslabon recto130
+    100678: Eslabon recto131
+    100680: Eslabon recto132
+    100682: Eslabon recto133
+    100684: Eslabon recto134
+    100686: Eslabon recto135
+    100688: Eslabon recto136
+    100690: Eslabon recto137
+    100692: Eslabon recto138
+    100694: Eslabon recto139
+    100696: Eslabon recto140
+    100698: Eslabon recto141
+    100700: Eslabon recto142
+    100702: Eslabon recto143
+    100704: Eslabon recto144
+    100706: Eslabon recto145
+    100708: Eslabon recto146
+    100710: Eslabon recto147
+    100712: Eslabon recto148
+    100714: Eslabon recto149
+    100716: Eslabon recto150
+    100718: Eslabon recto151
+    100720: Eslabon recto152
+    100722: Eslabon recto153
+    100724: Eslabon recto154
+    100726: Eslabon recto155
+    100728: Eslabon recto156
+    100730: Eslabon recto157
+    100732: Eslabon recto158
+    100734: Eslabon recto159
+    100736: Lampara006
+    100738: Lampara007
+    100740: Lampara008
+    100742: Lampara009
+    100744: Lampara010
+    100746: Lampara011
+    100748: Lampara012
+    100750: Lampara013
+    100752: Lampara014
+    100754: Lampara015
+    100756: Lampara016
+    100758: Lampara017
+    100760: Lampara018
+    100762: Lampara019
+    100764: Lampara020
+    100766: Lampara021
+    100768: Lampara022
+    100770: Lampara023
+    100772: Lampara024
+    100774: Lampara025
+    100776: Lampara026
+    100778: Lampara027
+    100780: Lampara028
+    100782: Lampara029
+    100784: Lampara030
+    100786: Lampara031
+    100788: soporte lampara004
+    100790: soporte lampara005
+    100792: soporte lampara006
+    100794: soporte lampara007
+    100796: soporte lampara008
+    100798: soporte lampara009
+    100800: soporte lampara010
+    100802: soporte lampara011
+    100804: soporte lampara012
+    100806: soporte lampara013
+    100808: soporte lampara014
+    100810: soporte lampara015
+    100812: soporte lampara016
+    100814: soporte lampara017
+    100816: soporte lampara018
+    100818: soporte lampara019
+    100820: soporte lampara020
+    100822: soporte lampara021
+    100824: soporte lampara022
+    100826: soporte lampara023
+    100828: soporte lampara024
+    100830: soporte lampara025
+    100832: soporte lampara026
+    100834: soporte lampara027
+    100836: soporte lampara028
+    100838: soporte lampara029
+    100840: soporte lampara030
+    100842: Sosten
+    400000: anillo 002
+    400002: anillo 003
+    400004: anillo 1
+    400006: bombilla004
+    400008: bombilla005
+    400010: bombilla006
+    400012: bombilla007
+    400014: bombilla008
+    400016: bombilla009
+    400018: bombilla010
+    400020: bombilla011
+    400022: bombilla012
+    400024: bombilla013
+    400026: bombilla014
+    400028: bombilla015
+    400030: bombilla016
+    400032: bombilla017
+    400034: bombilla018
+    400036: bombilla019
+    400038: bombilla020
+    400040: bombilla021
+    400042: bombilla022
+    400044: bombilla023
+    400046: bombilla024
+    400048: bombilla025
+    400050: bombilla026
+    400052: bombilla027
+    400054: bombilla028
+    400056: bombilla029
+    400058: bombilla030
+    400060: Cadena
+    400062: Cadena004
+    400064: Cadena007
+    400066: Cadena008
+    400068: Cadena009
+    400070: Cadena010
+    400072: Cadena011
+    400074: Cadena012
+    400076: Cadena013
+    400078: Cadena014
+    400080: Cadena015
+    400082: Cadena016
+    400084: Cadena2
+    400086: Cadena3 y 4
+    400088: Cadena5
+    400090: Cadena6
+    400092: //RootNode
+    400094: conexion
+    400096: Eslabon curvo
+    400098: Eslabon curvo001
+    400100: Eslabon curvo002
+    400102: Eslabon curvo003
+    400104: Eslabon curvo004
+    400106: Eslabon curvo005
+    400108: Eslabon curvo006
+    400110: Eslabon curvo007
+    400112: Eslabon curvo008
+    400114: Eslabon curvo009
+    400116: Eslabon curvo010
+    400118: Eslabon curvo011
+    400120: Eslabon curvo012
+    400122: Eslabon curvo013
+    400124: Eslabon curvo014
+    400126: Eslabon curvo015
+    400128: Eslabon curvo016
+    400130: Eslabon curvo017
+    400132: Eslabon curvo018
+    400134: Eslabon curvo019
+    400136: Eslabon curvo020
+    400138: Eslabon curvo021
+    400140: Eslabon curvo022
+    400142: Eslabon curvo023
+    400144: Eslabon curvo024
+    400146: Eslabon curvo025
+    400148: Eslabon curvo026
+    400150: Eslabon curvo027
+    400152: Eslabon curvo028
+    400154: Eslabon curvo029
+    400156: Eslabon curvo030
+    400158: Eslabon curvo031
+    400160: Eslabon curvo032
+    400162: Eslabon curvo033
+    400164: Eslabon curvo034
+    400166: Eslabon curvo035
+    400168: Eslabon curvo036
+    400170: Eslabon curvo037
+    400172: Eslabon curvo038
+    400174: Eslabon curvo039
+    400176: Eslabon curvo040
+    400178: Eslabon curvo041
+    400180: Eslabon curvo042
+    400182: Eslabon curvo043
+    400184: Eslabon curvo044
+    400186: Eslabon curvo045
+    400188: Eslabon curvo046
+    400190: Eslabon curvo047
+    400192: Eslabon curvo048
+    400194: Eslabon curvo049
+    400196: Eslabon curvo050
+    400198: Eslabon curvo051
+    400200: Eslabon curvo052
+    400202: Eslabon curvo053
+    400204: Eslabon curvo054
+    400206: Eslabon curvo055
+    400208: Eslabon curvo056
+    400210: Eslabon curvo057
+    400212: Eslabon curvo058
+    400214: Eslabon curvo059
+    400216: Eslabon curvo060
+    400218: Eslabon curvo061
+    400220: Eslabon curvo062
+    400222: Eslabon curvo063
+    400224: Eslabon curvo064
+    400226: Eslabon curvo065
+    400228: Eslabon curvo066
+    400230: Eslabon curvo067
+    400232: Eslabon curvo068
+    400234: Eslabon curvo069
+    400236: Eslabon curvo070
+    400238: Eslabon curvo071
+    400240: Eslabon curvo072
+    400242: Eslabon curvo073
+    400244: Eslabon curvo074
+    400246: Eslabon curvo075
+    400248: Eslabon curvo076
+    400250: Eslabon curvo077
+    400252: Eslabon curvo078
+    400254: Eslabon curvo079
+    400256: Eslabon curvo080
+    400258: Eslabon curvo081
+    400260: Eslabon curvo082
+    400262: Eslabon curvo083
+    400264: Eslabon curvo084
+    400266: Eslabon curvo085
+    400268: Eslabon curvo086
+    400270: Eslabon curvo087
+    400272: Eslabon curvo088
+    400274: Eslabon curvo089
+    400276: Eslabon curvo090
+    400278: Eslabon curvo091
+    400280: Eslabon curvo092
+    400282: Eslabon curvo093
+    400284: Eslabon curvo094
+    400286: Eslabon curvo095
+    400288: Eslabon curvo096
+    400290: Eslabon curvo097
+    400292: Eslabon curvo098
+    400294: Eslabon curvo099
+    400296: Eslabon curvo100
+    400298: Eslabon curvo101
+    400300: Eslabon curvo102
+    400302: Eslabon curvo103
+    400304: Eslabon curvo104
+    400306: Eslabon curvo105
+    400308: Eslabon curvo106
+    400310: Eslabon curvo107
+    400312: Eslabon curvo108
+    400314: Eslabon curvo109
+    400316: Eslabon curvo110
+    400318: Eslabon curvo111
+    400320: Eslabon curvo112
+    400322: Eslabon curvo113
+    400324: Eslabon curvo114
+    400326: Eslabon curvo115
+    400328: Eslabon curvo116
+    400330: Eslabon curvo117
+    400332: Eslabon curvo118
+    400334: Eslabon curvo119
+    400336: Eslabon curvo120
+    400338: Eslabon curvo121
+    400340: Eslabon curvo122
+    400342: Eslabon curvo123
+    400344: Eslabon curvo124
+    400346: Eslabon curvo125
+    400348: Eslabon curvo126
+    400350: Eslabon curvo127
+    400352: Eslabon curvo128
+    400354: Eslabon curvo129
+    400356: Eslabon curvo130
+    400358: Eslabon curvo131
+    400360: Eslabon curvo132
+    400362: Eslabon curvo133
+    400364: Eslabon curvo134
+    400366: Eslabon curvo135
+    400368: Eslabon curvo136
+    400370: Eslabon curvo137
+    400372: Eslabon curvo138
+    400374: Eslabon curvo139
+    400376: Eslabon curvo140
+    400378: Eslabon curvo141
+    400380: Eslabon curvo142
+    400382: Eslabon curvo143
+    400384: Eslabon curvo144
+    400386: Eslabon curvo145
+    400388: Eslabon curvo146
+    400390: Eslabon curvo147
+    400392: Eslabon curvo148
+    400394: Eslabon curvo149
+    400396: Eslabon curvo150
+    400398: Eslabon curvo151
+    400400: Eslabon curvo152
+    400402: Eslabon curvo153
+    400404: Eslabon curvo154
+    400406: Eslabon curvo155
+    400408: Eslabon curvo156
+    400410: Eslabon curvo157
+    400412: Eslabon curvo158
+    400414: Eslabon curvo159
+    400416: Eslabon recto
+    400418: Eslabon recto001
+    400420: Eslabon recto002
+    400422: Eslabon recto003
+    400424: Eslabon recto004
+    400426: Eslabon recto005
+    400428: Eslabon recto006
+    400430: Eslabon recto007
+    400432: Eslabon recto008
+    400434: Eslabon recto009
+    400436: Eslabon recto010
+    400438: Eslabon recto011
+    400440: Eslabon recto012
+    400442: Eslabon recto013
+    400444: Eslabon recto014
+    400446: Eslabon recto015
+    400448: Eslabon recto016
+    400450: Eslabon recto017
+    400452: Eslabon recto018
+    400454: Eslabon recto019
+    400456: Eslabon recto020
+    400458: Eslabon recto021
+    400460: Eslabon recto022
+    400462: Eslabon recto023
+    400464: Eslabon recto024
+    400466: Eslabon recto025
+    400468: Eslabon recto026
+    400470: Eslabon recto027
+    400472: Eslabon recto028
+    400474: Eslabon recto029
+    400476: Eslabon recto030
+    400478: Eslabon recto031
+    400480: Eslabon recto032
+    400482: Eslabon recto033
+    400484: Eslabon recto034
+    400486: Eslabon recto035
+    400488: Eslabon recto036
+    400490: Eslabon recto037
+    400492: Eslabon recto038
+    400494: Eslabon recto039
+    400496: Eslabon recto040
+    400498: Eslabon recto041
+    400500: Eslabon recto042
+    400502: Eslabon recto043
+    400504: Eslabon recto044
+    400506: Eslabon recto045
+    400508: Eslabon recto046
+    400510: Eslabon recto047
+    400512: Eslabon recto048
+    400514: Eslabon recto049
+    400516: Eslabon recto050
+    400518: Eslabon recto051
+    400520: Eslabon recto052
+    400522: Eslabon recto053
+    400524: Eslabon recto054
+    400526: Eslabon recto055
+    400528: Eslabon recto056
+    400530: Eslabon recto057
+    400532: Eslabon recto058
+    400534: Eslabon recto059
+    400536: Eslabon recto060
+    400538: Eslabon recto061
+    400540: Eslabon recto062
+    400542: Eslabon recto063
+    400544: Eslabon recto064
+    400546: Eslabon recto065
+    400548: Eslabon recto066
+    400550: Eslabon recto067
+    400552: Eslabon recto068
+    400554: Eslabon recto069
+    400556: Eslabon recto070
+    400558: Eslabon recto071
+    400560: Eslabon recto072
+    400562: Eslabon recto073
+    400564: Eslabon recto074
+    400566: Eslabon recto075
+    400568: Eslabon recto076
+    400570: Eslabon recto077
+    400572: Eslabon recto078
+    400574: Eslabon recto079
+    400576: Eslabon recto080
+    400578: Eslabon recto081
+    400580: Eslabon recto082
+    400582: Eslabon recto083
+    400584: Eslabon recto084
+    400586: Eslabon recto085
+    400588: Eslabon recto086
+    400590: Eslabon recto087
+    400592: Eslabon recto088
+    400594: Eslabon recto089
+    400596: Eslabon recto090
+    400598: Eslabon recto091
+    400600: Eslabon recto092
+    400602: Eslabon recto093
+    400604: Eslabon recto094
+    400606: Eslabon recto095
+    400608: Eslabon recto096
+    400610: Eslabon recto097
+    400612: Eslabon recto098
+    400614: Eslabon recto099
+    400616: Eslabon recto100
+    400618: Eslabon recto101
+    400620: Eslabon recto102
+    400622: Eslabon recto103
+    400624: Eslabon recto104
+    400626: Eslabon recto105
+    400628: Eslabon recto106
+    400630: Eslabon recto107
+    400632: Eslabon recto108
+    400634: Eslabon recto109
+    400636: Eslabon recto110
+    400638: Eslabon recto111
+    400640: Eslabon recto112
+    400642: Eslabon recto113
+    400644: Eslabon recto114
+    400646: Eslabon recto115
+    400648: Eslabon recto116
+    400650: Eslabon recto117
+    400652: Eslabon recto118
+    400654: Eslabon recto119
+    400656: Eslabon recto120
+    400658: Eslabon recto121
+    400660: Eslabon recto122
+    400662: Eslabon recto123
+    400664: Eslabon recto124
+    400666: Eslabon recto125
+    400668: Eslabon recto126
+    400670: Eslabon recto127
+    400672: Eslabon recto128
+    400674: Eslabon recto129
+    400676: Eslabon recto130
+    400678: Eslabon recto131
+    400680: Eslabon recto132
+    400682: Eslabon recto133
+    400684: Eslabon recto134
+    400686: Eslabon recto135
+    400688: Eslabon recto136
+    400690: Eslabon recto137
+    400692: Eslabon recto138
+    400694: Eslabon recto139
+    400696: Eslabon recto140
+    400698: Eslabon recto141
+    400700: Eslabon recto142
+    400702: Eslabon recto143
+    400704: Eslabon recto144
+    400706: Eslabon recto145
+    400708: Eslabon recto146
+    400710: Eslabon recto147
+    400712: Eslabon recto148
+    400714: Eslabon recto149
+    400716: Eslabon recto150
+    400718: Eslabon recto151
+    400720: Eslabon recto152
+    400722: Eslabon recto153
+    400724: Eslabon recto154
+    400726: Eslabon recto155
+    400728: Eslabon recto156
+    400730: Eslabon recto157
+    400732: Eslabon recto158
+    400734: Eslabon recto159
+    400736: Lampara006
+    400738: Lampara007
+    400740: Lampara008
+    400742: Lampara009
+    400744: Lampara010
+    400746: Lampara011
+    400748: Lampara012
+    400750: Lampara013
+    400752: Lampara014
+    400754: Lampara015
+    400756: Lampara016
+    400758: Lampara017
+    400760: Lampara018
+    400762: Lampara019
+    400764: Lampara020
+    400766: Lampara021
+    400768: Lampara022
+    400770: Lampara023
+    400772: Lampara024
+    400774: Lampara025
+    400776: Lampara026
+    400778: Lampara027
+    400780: Lampara028
+    400782: Lampara029
+    400784: Lampara030
+    400786: Lampara031
+    400788: soporte lampara004
+    400790: soporte lampara005
+    400792: soporte lampara006
+    400794: soporte lampara007
+    400796: soporte lampara008
+    400798: soporte lampara009
+    400800: soporte lampara010
+    400802: soporte lampara011
+    400804: soporte lampara012
+    400806: soporte lampara013
+    400808: soporte lampara014
+    400810: soporte lampara015
+    400812: soporte lampara016
+    400814: soporte lampara017
+    400816: soporte lampara018
+    400818: soporte lampara019
+    400820: soporte lampara020
+    400822: soporte lampara021
+    400824: soporte lampara022
+    400826: soporte lampara023
+    400828: soporte lampara024
+    400830: soporte lampara025
+    400832: soporte lampara026
+    400834: soporte lampara027
+    400836: soporte lampara028
+    400838: soporte lampara029
+    400840: soporte lampara030
+    400842: Sosten
+    2300000: anillo 002
+    2300002: anillo 003
+    2300004: anillo 1
+    2300006: bombilla004
+    2300008: bombilla005
+    2300010: bombilla006
+    2300012: bombilla007
+    2300014: bombilla008
+    2300016: bombilla009
+    2300018: bombilla010
+    2300020: bombilla011
+    2300022: bombilla012
+    2300024: bombilla013
+    2300026: bombilla014
+    2300028: bombilla015
+    2300030: bombilla016
+    2300032: bombilla017
+    2300034: bombilla018
+    2300036: bombilla019
+    2300038: bombilla020
+    2300040: bombilla021
+    2300042: bombilla022
+    2300044: bombilla023
+    2300046: bombilla024
+    2300048: bombilla025
+    2300050: bombilla026
+    2300052: bombilla027
+    2300054: bombilla028
+    2300056: bombilla029
+    2300058: bombilla030
+    2300060: conexion
+    2300062: Eslabon curvo
+    2300064: Eslabon curvo001
+    2300066: Eslabon curvo002
+    2300068: Eslabon curvo003
+    2300070: Eslabon curvo004
+    2300072: Eslabon curvo005
+    2300074: Eslabon curvo006
+    2300076: Eslabon curvo007
+    2300078: Eslabon curvo008
+    2300080: Eslabon curvo009
+    2300082: Eslabon curvo010
+    2300084: Eslabon curvo011
+    2300086: Eslabon curvo012
+    2300088: Eslabon curvo013
+    2300090: Eslabon curvo014
+    2300092: Eslabon curvo015
+    2300094: Eslabon curvo016
+    2300096: Eslabon curvo017
+    2300098: Eslabon curvo018
+    2300100: Eslabon curvo019
+    2300102: Eslabon curvo020
+    2300104: Eslabon curvo021
+    2300106: Eslabon curvo022
+    2300108: Eslabon curvo023
+    2300110: Eslabon curvo024
+    2300112: Eslabon curvo025
+    2300114: Eslabon curvo026
+    2300116: Eslabon curvo027
+    2300118: Eslabon curvo028
+    2300120: Eslabon curvo029
+    2300122: Eslabon curvo030
+    2300124: Eslabon curvo031
+    2300126: Eslabon curvo032
+    2300128: Eslabon curvo033
+    2300130: Eslabon curvo034
+    2300132: Eslabon curvo035
+    2300134: Eslabon curvo036
+    2300136: Eslabon curvo037
+    2300138: Eslabon curvo038
+    2300140: Eslabon curvo039
+    2300142: Eslabon curvo040
+    2300144: Eslabon curvo041
+    2300146: Eslabon curvo042
+    2300148: Eslabon curvo043
+    2300150: Eslabon curvo044
+    2300152: Eslabon curvo045
+    2300154: Eslabon curvo046
+    2300156: Eslabon curvo047
+    2300158: Eslabon curvo048
+    2300160: Eslabon curvo049
+    2300162: Eslabon curvo050
+    2300164: Eslabon curvo051
+    2300166: Eslabon curvo052
+    2300168: Eslabon curvo053
+    2300170: Eslabon curvo054
+    2300172: Eslabon curvo055
+    2300174: Eslabon curvo056
+    2300176: Eslabon curvo057
+    2300178: Eslabon curvo058
+    2300180: Eslabon curvo059
+    2300182: Eslabon curvo060
+    2300184: Eslabon curvo061
+    2300186: Eslabon curvo062
+    2300188: Eslabon curvo063
+    2300190: Eslabon curvo064
+    2300192: Eslabon curvo065
+    2300194: Eslabon curvo066
+    2300196: Eslabon curvo067
+    2300198: Eslabon curvo068
+    2300200: Eslabon curvo069
+    2300202: Eslabon curvo070
+    2300204: Eslabon curvo071
+    2300206: Eslabon curvo072
+    2300208: Eslabon curvo073
+    2300210: Eslabon curvo074
+    2300212: Eslabon curvo075
+    2300214: Eslabon curvo076
+    2300216: Eslabon curvo077
+    2300218: Eslabon curvo078
+    2300220: Eslabon curvo079
+    2300222: Eslabon curvo080
+    2300224: Eslabon curvo081
+    2300226: Eslabon curvo082
+    2300228: Eslabon curvo083
+    2300230: Eslabon curvo084
+    2300232: Eslabon curvo085
+    2300234: Eslabon curvo086
+    2300236: Eslabon curvo087
+    2300238: Eslabon curvo088
+    2300240: Eslabon curvo089
+    2300242: Eslabon curvo090
+    2300244: Eslabon curvo091
+    2300246: Eslabon curvo092
+    2300248: Eslabon curvo093
+    2300250: Eslabon curvo094
+    2300252: Eslabon curvo095
+    2300254: Eslabon curvo096
+    2300256: Eslabon curvo097
+    2300258: Eslabon curvo098
+    2300260: Eslabon curvo099
+    2300262: Eslabon curvo100
+    2300264: Eslabon curvo101
+    2300266: Eslabon curvo102
+    2300268: Eslabon curvo103
+    2300270: Eslabon curvo104
+    2300272: Eslabon curvo105
+    2300274: Eslabon curvo106
+    2300276: Eslabon curvo107
+    2300278: Eslabon curvo108
+    2300280: Eslabon curvo109
+    2300282: Eslabon curvo110
+    2300284: Eslabon curvo111
+    2300286: Eslabon curvo112
+    2300288: Eslabon curvo113
+    2300290: Eslabon curvo114
+    2300292: Eslabon curvo115
+    2300294: Eslabon curvo116
+    2300296: Eslabon curvo117
+    2300298: Eslabon curvo118
+    2300300: Eslabon curvo119
+    2300302: Eslabon curvo120
+    2300304: Eslabon curvo121
+    2300306: Eslabon curvo122
+    2300308: Eslabon curvo123
+    2300310: Eslabon curvo124
+    2300312: Eslabon curvo125
+    2300314: Eslabon curvo126
+    2300316: Eslabon curvo127
+    2300318: Eslabon curvo128
+    2300320: Eslabon curvo129
+    2300322: Eslabon curvo130
+    2300324: Eslabon curvo131
+    2300326: Eslabon curvo132
+    2300328: Eslabon curvo133
+    2300330: Eslabon curvo134
+    2300332: Eslabon curvo135
+    2300334: Eslabon curvo136
+    2300336: Eslabon curvo137
+    2300338: Eslabon curvo138
+    2300340: Eslabon curvo139
+    2300342: Eslabon curvo140
+    2300344: Eslabon curvo141
+    2300346: Eslabon curvo142
+    2300348: Eslabon curvo143
+    2300350: Eslabon curvo144
+    2300352: Eslabon curvo145
+    2300354: Eslabon curvo146
+    2300356: Eslabon curvo147
+    2300358: Eslabon curvo148
+    2300360: Eslabon curvo149
+    2300362: Eslabon curvo150
+    2300364: Eslabon curvo151
+    2300366: Eslabon curvo152
+    2300368: Eslabon curvo153
+    2300370: Eslabon curvo154
+    2300372: Eslabon curvo155
+    2300374: Eslabon curvo156
+    2300376: Eslabon curvo157
+    2300378: Eslabon curvo158
+    2300380: Eslabon curvo159
+    2300382: Eslabon recto
+    2300384: Eslabon recto001
+    2300386: Eslabon recto002
+    2300388: Eslabon recto003
+    2300390: Eslabon recto004
+    2300392: Eslabon recto005
+    2300394: Eslabon recto006
+    2300396: Eslabon recto007
+    2300398: Eslabon recto008
+    2300400: Eslabon recto009
+    2300402: Eslabon recto010
+    2300404: Eslabon recto011
+    2300406: Eslabon recto012
+    2300408: Eslabon recto013
+    2300410: Eslabon recto014
+    2300412: Eslabon recto015
+    2300414: Eslabon recto016
+    2300416: Eslabon recto017
+    2300418: Eslabon recto018
+    2300420: Eslabon recto019
+    2300422: Eslabon recto020
+    2300424: Eslabon recto021
+    2300426: Eslabon recto022
+    2300428: Eslabon recto023
+    2300430: Eslabon recto024
+    2300432: Eslabon recto025
+    2300434: Eslabon recto026
+    2300436: Eslabon recto027
+    2300438: Eslabon recto028
+    2300440: Eslabon recto029
+    2300442: Eslabon recto030
+    2300444: Eslabon recto031
+    2300446: Eslabon recto032
+    2300448: Eslabon recto033
+    2300450: Eslabon recto034
+    2300452: Eslabon recto035
+    2300454: Eslabon recto036
+    2300456: Eslabon recto037
+    2300458: Eslabon recto038
+    2300460: Eslabon recto039
+    2300462: Eslabon recto040
+    2300464: Eslabon recto041
+    2300466: Eslabon recto042
+    2300468: Eslabon recto043
+    2300470: Eslabon recto044
+    2300472: Eslabon recto045
+    2300474: Eslabon recto046
+    2300476: Eslabon recto047
+    2300478: Eslabon recto048
+    2300480: Eslabon recto049
+    2300482: Eslabon recto050
+    2300484: Eslabon recto051
+    2300486: Eslabon recto052
+    2300488: Eslabon recto053
+    2300490: Eslabon recto054
+    2300492: Eslabon recto055
+    2300494: Eslabon recto056
+    2300496: Eslabon recto057
+    2300498: Eslabon recto058
+    2300500: Eslabon recto059
+    2300502: Eslabon recto060
+    2300504: Eslabon recto061
+    2300506: Eslabon recto062
+    2300508: Eslabon recto063
+    2300510: Eslabon recto064
+    2300512: Eslabon recto065
+    2300514: Eslabon recto066
+    2300516: Eslabon recto067
+    2300518: Eslabon recto068
+    2300520: Eslabon recto069
+    2300522: Eslabon recto070
+    2300524: Eslabon recto071
+    2300526: Eslabon recto072
+    2300528: Eslabon recto073
+    2300530: Eslabon recto074
+    2300532: Eslabon recto075
+    2300534: Eslabon recto076
+    2300536: Eslabon recto077
+    2300538: Eslabon recto078
+    2300540: Eslabon recto079
+    2300542: Eslabon recto080
+    2300544: Eslabon recto081
+    2300546: Eslabon recto082
+    2300548: Eslabon recto083
+    2300550: Eslabon recto084
+    2300552: Eslabon recto085
+    2300554: Eslabon recto086
+    2300556: Eslabon recto087
+    2300558: Eslabon recto088
+    2300560: Eslabon recto089
+    2300562: Eslabon recto090
+    2300564: Eslabon recto091
+    2300566: Eslabon recto092
+    2300568: Eslabon recto093
+    2300570: Eslabon recto094
+    2300572: Eslabon recto095
+    2300574: Eslabon recto096
+    2300576: Eslabon recto097
+    2300578: Eslabon recto098
+    2300580: Eslabon recto099
+    2300582: Eslabon recto100
+    2300584: Eslabon recto101
+    2300586: Eslabon recto102
+    2300588: Eslabon recto103
+    2300590: Eslabon recto104
+    2300592: Eslabon recto105
+    2300594: Eslabon recto106
+    2300596: Eslabon recto107
+    2300598: Eslabon recto108
+    2300600: Eslabon recto109
+    2300602: Eslabon recto110
+    2300604: Eslabon recto111
+    2300606: Eslabon recto112
+    2300608: Eslabon recto113
+    2300610: Eslabon recto114
+    2300612: Eslabon recto115
+    2300614: Eslabon recto116
+    2300616: Eslabon recto117
+    2300618: Eslabon recto118
+    2300620: Eslabon recto119
+    2300622: Eslabon recto120
+    2300624: Eslabon recto121
+    2300626: Eslabon recto122
+    2300628: Eslabon recto123
+    2300630: Eslabon recto124
+    2300632: Eslabon recto125
+    2300634: Eslabon recto126
+    2300636: Eslabon recto127
+    2300638: Eslabon recto128
+    2300640: Eslabon recto129
+    2300642: Eslabon recto130
+    2300644: Eslabon recto131
+    2300646: Eslabon recto132
+    2300648: Eslabon recto133
+    2300650: Eslabon recto134
+    2300652: Eslabon recto135
+    2300654: Eslabon recto136
+    2300656: Eslabon recto137
+    2300658: Eslabon recto138
+    2300660: Eslabon recto139
+    2300662: Eslabon recto140
+    2300664: Eslabon recto141
+    2300666: Eslabon recto142
+    2300668: Eslabon recto143
+    2300670: Eslabon recto144
+    2300672: Eslabon recto145
+    2300674: Eslabon recto146
+    2300676: Eslabon recto147
+    2300678: Eslabon recto148
+    2300680: Eslabon recto149
+    2300682: Eslabon recto150
+    2300684: Eslabon recto151
+    2300686: Eslabon recto152
+    2300688: Eslabon recto153
+    2300690: Eslabon recto154
+    2300692: Eslabon recto155
+    2300694: Eslabon recto156
+    2300696: Eslabon recto157
+    2300698: Eslabon recto158
+    2300700: Eslabon recto159
+    2300702: soporte lampara004
+    2300704: soporte lampara005
+    2300706: soporte lampara006
+    2300708: soporte lampara007
+    2300710: soporte lampara008
+    2300712: soporte lampara009
+    2300714: soporte lampara010
+    2300716: soporte lampara011
+    2300718: soporte lampara012
+    2300720: soporte lampara013
+    2300722: soporte lampara014
+    2300724: soporte lampara015
+    2300726: soporte lampara016
+    2300728: soporte lampara017
+    2300730: soporte lampara018
+    2300732: soporte lampara019
+    2300734: soporte lampara020
+    2300736: soporte lampara021
+    2300738: soporte lampara022
+    2300740: soporte lampara023
+    2300742: soporte lampara024
+    2300744: soporte lampara025
+    2300746: soporte lampara026
+    2300748: soporte lampara027
+    2300750: soporte lampara028
+    2300752: soporte lampara029
+    2300754: soporte lampara030
+    2300756: Sosten
+    3300000: anillo 002
+    3300002: anillo 003
+    3300004: anillo 1
+    3300006: bombilla004
+    3300008: bombilla005
+    3300010: bombilla006
+    3300012: bombilla007
+    3300014: bombilla008
+    3300016: bombilla009
+    3300018: bombilla010
+    3300020: bombilla011
+    3300022: bombilla012
+    3300024: bombilla013
+    3300026: bombilla014
+    3300028: bombilla015
+    3300030: bombilla016
+    3300032: bombilla017
+    3300034: bombilla018
+    3300036: bombilla019
+    3300038: bombilla020
+    3300040: bombilla021
+    3300042: bombilla022
+    3300044: bombilla023
+    3300046: bombilla024
+    3300048: bombilla025
+    3300050: bombilla026
+    3300052: bombilla027
+    3300054: bombilla028
+    3300056: bombilla029
+    3300058: bombilla030
+    3300060: conexion
+    3300062: Eslabon curvo
+    3300064: Eslabon curvo001
+    3300066: Eslabon curvo002
+    3300068: Eslabon curvo003
+    3300070: Eslabon curvo004
+    3300072: Eslabon curvo005
+    3300074: Eslabon curvo006
+    3300076: Eslabon curvo007
+    3300078: Eslabon curvo008
+    3300080: Eslabon curvo009
+    3300082: Eslabon curvo010
+    3300084: Eslabon curvo011
+    3300086: Eslabon curvo012
+    3300088: Eslabon curvo013
+    3300090: Eslabon curvo014
+    3300092: Eslabon curvo015
+    3300094: Eslabon curvo016
+    3300096: Eslabon curvo017
+    3300098: Eslabon curvo018
+    3300100: Eslabon curvo019
+    3300102: Eslabon curvo020
+    3300104: Eslabon curvo021
+    3300106: Eslabon curvo022
+    3300108: Eslabon curvo023
+    3300110: Eslabon curvo024
+    3300112: Eslabon curvo025
+    3300114: Eslabon curvo026
+    3300116: Eslabon curvo027
+    3300118: Eslabon curvo028
+    3300120: Eslabon curvo029
+    3300122: Eslabon curvo030
+    3300124: Eslabon curvo031
+    3300126: Eslabon curvo032
+    3300128: Eslabon curvo033
+    3300130: Eslabon curvo034
+    3300132: Eslabon curvo035
+    3300134: Eslabon curvo036
+    3300136: Eslabon curvo037
+    3300138: Eslabon curvo038
+    3300140: Eslabon curvo039
+    3300142: Eslabon curvo040
+    3300144: Eslabon curvo041
+    3300146: Eslabon curvo042
+    3300148: Eslabon curvo043
+    3300150: Eslabon curvo044
+    3300152: Eslabon curvo045
+    3300154: Eslabon curvo046
+    3300156: Eslabon curvo047
+    3300158: Eslabon curvo048
+    3300160: Eslabon curvo049
+    3300162: Eslabon curvo050
+    3300164: Eslabon curvo051
+    3300166: Eslabon curvo052
+    3300168: Eslabon curvo053
+    3300170: Eslabon curvo054
+    3300172: Eslabon curvo055
+    3300174: Eslabon curvo056
+    3300176: Eslabon curvo057
+    3300178: Eslabon curvo058
+    3300180: Eslabon curvo059
+    3300182: Eslabon curvo060
+    3300184: Eslabon curvo061
+    3300186: Eslabon curvo062
+    3300188: Eslabon curvo063
+    3300190: Eslabon curvo064
+    3300192: Eslabon curvo065
+    3300194: Eslabon curvo066
+    3300196: Eslabon curvo067
+    3300198: Eslabon curvo068
+    3300200: Eslabon curvo069
+    3300202: Eslabon curvo070
+    3300204: Eslabon curvo071
+    3300206: Eslabon curvo072
+    3300208: Eslabon curvo073
+    3300210: Eslabon curvo074
+    3300212: Eslabon curvo075
+    3300214: Eslabon curvo076
+    3300216: Eslabon curvo077
+    3300218: Eslabon curvo078
+    3300220: Eslabon curvo079
+    3300222: Eslabon curvo080
+    3300224: Eslabon curvo081
+    3300226: Eslabon curvo082
+    3300228: Eslabon curvo083
+    3300230: Eslabon curvo084
+    3300232: Eslabon curvo085
+    3300234: Eslabon curvo086
+    3300236: Eslabon curvo087
+    3300238: Eslabon curvo088
+    3300240: Eslabon curvo089
+    3300242: Eslabon curvo090
+    3300244: Eslabon curvo091
+    3300246: Eslabon curvo092
+    3300248: Eslabon curvo093
+    3300250: Eslabon curvo094
+    3300252: Eslabon curvo095
+    3300254: Eslabon curvo096
+    3300256: Eslabon curvo097
+    3300258: Eslabon curvo098
+    3300260: Eslabon curvo099
+    3300262: Eslabon curvo100
+    3300264: Eslabon curvo101
+    3300266: Eslabon curvo102
+    3300268: Eslabon curvo103
+    3300270: Eslabon curvo104
+    3300272: Eslabon curvo105
+    3300274: Eslabon curvo106
+    3300276: Eslabon curvo107
+    3300278: Eslabon curvo108
+    3300280: Eslabon curvo109
+    3300282: Eslabon curvo110
+    3300284: Eslabon curvo111
+    3300286: Eslabon curvo112
+    3300288: Eslabon curvo113
+    3300290: Eslabon curvo114
+    3300292: Eslabon curvo115
+    3300294: Eslabon curvo116
+    3300296: Eslabon curvo117
+    3300298: Eslabon curvo118
+    3300300: Eslabon curvo119
+    3300302: Eslabon curvo120
+    3300304: Eslabon curvo121
+    3300306: Eslabon curvo122
+    3300308: Eslabon curvo123
+    3300310: Eslabon curvo124
+    3300312: Eslabon curvo125
+    3300314: Eslabon curvo126
+    3300316: Eslabon curvo127
+    3300318: Eslabon curvo128
+    3300320: Eslabon curvo129
+    3300322: Eslabon curvo130
+    3300324: Eslabon curvo131
+    3300326: Eslabon curvo132
+    3300328: Eslabon curvo133
+    3300330: Eslabon curvo134
+    3300332: Eslabon curvo135
+    3300334: Eslabon curvo136
+    3300336: Eslabon curvo137
+    3300338: Eslabon curvo138
+    3300340: Eslabon curvo139
+    3300342: Eslabon curvo140
+    3300344: Eslabon curvo141
+    3300346: Eslabon curvo142
+    3300348: Eslabon curvo143
+    3300350: Eslabon curvo144
+    3300352: Eslabon curvo145
+    3300354: Eslabon curvo146
+    3300356: Eslabon curvo147
+    3300358: Eslabon curvo148
+    3300360: Eslabon curvo149
+    3300362: Eslabon curvo150
+    3300364: Eslabon curvo151
+    3300366: Eslabon curvo152
+    3300368: Eslabon curvo153
+    3300370: Eslabon curvo154
+    3300372: Eslabon curvo155
+    3300374: Eslabon curvo156
+    3300376: Eslabon curvo157
+    3300378: Eslabon curvo158
+    3300380: Eslabon curvo159
+    3300382: Eslabon recto
+    3300384: Eslabon recto001
+    3300386: Eslabon recto002
+    3300388: Eslabon recto003
+    3300390: Eslabon recto004
+    3300392: Eslabon recto005
+    3300394: Eslabon recto006
+    3300396: Eslabon recto007
+    3300398: Eslabon recto008
+    3300400: Eslabon recto009
+    3300402: Eslabon recto010
+    3300404: Eslabon recto011
+    3300406: Eslabon recto012
+    3300408: Eslabon recto013
+    3300410: Eslabon recto014
+    3300412: Eslabon recto015
+    3300414: Eslabon recto016
+    3300416: Eslabon recto017
+    3300418: Eslabon recto018
+    3300420: Eslabon recto019
+    3300422: Eslabon recto020
+    3300424: Eslabon recto021
+    3300426: Eslabon recto022
+    3300428: Eslabon recto023
+    3300430: Eslabon recto024
+    3300432: Eslabon recto025
+    3300434: Eslabon recto026
+    3300436: Eslabon recto027
+    3300438: Eslabon recto028
+    3300440: Eslabon recto029
+    3300442: Eslabon recto030
+    3300444: Eslabon recto031
+    3300446: Eslabon recto032
+    3300448: Eslabon recto033
+    3300450: Eslabon recto034
+    3300452: Eslabon recto035
+    3300454: Eslabon recto036
+    3300456: Eslabon recto037
+    3300458: Eslabon recto038
+    3300460: Eslabon recto039
+    3300462: Eslabon recto040
+    3300464: Eslabon recto041
+    3300466: Eslabon recto042
+    3300468: Eslabon recto043
+    3300470: Eslabon recto044
+    3300472: Eslabon recto045
+    3300474: Eslabon recto046
+    3300476: Eslabon recto047
+    3300478: Eslabon recto048
+    3300480: Eslabon recto049
+    3300482: Eslabon recto050
+    3300484: Eslabon recto051
+    3300486: Eslabon recto052
+    3300488: Eslabon recto053
+    3300490: Eslabon recto054
+    3300492: Eslabon recto055
+    3300494: Eslabon recto056
+    3300496: Eslabon recto057
+    3300498: Eslabon recto058
+    3300500: Eslabon recto059
+    3300502: Eslabon recto060
+    3300504: Eslabon recto061
+    3300506: Eslabon recto062
+    3300508: Eslabon recto063
+    3300510: Eslabon recto064
+    3300512: Eslabon recto065
+    3300514: Eslabon recto066
+    3300516: Eslabon recto067
+    3300518: Eslabon recto068
+    3300520: Eslabon recto069
+    3300522: Eslabon recto070
+    3300524: Eslabon recto071
+    3300526: Eslabon recto072
+    3300528: Eslabon recto073
+    3300530: Eslabon recto074
+    3300532: Eslabon recto075
+    3300534: Eslabon recto076
+    3300536: Eslabon recto077
+    3300538: Eslabon recto078
+    3300540: Eslabon recto079
+    3300542: Eslabon recto080
+    3300544: Eslabon recto081
+    3300546: Eslabon recto082
+    3300548: Eslabon recto083
+    3300550: Eslabon recto084
+    3300552: Eslabon recto085
+    3300554: Eslabon recto086
+    3300556: Eslabon recto087
+    3300558: Eslabon recto088
+    3300560: Eslabon recto089
+    3300562: Eslabon recto090
+    3300564: Eslabon recto091
+    3300566: Eslabon recto092
+    3300568: Eslabon recto093
+    3300570: Eslabon recto094
+    3300572: Eslabon recto095
+    3300574: Eslabon recto096
+    3300576: Eslabon recto097
+    3300578: Eslabon recto098
+    3300580: Eslabon recto099
+    3300582: Eslabon recto100
+    3300584: Eslabon recto101
+    3300586: Eslabon recto102
+    3300588: Eslabon recto103
+    3300590: Eslabon recto104
+    3300592: Eslabon recto105
+    3300594: Eslabon recto106
+    3300596: Eslabon recto107
+    3300598: Eslabon recto108
+    3300600: Eslabon recto109
+    3300602: Eslabon recto110
+    3300604: Eslabon recto111
+    3300606: Eslabon recto112
+    3300608: Eslabon recto113
+    3300610: Eslabon recto114
+    3300612: Eslabon recto115
+    3300614: Eslabon recto116
+    3300616: Eslabon recto117
+    3300618: Eslabon recto118
+    3300620: Eslabon recto119
+    3300622: Eslabon recto120
+    3300624: Eslabon recto121
+    3300626: Eslabon recto122
+    3300628: Eslabon recto123
+    3300630: Eslabon recto124
+    3300632: Eslabon recto125
+    3300634: Eslabon recto126
+    3300636: Eslabon recto127
+    3300638: Eslabon recto128
+    3300640: Eslabon recto129
+    3300642: Eslabon recto130
+    3300644: Eslabon recto131
+    3300646: Eslabon recto132
+    3300648: Eslabon recto133
+    3300650: Eslabon recto134
+    3300652: Eslabon recto135
+    3300654: Eslabon recto136
+    3300656: Eslabon recto137
+    3300658: Eslabon recto138
+    3300660: Eslabon recto139
+    3300662: Eslabon recto140
+    3300664: Eslabon recto141
+    3300666: Eslabon recto142
+    3300668: Eslabon recto143
+    3300670: Eslabon recto144
+    3300672: Eslabon recto145
+    3300674: Eslabon recto146
+    3300676: Eslabon recto147
+    3300678: Eslabon recto148
+    3300680: Eslabon recto149
+    3300682: Eslabon recto150
+    3300684: Eslabon recto151
+    3300686: Eslabon recto152
+    3300688: Eslabon recto153
+    3300690: Eslabon recto154
+    3300692: Eslabon recto155
+    3300694: Eslabon recto156
+    3300696: Eslabon recto157
+    3300698: Eslabon recto158
+    3300700: Eslabon recto159
+    3300702: soporte lampara004
+    3300704: soporte lampara005
+    3300706: soporte lampara006
+    3300708: soporte lampara007
+    3300710: soporte lampara008
+    3300712: soporte lampara009
+    3300714: soporte lampara010
+    3300716: soporte lampara011
+    3300718: soporte lampara012
+    3300720: soporte lampara013
+    3300722: soporte lampara014
+    3300724: soporte lampara015
+    3300726: soporte lampara016
+    3300728: soporte lampara017
+    3300730: soporte lampara018
+    3300732: soporte lampara019
+    3300734: soporte lampara020
+    3300736: soporte lampara021
+    3300738: soporte lampara022
+    3300740: soporte lampara023
+    3300742: soporte lampara024
+    3300744: soporte lampara025
+    3300746: soporte lampara026
+    3300748: soporte lampara027
+    3300750: soporte lampara028
+    3300752: soporte lampara029
+    3300754: soporte lampara030
+    3300756: Sosten
+    4300000: Eslabon recto
+    4300002: Eslabon curvo002
+    4300004: Eslabon recto004
+    4300006: Eslabon curvo003
+    4300008: Eslabon recto003
+    4300010: Eslabon curvo005
+    4300012: Eslabon curvo004
+    4300014: Eslabon recto002
+    4300016: Eslabon curvo
+    4300018: Eslabon curvo001
+    4300020: Eslabon curvo006
+    4300022: Eslabon curvo007
+    4300024: Eslabon recto007
+    4300026: Eslabon curvo008
+    4300028: Eslabon recto008
+    4300030: Eslabon recto005
+    4300032: Eslabon recto001
+    4300034: Eslabon recto006
+    4300036: Eslabon curvo009
+    4300038: Eslabon recto009
+    4300040: anillo 1
+    4300042: anillo 002
+    4300044: anillo 003
+    4300046: conexion
+    4300048: Eslabon recto010
+    4300050: Eslabon curvo010
+    4300052: Eslabon recto011
+    4300054: Eslabon curvo011
+    4300056: Eslabon recto012
+    4300058: Eslabon curvo012
+    4300060: Eslabon curvo013
+    4300062: Eslabon recto013
+    4300064: Eslabon curvo014
+    4300066: Eslabon curvo015
+    4300068: Eslabon curvo016
+    4300070: Eslabon curvo017
+    4300072: Eslabon recto014
+    4300074: Eslabon curvo018
+    4300076: Eslabon recto015
+    4300078: Eslabon recto016
+    4300080: Eslabon recto017
+    4300082: Eslabon recto018
+    4300084: Eslabon curvo019
+    4300086: Eslabon recto019
+    4300088: Eslabon recto020
+    4300090: Eslabon recto021
+    4300092: Eslabon curvo020
+    4300094: Eslabon recto022
+    4300096: Eslabon curvo021
+    4300098: Eslabon recto023
+    4300100: Eslabon curvo022
+    4300102: Eslabon curvo023
+    4300104: Eslabon recto024
+    4300106: Eslabon curvo024
+    4300108: Eslabon curvo025
+    4300110: Eslabon curvo026
+    4300112: Eslabon curvo027
+    4300114: Eslabon recto025
+    4300116: Eslabon curvo028
+    4300118: Eslabon recto026
+    4300120: Eslabon recto027
+    4300122: Eslabon recto028
+    4300124: Eslabon curvo029
+    4300126: Eslabon recto029
+    4300128: Eslabon recto030
+    4300130: Eslabon recto031
+    4300132: Eslabon curvo030
+    4300134: Eslabon curvo031
+    4300136: Eslabon recto032
+    4300138: Eslabon curvo032
+    4300140: Eslabon curvo033
+    4300142: Eslabon recto033
+    4300144: Eslabon curvo034
+    4300146: Eslabon curvo035
+    4300148: Eslabon curvo036
+    4300150: Eslabon curvo037
+    4300152: Eslabon recto034
+    4300154: Eslabon curvo038
+    4300156: Eslabon recto035
+    4300158: Eslabon recto036
+    4300160: Eslabon recto037
+    4300162: Eslabon recto038
+    4300164: Eslabon curvo039
+    4300166: Eslabon recto039
+    4300168: Sosten
+    4300170: bombilla005
+    4300172: soporte lampara005
+    4300174: bombilla006
+    4300176: soporte lampara006
+    4300178: soporte lampara007
+    4300180: bombilla007
+    4300182: bombilla008
+    4300184: soporte lampara008
+    4300186: bombilla009
+    4300188: soporte lampara009
+    4300190: bombilla010
+    4300192: soporte lampara010
+    4300194: bombilla011
+    4300196: soporte lampara011
+    4300198: bombilla012
+    4300200: soporte lampara012
+    4300202: bombilla013
+    4300204: soporte lampara013
+    4300206: bombilla014
+    4300208: soporte lampara014
+    4300210: bombilla015
+    4300212: soporte lampara015
+    4300214: bombilla016
+    4300216: soporte lampara016
+    4300218: bombilla017
+    4300220: soporte lampara017
+    4300222: bombilla018
+    4300224: soporte lampara018
+    4300226: bombilla019
+    4300228: soporte lampara019
+    4300230: bombilla020
+    4300232: soporte lampara020
+    4300234: bombilla021
+    4300236: soporte lampara021
+    4300238: bombilla022
+    4300240: soporte lampara022
+    4300242: soporte lampara023
+    4300244: bombilla023
+    4300246: soporte lampara024
+    4300248: bombilla024
+    4300250: soporte lampara025
+    4300252: bombilla025
+    4300254: soporte lampara026
+    4300256: bombilla026
+    4300258: soporte lampara027
+    4300260: bombilla027
+    4300262: soporte lampara028
+    4300264: bombilla028
+    4300266: soporte lampara029
+    4300268: bombilla029
+    4300270: soporte lampara030
+    4300272: bombilla030
+    4300274: Eslabon curvo040
+    4300276: Eslabon recto040
+    4300278: Eslabon curvo041
+    4300280: Eslabon recto041
+    4300282: Eslabon curvo042
+    4300284: Eslabon recto042
+    4300286: Eslabon curvo043
+    4300288: Eslabon recto043
+    4300290: Eslabon curvo044
+    4300292: Eslabon curvo045
+    4300294: Eslabon curvo046
+    4300296: Eslabon curvo047
+    4300298: Eslabon recto044
+    4300300: Eslabon curvo048
+    4300302: Eslabon recto045
+    4300304: Eslabon recto046
+    4300306: Eslabon recto047
+    4300308: Eslabon recto048
+    4300310: Eslabon curvo049
+    4300312: Eslabon recto049
+    4300314: Eslabon curvo050
+    4300316: Eslabon recto050
+    4300318: Eslabon curvo051
+    4300320: Eslabon recto051
+    4300322: Eslabon curvo052
+    4300324: Eslabon recto052
+    4300326: Eslabon curvo053
+    4300328: Eslabon recto053
+    4300330: Eslabon curvo054
+    4300332: Eslabon curvo055
+    4300334: Eslabon curvo056
+    4300336: Eslabon curvo057
+    4300338: Eslabon recto054
+    4300340: Eslabon curvo058
+    4300342: Eslabon recto055
+    4300344: Eslabon recto056
+    4300346: Eslabon recto057
+    4300348: Eslabon recto058
+    4300350: Eslabon curvo059
+    4300352: Eslabon recto059
+    4300354: Eslabon recto060
+    4300356: Eslabon curvo060
+    4300358: Eslabon recto061
+    4300360: Eslabon curvo061
+    4300362: Eslabon recto062
+    4300364: Eslabon curvo062
+    4300366: Eslabon recto063
+    4300368: Eslabon curvo063
+    4300370: Eslabon curvo064
+    4300372: Eslabon curvo065
+    4300374: Eslabon curvo066
+    4300376: Eslabon curvo067
+    4300378: Eslabon recto064
+    4300380: Eslabon curvo068
+    4300382: Eslabon recto065
+    4300384: Eslabon recto066
+    4300386: Eslabon recto067
+    4300388: Eslabon recto068
+    4300390: Eslabon curvo069
+    4300392: Eslabon recto069
+    4300394: Eslabon curvo070
+    4300396: Eslabon recto070
+    4300398: Eslabon curvo071
+    4300400: Eslabon recto071
+    4300402: Eslabon recto072
+    4300404: Eslabon curvo072
+    4300406: Eslabon recto073
+    4300408: Eslabon curvo073
+    4300410: Eslabon curvo074
+    4300412: Eslabon curvo075
+    4300414: Eslabon curvo076
+    4300416: Eslabon curvo077
+    4300418: Eslabon recto074
+    4300420: Eslabon curvo078
+    4300422: Eslabon recto075
+    4300424: Eslabon recto076
+    4300426: Eslabon recto077
+    4300428: Eslabon recto078
+    4300430: Eslabon curvo079
+    4300432: Eslabon recto079
+    4300434: Eslabon curvo080
+    4300436: Eslabon curvo081
+    4300438: Eslabon recto080
+    4300440: Eslabon recto081
+    4300442: Eslabon recto082
+    4300444: Eslabon curvo082
+    4300446: Eslabon recto083
+    4300448: Eslabon curvo083
+    4300450: Eslabon curvo084
+    4300452: Eslabon curvo085
+    4300454: Eslabon curvo086
+    4300456: Eslabon curvo087
+    4300458: Eslabon recto084
+    4300460: Eslabon curvo088
+    4300462: Eslabon recto085
+    4300464: Eslabon recto086
+    4300466: Eslabon recto087
+    4300468: Eslabon recto088
+    4300470: Eslabon curvo089
+    4300472: Eslabon recto089
+    4300474: Eslabon recto090
+    4300476: Eslabon curvo090
+    4300478: Eslabon curvo091
+    4300480: Eslabon recto091
+    4300482: Eslabon recto092
+    4300484: Eslabon curvo092
+    4300486: Eslabon recto093
+    4300488: Eslabon curvo093
+    4300490: Eslabon curvo094
+    4300492: Eslabon curvo095
+    4300494: Eslabon curvo096
+    4300496: Eslabon curvo097
+    4300498: Eslabon recto094
+    4300500: Eslabon curvo098
+    4300502: Eslabon recto095
+    4300504: Eslabon recto096
+    4300506: Eslabon recto097
+    4300508: Eslabon recto098
+    4300510: Eslabon curvo099
+    4300512: Eslabon recto099
+    4300514: Eslabon curvo100
+    4300516: Eslabon recto100
+    4300518: Eslabon curvo101
+    4300520: Eslabon curvo102
+    4300522: Eslabon recto101
+    4300524: Eslabon recto102
+    4300526: Eslabon curvo103
+    4300528: Eslabon recto103
+    4300530: Eslabon curvo104
+    4300532: Eslabon curvo105
+    4300534: Eslabon curvo106
+    4300536: Eslabon curvo107
+    4300538: Eslabon recto104
+    4300540: Eslabon curvo108
+    4300542: Eslabon recto105
+    4300544: Eslabon recto106
+    4300546: Eslabon recto107
+    4300548: Eslabon recto108
+    4300550: Eslabon curvo109
+    4300552: Eslabon recto109
+    4300554: Eslabon curvo110
+    4300556: Eslabon curvo111
+    4300558: Eslabon curvo112
+    4300560: Eslabon recto110
+    4300562: Eslabon recto111
+    4300564: Eslabon recto112
+    4300566: Eslabon curvo113
+    4300568: Eslabon recto113
+    4300570: Eslabon curvo114
+    4300572: Eslabon curvo115
+    4300574: Eslabon curvo116
+    4300576: Eslabon curvo117
+    4300578: Eslabon curvo118
+    4300580: Eslabon recto114
+    4300582: Eslabon recto115
+    4300584: Eslabon recto116
+    4300586: Eslabon recto117
+    4300588: Eslabon recto118
+    4300590: Eslabon curvo119
+    4300592: Eslabon recto119
+    4300594: Eslabon recto120
+    4300596: Eslabon curvo120
+    4300598: Eslabon recto121
+    4300600: Eslabon curvo121
+    4300602: Eslabon recto122
+    4300604: Eslabon recto123
+    4300606: Eslabon curvo122
+    4300608: Eslabon recto124
+    4300610: Eslabon curvo123
+    4300612: Eslabon curvo124
+    4300614: Eslabon curvo125
+    4300616: Eslabon curvo126
+    4300618: Eslabon curvo127
+    4300620: Eslabon recto125
+    4300622: Eslabon curvo128
+    4300624: Eslabon recto126
+    4300626: Eslabon recto127
+    4300628: Eslabon recto128
+    4300630: Eslabon curvo129
+    4300632: Eslabon recto129
+    4300634: Eslabon recto130
+    4300636: Eslabon curvo130
+    4300638: Eslabon curvo131
+    4300640: Eslabon recto131
+    4300642: Eslabon recto132
+    4300644: Eslabon curvo132
+    4300646: Eslabon recto133
+    4300648: Eslabon curvo133
+    4300650: Eslabon curvo134
+    4300652: Eslabon curvo135
+    4300654: Eslabon curvo136
+    4300656: Eslabon curvo137
+    4300658: Eslabon recto134
+    4300660: Eslabon curvo138
+    4300662: Eslabon recto135
+    4300664: Eslabon recto136
+    4300666: Eslabon recto137
+    4300668: Eslabon recto138
+    4300670: Eslabon curvo139
+    4300672: Eslabon recto139
+    4300674: Eslabon curvo140
+    4300676: Eslabon recto140
+    4300678: Eslabon curvo141
+    4300680: Eslabon curvo142
+    4300682: Eslabon recto141
+    4300684: Eslabon recto142
+    4300686: Eslabon curvo143
+    4300688: Eslabon recto143
+    4300690: Eslabon curvo144
+    4300692: Eslabon curvo145
+    4300694: Eslabon curvo146
+    4300696: Eslabon curvo147
+    4300698: Eslabon recto144
+    4300700: Eslabon curvo148
+    4300702: Eslabon recto145
+    4300704: Eslabon recto146
+    4300706: Eslabon recto147
+    4300708: Eslabon recto148
+    4300710: Eslabon curvo149
+    4300712: Eslabon recto149
+    4300714: Eslabon recto150
+    4300716: Eslabon curvo150
+    4300718: Eslabon recto151
+    4300720: Eslabon curvo151
+    4300722: Eslabon recto152
+    4300724: Eslabon curvo152
+    4300726: Eslabon recto153
+    4300728: Eslabon curvo153
+    4300730: Eslabon curvo154
+    4300732: Eslabon curvo155
+    4300734: Eslabon curvo156
+    4300736: Eslabon curvo157
+    4300738: Eslabon recto154
+    4300740: Eslabon curvo158
+    4300742: Eslabon recto155
+    4300744: Eslabon recto156
+    4300746: Eslabon recto157
+    4300748: Eslabon recto158
+    4300750: Eslabon curvo159
+    4300752: Eslabon recto159
+    4300754: bombilla004
+    4300756: soporte lampara004
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

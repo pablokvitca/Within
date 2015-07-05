@@ -13,8 +13,8 @@ public class FollowMouse : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		cam = GetComponent<Camera>();
-		speed = 0.5f;
+		cam = this.GetComponent<Camera>();
+		speed = 0.75f;
 	}
 	
 	// Update is called once per frame

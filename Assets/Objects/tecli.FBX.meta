@@ -1,0 +1,605 @@
+fileFormatVersion: 2
+guid: 1baa3c9c790a50142906f098cf04b9b9
+timeCreated: 1435843255
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: +
+    100002: 0
+    100004: 002
+    100006: 003
+    100008: 004
+    100010: 005
+    100012: 006
+    100014: 007
+    100016: 008
+    100018: 009
+    100020: 1
+    100022: '?'
+    100024: A
+    100026: alt
+    100028: alt2
+    100030: B
+    100032: Backspace
+    100034: C
+    100036: Caps
+    100038: copy
+    100040: ctrl
+    100042: ctrl2
+    100044: D
+    100046: del
+    100048: down
+    100050: E
+    100052: Enter
+    100054: Enternumpad
+    100056: Esc
+    100058: especial
+    100060: F
+    100062: F1
+    100064: F10
+    100066: F11
+    100068: F12
+    100070: F2
+    100072: F3
+    100074: F4
+    100076: F5
+    100078: F6
+    100080: F7
+    100082: F8
+    100084: F9
+    100086: Fila 2
+    100088: Fila 3
+    100090: Fila 4
+    100092: Fila 5
+    100094: fila 6
+    100096: fn
+    100098: funcion
+    100100: funcion 3,002
+    100102: funcion 3,003
+    100104: funcion 3,004
+    100106: funcion 3,005
+    100108: funcion 3,006
+    100110: funcion 3,007
+    100112: funcion 3,1
+    100114: funcion2
+    100116: funcion2,1
+    100118: funcion2,2
+    100120: funcion3
+    100122: funcion4
+    100124: funcion4,002
+    100126: funcion4,003
+    100128: funcion4,1
+    100130: funcion5,002
+    100132: funcion5,003
+    100134: funcion5,004
+    100136: funcion5,005
+    100138: funcion5,1
+    100140: G
+    100142: H
+    100144: home
+    100146: I
+    100148: J
+    100150: K
+    100152: L
+    100154: left
+    100156: M
+    100158: N
+    100160: numpad0
+    100162: numpad002
+    100164: numpad003
+    100166: numpad004
+    100168: numpad005
+    100170: numpad006
+    100172: numpad1
+    100174: numpad1 1
+    100176: numpad2
+    100178: numpad3
+    100180: numpad4
+    100182: O
+    100184: P
+    100186: Primera fila
+    100188: Q
+    100190: R
+    100192: right
+    100194: S
+    100196: Shift
+    100198: Shift 2
+    100200: space Bar
+    100202: Sphere001
+    100204: T
+    100206: Tab
+    100208: //RootNode
+    100210: U
+    100212: V
+    100214: W
+    100216: win1
+    100218: X
+    100220: Y
+    100222: Z
+    400000: +
+    400002: 0
+    400004: 002
+    400006: 003
+    400008: 004
+    400010: 005
+    400012: 006
+    400014: 007
+    400016: 008
+    400018: 009
+    400020: 1
+    400022: '?'
+    400024: A
+    400026: alt
+    400028: alt2
+    400030: B
+    400032: Backspace
+    400034: C
+    400036: Caps
+    400038: copy
+    400040: ctrl
+    400042: ctrl2
+    400044: D
+    400046: del
+    400048: down
+    400050: E
+    400052: Enter
+    400054: Enternumpad
+    400056: Esc
+    400058: especial
+    400060: F
+    400062: F1
+    400064: F10
+    400066: F11
+    400068: F12
+    400070: F2
+    400072: F3
+    400074: F4
+    400076: F5
+    400078: F6
+    400080: F7
+    400082: F8
+    400084: F9
+    400086: Fila 2
+    400088: Fila 3
+    400090: Fila 4
+    400092: Fila 5
+    400094: fila 6
+    400096: fn
+    400098: funcion
+    400100: funcion 3,002
+    400102: funcion 3,003
+    400104: funcion 3,004
+    400106: funcion 3,005
+    400108: funcion 3,006
+    400110: funcion 3,007
+    400112: funcion 3,1
+    400114: funcion2
+    400116: funcion2,1
+    400118: funcion2,2
+    400120: funcion3
+    400122: funcion4
+    400124: funcion4,002
+    400126: funcion4,003
+    400128: funcion4,1
+    400130: funcion5,002
+    400132: funcion5,003
+    400134: funcion5,004
+    400136: funcion5,005
+    400138: funcion5,1
+    400140: G
+    400142: H
+    400144: home
+    400146: I
+    400148: J
+    400150: K
+    400152: L
+    400154: left
+    400156: M
+    400158: N
+    400160: numpad0
+    400162: numpad002
+    400164: numpad003
+    400166: numpad004
+    400168: numpad005
+    400170: numpad006
+    400172: numpad1
+    400174: numpad1 1
+    400176: numpad2
+    400178: numpad3
+    400180: numpad4
+    400182: O
+    400184: P
+    400186: Primera fila
+    400188: Q
+    400190: R
+    400192: right
+    400194: S
+    400196: Shift
+    400198: Shift 2
+    400200: space Bar
+    400202: Sphere001
+    400204: T
+    400206: Tab
+    400208: //RootNode
+    400210: U
+    400212: V
+    400214: W
+    400216: win1
+    400218: X
+    400220: Y
+    400222: Z
+    2300000: +
+    2300002: 0
+    2300004: 002
+    2300006: 003
+    2300008: 004
+    2300010: 005
+    2300012: 006
+    2300014: 007
+    2300016: 008
+    2300018: 009
+    2300020: 1
+    2300022: '?'
+    2300024: A
+    2300026: alt
+    2300028: alt2
+    2300030: B
+    2300032: Backspace
+    2300034: C
+    2300036: Caps
+    2300038: copy
+    2300040: ctrl
+    2300042: ctrl2
+    2300044: D
+    2300046: del
+    2300048: down
+    2300050: E
+    2300052: Enter
+    2300054: Enternumpad
+    2300056: Esc
+    2300058: especial
+    2300060: F
+    2300062: F1
+    2300064: F10
+    2300066: F11
+    2300068: F12
+    2300070: F2
+    2300072: F3
+    2300074: F4
+    2300076: F5
+    2300078: F6
+    2300080: F7
+    2300082: F8
+    2300084: F9
+    2300086: fn
+    2300088: funcion
+    2300090: funcion 3,002
+    2300092: funcion 3,003
+    2300094: funcion 3,004
+    2300096: funcion 3,005
+    2300098: funcion 3,006
+    2300100: funcion 3,007
+    2300102: funcion 3,1
+    2300104: funcion2
+    2300106: funcion2,1
+    2300108: funcion2,2
+    2300110: funcion3
+    2300112: funcion4
+    2300114: funcion4,002
+    2300116: funcion4,003
+    2300118: funcion4,1
+    2300120: funcion5,002
+    2300122: funcion5,003
+    2300124: funcion5,004
+    2300126: funcion5,005
+    2300128: funcion5,1
+    2300130: G
+    2300132: H
+    2300134: home
+    2300136: I
+    2300138: J
+    2300140: K
+    2300142: L
+    2300144: left
+    2300146: M
+    2300148: N
+    2300150: numpad0
+    2300152: numpad002
+    2300154: numpad003
+    2300156: numpad004
+    2300158: numpad005
+    2300160: numpad006
+    2300162: numpad1
+    2300164: numpad1 1
+    2300166: numpad2
+    2300168: numpad3
+    2300170: numpad4
+    2300172: O
+    2300174: P
+    2300176: Q
+    2300178: R
+    2300180: right
+    2300182: S
+    2300184: Shift
+    2300186: Shift 2
+    2300188: space Bar
+    2300190: Sphere001
+    2300192: T
+    2300194: Tab
+    2300196: U
+    2300198: V
+    2300200: W
+    2300202: win1
+    2300204: X
+    2300206: Y
+    2300208: Z
+    3300000: +
+    3300002: 0
+    3300004: 002
+    3300006: 003
+    3300008: 004
+    3300010: 005
+    3300012: 006
+    3300014: 007
+    3300016: 008
+    3300018: 009
+    3300020: 1
+    3300022: '?'
+    3300024: A
+    3300026: alt
+    3300028: alt2
+    3300030: B
+    3300032: Backspace
+    3300034: C
+    3300036: Caps
+    3300038: copy
+    3300040: ctrl
+    3300042: ctrl2
+    3300044: D
+    3300046: del
+    3300048: down
+    3300050: E
+    3300052: Enter
+    3300054: Enternumpad
+    3300056: Esc
+    3300058: especial
+    3300060: F
+    3300062: F1
+    3300064: F10
+    3300066: F11
+    3300068: F12
+    3300070: F2
+    3300072: F3
+    3300074: F4
+    3300076: F5
+    3300078: F6
+    3300080: F7
+    3300082: F8
+    3300084: F9
+    3300086: fn
+    3300088: funcion
+    3300090: funcion 3,002
+    3300092: funcion 3,003
+    3300094: funcion 3,004
+    3300096: funcion 3,005
+    3300098: funcion 3,006
+    3300100: funcion 3,007
+    3300102: funcion 3,1
+    3300104: funcion2
+    3300106: funcion2,1
+    3300108: funcion2,2
+    3300110: funcion3
+    3300112: funcion4
+    3300114: funcion4,002
+    3300116: funcion4,003
+    3300118: funcion4,1
+    3300120: funcion5,002
+    3300122: funcion5,003
+    3300124: funcion5,004
+    3300126: funcion5,005
+    3300128: funcion5,1
+    3300130: G
+    3300132: H
+    3300134: home
+    3300136: I
+    3300138: J
+    3300140: K
+    3300142: L
+    3300144: left
+    3300146: M
+    3300148: N
+    3300150: numpad0
+    3300152: numpad002
+    3300154: numpad003
+    3300156: numpad004
+    3300158: numpad005
+    3300160: numpad006
+    3300162: numpad1
+    3300164: numpad1 1
+    3300166: numpad2
+    3300168: numpad3
+    3300170: numpad4
+    3300172: O
+    3300174: P
+    3300176: Q
+    3300178: R
+    3300180: right
+    3300182: S
+    3300184: Shift
+    3300186: Shift 2
+    3300188: space Bar
+    3300190: Sphere001
+    3300192: T
+    3300194: Tab
+    3300196: U
+    3300198: V
+    3300200: W
+    3300202: win1
+    3300204: X
+    3300206: Y
+    3300208: Z
+    4300000: funcion2
+    4300002: F8
+    4300004: F6
+    4300006: F9
+    4300008: funcion3
+    4300010: F7
+    4300012: funcion4
+    4300014: F5
+    4300016: Esc
+    4300018: F12
+    4300020: F2
+    4300022: F1
+    4300024: F10
+    4300026: funcion
+    4300028: F11
+    4300030: F4
+    4300032: F3
+    4300034: Backspace
+    4300036: funcion2,2
+    4300038: funcion2,1
+    4300040: home
+    4300042: numpad1
+    4300044: numpad002
+    4300046: numpad003
+    4300048: 003
+    4300050: 008
+    4300052: 009
+    4300054: 004
+    4300056: 005
+    4300058: 002
+    4300060: 0
+    4300062: 006
+    4300064: 1
+    4300066: especial
+    4300068: 007
+    4300070: numpad004
+    4300072: funcion 3,004
+    4300074: funcion 3,005
+    4300076: funcion 3,006
+    4300078: funcion 3,007
+    4300080: funcion 3,003
+    4300082: Tab
+    4300084: W
+    4300086: Q
+    4300088: E
+    4300090: R
+    4300092: T
+    4300094: Y
+    4300096: U
+    4300098: I
+    4300100: O
+    4300102: P
+    4300104: funcion 3,1
+    4300106: funcion 3,002
+    4300108: +
+    4300110: Enter
+    4300112: J
+    4300114: H
+    4300116: D
+    4300118: funcion4,1
+    4300120: funcion4,002
+    4300122: numpad005
+    4300124: S
+    4300126: A
+    4300128: Caps
+    4300130: numpad4
+    4300132: G
+    4300134: L
+    4300136: K
+    4300138: funcion4,003
+    4300140: F
+    4300142: numpad006
+    4300144: Z
+    4300146: X
+    4300148: C
+    4300150: V
+    4300152: B
+    4300154: N
+    4300156: M
+    4300158: funcion5,1
+    4300160: funcion5,002
+    4300162: funcion5,003
+    4300164: funcion5,004
+    4300166: funcion5,005
+    4300168: numpad1
+    4300170: numpad2
+    4300172: numpad3
+    4300174: Shift 2
+    4300176: Enternumpad
+    4300178: Shift
+    4300180: fn
+    4300182: ctrl
+    4300184: win1
+    4300186: alt
+    4300188: alt2
+    4300190: copy
+    4300192: ctrl2
+    4300194: '?'
+    4300196: left
+    4300198: down
+    4300200: right
+    4300202: del
+    4300204: numpad0
+    4300206: space Bar
+    4300208: Sphere001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
