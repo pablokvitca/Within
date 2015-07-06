@@ -50,29 +50,67 @@ public class Lasers : MonoBehaviour {
 			}
 		} else {
 			this.GetComponent<LineRenderer>().enabled = false;
-			GameObject.Find("Receptor").SetActive(false);
-			//OPEN SLIDING BLOCKS CUBE
+			//TODO: ONLY RUN THIS SCRIPT IF LASER IS ACTIVE
+			//GameObject.Find("Receptor").SetActive(false);
+			Global.StaticGameObjectFinder("Receptor").SetActive(false);
+			OpenSlidingBlocks(); //Opens SlidingBlocks Cube
 		}
 	}
 
+	void OpenSlidingBlocks() {
+		//GameObject.Find ("SlidingBlocks").transform.localPosition = new Vector3 (3.7f, 1.15f, 5.0f);
+		GameObject.Find ("SlidingBlocks").GetComponent<Animator> ().SetBool ("openNow", true);
+	}
+
 	void ChangePosition(GameObject go) {
-		go.transform.position = ReceptorPossiblePositions[Random.Range(0, ReceptorPossiblePositions.Length - 1)].transform.position;
+		//go.transform.position = ReceptorPossiblePositions[Random.Range(0, ReceptorPossiblePositions.Length - 1)].transform.position;
+		NewPosition (go, this.gameObject);
 	}
 
 	Vector3 NewPosition(GameObject go, GameObject laser) {
 		//Get min & max positions for the receptor to be inside the room
 		//TODO: make it a little smaller.
-		Vector3 min = new Vector3 (GameObject.Find ("LeftWall" ).gameObject.transform.position.x, GameObject.Find ("Ceiling").gameObject.transform.position.y, GameObject.Find ("FrontWall").gameObject.transform.position.z);
-		Vector3 max = new Vector3 (GameObject.Find ("RightWall").gameObject.transform.position.x, GameObject.Find ("Floor"  ).gameObject.transform.position.y, GameObject.Find ("BackWall" ).gameObject.transform.position.z);
+		Debug.Log ("Left: "     +  GameObject.Find ( "LeftWall"  ).gameObject.transform.position.x +
+		           "; Right: "  +  GameObject.Find ( "RightWall" ).gameObject.transform.position.x +
+		           "; Top: "    +  GameObject.Find ( "Ceilling"  ).gameObject.transform.position.y +
+		           "; Floor: "  +  GameObject.Find (   "Floor"   ).gameObject.transform.position.y +
+		           "; Front: "  +  GameObject.Find ( "FrontWall" ).gameObject.transform.position.z +
+		           "; Back: "   +  GameObject.Find ( "BackWall"  ).gameObject.transform.position.z +
+		           ";");
+		Vector3 min = new Vector3 (GameObject.Find ( "LeftWall"  ).gameObject.transform.position.x, 
+		                           GameObject.Find ( "Ceilling"  ).gameObject.transform.position.y, 
+		                           GameObject.Find ( "FrontWall" ).gameObject.transform.position.z);
+		Vector3 max = new Vector3 (GameObject.Find ( "RightWall" ).gameObject.transform.position.x, 
+		                           GameObject.Find (   "Floor"   ).gameObject.transform.position.y, 
+		                           GameObject.Find ( "BackWall"  ).gameObject.transform.position.z);
+		//Creates RaycastHit object
 		RaycastHit hit;
+		//Places receptor in new random position inside min/max range
 		go.transform.position = new Vector3 (Random.Range (min.x, max.x), Random.Range (min.y, max.y), Random.Range (min.z, max.z));
-		GameObject newGO = new GameObject ().transform.LookAt (go.transform.position);
+		//Creates new empry gameobject looking at receptor
+		GameObject newGO = new GameObject ("newGO");
+		newGO.AddComponent<Transform> ();
+		newGO.transform.LookAt (go.transform.position);
+		//Takes that gameobject's rotation in eulerAngles
 		Vector3 dir = newGO.transform.rotation.eulerAngles;
+		//Repeats the process till it finds a possible position. Up to 50 times, then dies to one of the manually pre-defined positions
+		int dieCount = 50;
 		while (!Physics.Raycast(laser.transform.position, dir, out hit, Mathf.Infinity)) {
-			go.transform.position = new Vector3 (Random.Range (min.x, max.x), Random.Range (min.y, max.y), Random.Range (min.z, max.z));
-			newGO = new GameObject ().transform.LookAt (go.transform.position);
-			dir = newGO.transform.position;
+			if (dieCount <= 0) {
+				go.transform.position = new Vector3 (Random.Range (min.x, max.x), Random.Range (min.y, max.y), Random.Range (min.z, max.z));
+				newGO.transform.LookAt (go.transform.position);
+				dir = newGO.transform.position;
+			} else {
+				Debug.Log("Max try count reached. Died to pre-defined position.");
+				go.transform.position = ReceptorPossiblePositions[Random.Range(0, ReceptorPossiblePositions.Length - 1)].transform.position;
+				DestroyObject (newGO);
+				return dir;
+			}
+			dieCount--;
 		}
+		//Destroys the new empty gamoobject
+		DestroyObject (newGO);
+		//Returns the direction (this return is not currently being used)
 		return dir;
 	}
 

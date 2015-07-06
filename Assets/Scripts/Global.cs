@@ -21,6 +21,10 @@ public class Global : MonoBehaviour {
 
 	static public bool camMoving = false;
 
+	void Awake() {
+		DontDestroyOnLoad (GameObjectFinder ("ScriptGlobal"));
+	}
+
 	// Use this for initialization
 	void Start () {
 		FillUnitingMatrix ();
@@ -203,6 +207,12 @@ public class Global : MonoBehaviour {
 			i++;
 		}
 		return found;
+	}
+
+	public static GameObject StaticGameObjectFinder(string name) {
+		GameObject go = new GameObject ("unique");
+		go.AddComponent<Global> ();
+		return go.GetComponent<Global> ().GameObjectFinder (name);
 	}
 
 	public bool IsNear (Transform obj, Transform destiny, float nearFactor) {

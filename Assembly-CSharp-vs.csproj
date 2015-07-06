@@ -46,6 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scenes\SlidingBlocks\CrearBloques.cs" />
+     <Compile Include="Assets\Scenes\SlidingBlocks\MoveHorizontally.cs" />
+     <Compile Include="Assets\Scenes\SlidingBlocks\MoveVertically.cs" />
+     <Compile Include="Assets\Scenes\SlidingBlocks\Trigger.cs" />
      <Compile Include="Assets\Scripts\BackToMenu.cs" />
      <Compile Include="Assets\Scripts\BotonInventario.cs" />
      <Compile Include="Assets\Scripts\ClickControl.cs" />
@@ -64,6 +68,7 @@
      <Compile Include="Assets\Scripts\LoadCreditos.cs" />
      <Compile Include="Assets\Scripts\LoadInstrucciones.cs" />
      <Compile Include="Assets\Scripts\LoadJuego.cs" />
+     <Compile Include="Assets\Scripts\LoadSlidingBlocks.cs" />
      <Compile Include="Assets\Scripts\MovPersonaje.cs" />
      <Compile Include="Assets\Scripts\NumInt.cs" />
      <Compile Include="Assets\Scripts\OrbitZoom.cs" />
