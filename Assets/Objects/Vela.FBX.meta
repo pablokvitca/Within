@@ -37,6 +37,11 @@ ModelImporter:
     100058: Sphere006
     100060: Sphere007
     100062: Sphere008
+    100064: Plane001
+    100066: Sphere001
+    100068: Sphere002
+    100070: Sphere003
+    100072: Sphere009
     400000: Object001
     400002: //RootNode
     400004: Vela
@@ -69,6 +74,11 @@ ModelImporter:
     400058: Sphere006
     400060: Sphere007
     400062: Sphere008
+    400064: Plane001
+    400066: Sphere001
+    400068: Sphere002
+    400070: Sphere003
+    400072: Sphere009
     2300000: Object001
     2300002: Vela
     2300004: Line001
@@ -78,6 +88,11 @@ ModelImporter:
     2300012: Sphere006
     2300014: Sphere007
     2300016: Sphere008
+    2300018: Plane001
+    2300020: Sphere001
+    2300022: Sphere002
+    2300024: Sphere003
+    2300026: Sphere009
     3300000: Object001
     3300002: Vela
     3300004: Line001
@@ -87,6 +102,11 @@ ModelImporter:
     3300012: Sphere006
     3300014: Sphere007
     3300016: Sphere008
+    3300018: Plane001
+    3300020: Sphere001
+    3300022: Sphere002
+    3300024: Sphere003
+    3300026: Sphere009
     4300000: Vela
     4300002: Object001
     4300004: Line001
@@ -96,6 +116,11 @@ ModelImporter:
     4300012: Sphere006
     4300014: Sphere007
     4300016: Sphere008
+    4300018: Sphere001
+    4300020: Sphere002
+    4300022: Sphere003
+    4300024: Sphere009
+    4300026: Plane001
     7400000: Take 001
     9500000: //RootNode
   materials:
@@ -113,7 +138,113 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .986961901
+        functionName: AnimationFinished
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 42fd8d304ea534447a8f5c02b0661381,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Birth 001
+        weight: 1
+      - path: Birth 002
+        weight: 1
+      - path: Display 001
+        weight: 1
+      - path: Display 002
+        weight: 1
+      - path: Display 003
+        weight: 1
+      - path: Display 004
+        weight: 1
+      - path: Event 001
+        weight: 1
+      - path: Event 002
+        weight: 1
+      - path: Event 003
+        weight: 1
+      - path: Event 004
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      - path: Plane001
+        weight: 1
+      - path: Position Icon 001
+        weight: 1
+      - path: Position Icon 002
+        weight: 1
+      - path: Render 001
+        weight: 1
+      - path: Render 002
+        weight: 1
+      - path: Rotation 001
+        weight: 1
+      - path: Rotation 002
+        weight: 1
+      - path: Shape 001
+        weight: 1
+      - path: Shape 002
+        weight: 1
+      - path: Speed 001
+        weight: 1
+      - path: Speed 002
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Sphere001/Sphere002
+        weight: 1
+      - path: Sphere001/Sphere002/Sphere003
+        weight: 1
+      - path: Sphere001/Sphere002/Sphere003/Sphere004
+        weight: 1
+      - path: Sphere001/Sphere002/Sphere003/Sphere004/Sphere005
+        weight: 1
+      - path: Sphere001/Sphere002/Sphere003/Sphere004/Sphere005/Sphere006
+        weight: 1
+      - path: Sphere001/Sphere002/Sphere003/Sphere004/Sphere005/Sphere006/Sphere007
+        weight: 1
+      - path: Sphere001/Sphere002/Sphere003/Sphere004/Sphere005/Sphere006/Sphere007/Sphere008
+        weight: 1
+      - path: Sphere001/Sphere002/Sphere003/Sphere004/Sphere005/Sphere006/Sphere007/Sphere008/Sphere009
+        weight: 1
+      - path: Vela
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

@@ -60,6 +60,7 @@ public class Lasers : MonoBehaviour {
 	void OpenSlidingBlocks() {
 		//GameObject.Find ("SlidingBlocks").transform.localPosition = new Vector3 (3.7f, 1.15f, 5.0f);
 		GameObject.Find ("SlidingBlocks").GetComponent<Animator> ().SetBool ("openNow", true);
+		GameObject.Find ("SlidingBlocks").GetComponent<LoadSlidingBlocks>().active = true;
 	}
 
 	void ChangePosition(GameObject go) {
@@ -75,7 +76,7 @@ public class Lasers : MonoBehaviour {
 		           "; Top: "    +  GameObject.Find ( "Ceilling"  ).gameObject.transform.position.y +
 		           "; Floor: "  +  GameObject.Find (   "Floor"   ).gameObject.transform.position.y +
 		           "; Front: "  +  GameObject.Find ( "FrontWall" ).gameObject.transform.position.z +
-		           "; Back: "   +  GameObject.Find ( "BackWall"  ).gameObject.transform.position.z +
+		           "; Back: "   +  GameObject.Find ( "BackWall"  ).gameObject.transform.position.z + 
 		           ";");
 		Vector3 min = new Vector3 (GameObject.Find ( "LeftWall"  ).gameObject.transform.position.x, 
 		                           GameObject.Find ( "Ceilling"  ).gameObject.transform.position.y, 

@@ -6,16 +6,60 @@ public class Clicking : MonoBehaviour {
 	public GameObject objetoquevaalpresionarse;
 	public Vector3 Posiciondelobjetonuevo;
 
+	public float timerAnimation = 0;
+
+
+	//DEBUGGING ********************************
+	/* */ private Vector3 previousPosition; // *
+	//DEBUGGING ********************************
+
+
 	Global gl;
 
 	// Use this for initialization
 	void Start () {
 		gl = GameObject.Find ("ScriptGlobal").GetComponent<Global> ();
+		//DEBUGGING *******************************************************************
+		/* */ previousPosition = gl.GameObjectFinder("lasers").transform.position; // *
+		//DEBUGGING *******************************************************************
+	}
+
+	void AnimationFinished() {
+		GameObject.Find ("Llenado").SetActive(false);
+		gl.GameObjectFinder ("Llave").SetActive (true);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
+		/*timerAnimation = timerAnimation - Time.time;
+		if (timerAnimation <= 2.1f && timerAnimation >= 1.9f)
+			AnimationFinished ();*/
+		/*******************************************************************************************************************
+		/** ************************************************** DEBUGGING ***************************************************
+		/** if (previousPosition != gl.GameObjectFinder("lasers").transform.position)                                   //**
+		/**     Debug.Log("AHA!!! I FOUND YOU BUG! NOW YOU SHALL PERISH IN UNLIMITED AGONY! - laserss Positions");      //**
+		/** if(!gl.GameObjectFinder("lasers").activeSelf)                                                               //**
+		/**     Debug.Log("AHA!!! I FOUND YOU BUG! NOW YOU SHALL PERISH IN UNLIMITED AGONY! - lasers ActiveSelf");      //**
+		/** if(!gl.GameObjectFinder("lasers").activeInHierarchy)                                                        //**
+		/**     Debug.Log("AHA!!! I FOUND YOU BUG! NOW YOU SHALL PERISH IN UNLIMITED AGONY! - laserss Hierarchy");      //**
+		/** if(!gl.GameObjectFinder("Laser Azul").activeSelf)                                                           //**
+		/**     Debug.Log("AHA!!! I FOUND YOU BUG! NOW YOU SHALL PERISH IN UNLIMITED AGONY! - laserrr Azul Self");      //**
+		/** if(!gl.GameObjectFinder("Laser Azul").activeInHierarchy)                                                    //**
+		/**     Debug.Log("AHA!!! I FOUND YOU BUG! NOW YOU SHALL PERISH IN UNLIMITED AGONY! - laserrr Azul Hier");      //**
+		/** if(!gl.GameObjectFinder("Laser Rojo").activeSelf)                                                           //**
+		/**     Debug.Log("AHA!!! I FOUND YOU BUG! NOW YOU SHALL PERISH IN UNLIMITED AGONY! - laserrr Rojo Self");      //**
+		/** if(!gl.GameObjectFinder("Laser Rojo").activeInHierarchy)                                                    //**
+		/**     Debug.Log("AHA!!! I FOUND YOU BUG! NOW YOU SHALL PERISH IN UNLIMITED AGONY! - laserrr Rojo Hier");      //**
+		/** if(!gl.GameObjectFinder("Laser Verde").activeSelf)                                                          //**
+		/**     Debug.Log("AHA!!! I FOUND YOU BUG! NOW YOU SHALL PERISH IN UNLIMITED AGONY! - laserrr Verd Self");      //**
+		/** if(!gl.GameObjectFinder("Laser Verde").activeInHierarchy)                                                   //**
+		/**     Debug.Log("AHA!!! I FOUND YOU BUG! NOW YOU SHALL PERISH IN UNLIMITED AGONY! - laserrr Verd Hier");      //**
+		/** if(!gl.GameObjectFinder("Laser").activeSelf)                                                                //**
+		/**     Debug.Log("AHA!!! I FOUND YOU BUG! NOW YOU SHALL PERISH IN UNLIMITED AGONY! - laserrr Cast Self");      //**
+		/** if(!gl.GameObjectFinder("Laser").activeInHierarchy)                                                         //**
+		/**     Debug.Log("AHA!!! I FOUND YOU BUG! NOW YOU SHALL PERISH IN UNLIMITED AGONY! - laserrr Cast Hier");      //**
+		/** ************************************************** DEBUGGING *************************************************** 
+		*******************************************************************************************************************/
 	}
 
 	void OnMouseDown(){
@@ -25,7 +69,7 @@ public class Clicking : MonoBehaviour {
 
 		switch (this.name) {
 			case "Placa":
-				if (invs.IsInInventory ("Llave")) {
+				if (invs.IsInInventory ("Llave") && sglob.Selected == "Llave") {
 					GameObject key = gl.GameObjectFinder ("Llave");
 					GameObject newPos = gl.GameObjectFinder ("KeyHolder");
 					key.transform.parent = newPos.transform.parent;
@@ -36,36 +80,50 @@ public class Clicking : MonoBehaviour {
 					sglob.Selected = "Llave";
 					objetoquevaalpresionarse = gl.GameObjectFinder("Llave");
 				} else {
-					Debug.Log ("You need a key");
+					Debug.Log ("You need a key to open this.");
 				}
 			break;
 			case "LlaveHole":
-				if (invs.IsInInventory ("Vela prendida")) {
+				if (invs.IsInInventory ("Vela prendida") && sglob.Selected == "Vela prendida") {
 					gl.GameObjectFinder ("Llave").SetActive (true);
 					sglob.Selected = "Vela prendida";
 					objetoquevaalpresionarse = gl.GameObjectFinder("Vela prendida");
 					GameObject vp = gl.GameObjectFinder("Vela prendida");
 					vp.SetActive(true);
+					vp.GetComponent<Clicked>().enabled = false;
 					//sglob.SacardelInventario(vp.name);
 					//sglob.desobjeto(vp.name);
 					//vp.transform.position = Posiciondelobjetonuevo;
 					Debug.Log(vp.transform.position.ToString() + "0333");
+					//vp.transform.GetChild(0).gameObject.SetActive(true); //Este es el plano de llenado ("LLenado"). DEJAR SIEMPRE EN INDEX 0 !important
 					vp.GetComponent<Animator>().SetBool("openNow", true);
-					//Esconder vela dsp de animacion
+					Debug.Log("aiofhasfhasuioh " + vp.GetComponent<Animator>().GetBool("openNow").ToString());
+					timerAnimation = Time.time;
+					vp.transform.position = GameObject.Find("VelaPrendidaHolder").transform.position;
+					vp.transform.rotation = GameObject.Find("VelaPrendidaHolder").transform.rotation;
+					vp.transform.localScale = GameObject.Find("VelaPrendidaHolder").transform.localScale;
 				} else {
-					Debug.Log ("You need a fire & wax");
+					Debug.Log ("You need a fire and some wax.");
 				}
 			break;
-		case "Cabeza": //ACA HAY QUE HACER QUE APAREZCAN LOS LASERS EN EL PORTALASERS
-			if (invs.IsInInventory ("lasers juntos")) {
+		case "Cabeza":
+			//Debug.Log(invs.IsInInventory ("lasers juntos").ToString() + "; " + sglob.Selected + ";");
+			Debug.Log("Lasers position before activating: " + gl.GameObjectFinder("lasers").transform.position.ToString());
+			if (invs.IsInInventory ("lasers juntos") && sglob.Selected == "lasers juntos") {
 				gl.GameObjectFinder ("lasers").SetActive (true);
 				sglob.Selected = "lasers juntos";
-				objetoquevaalpresionarse = gl.GameObjectFinder("lasers");
+				objetoquevaalpresionarse = gl.GameObjectFinder("lasers juntos");
 				GameObject ls = gl.GameObjectFinder("lasers");
 				ls.SetActive(true);
-				Debug.Log(ls.transform.position.ToString() + "0352");
+				Posiciondelobjetonuevo = ls.transform.localPosition;
+				gl.GameObjectFinder("lasers").SetActive(true); //PORQUE NO ANDASSSSSSS??????
+				/*while (!ls.activeSelf)
+					ls.SetActive(true);*/
+				//Debug.Log("Next laser position: " + Posiciondelobjetonuevo.ToString() + "; Supposed: " + ls.transform.localPosition.ToString() + ";");
+				//Debug.Log(ls.transform.position.ToString() + "0352");
+				Debug.Log("Lasers position after activating: " + gl.GameObjectFinder("lasers").transform.position.ToString());
 			} else {
-				Debug.Log ("You need a fire & wax");
+				Debug.Log ("You need the lasers.");
 			}
 			break;
 		}
@@ -81,7 +139,9 @@ public class Clicking : MonoBehaviour {
 				sglob.Selected=""; 
 				Clicked sc = objetoquevaalpresionarse.GetComponent<Clicked>();
 				sc.visible=true;
-			} catch {}
+			} catch {
+				//?
+			}
 		} 
 	}
 	

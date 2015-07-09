@@ -23,6 +23,8 @@ public class ClickControl : MonoBehaviour {
 		ins = this.GetComponent<InventorySystem> ();
 		zio = this.GetComponent<ZoomInOut> ();
 		dt = this.GetComponent<DragTurn> ();
+		if (go == null)
+			go = this.gameObject;
 	}
 	
 	// Update is called once per frame

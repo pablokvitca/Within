@@ -24,10 +24,30 @@ public class ZoomInOut : MonoBehaviour {
 		glo = GameObject.Find("ScriptGlobal").GetComponent<Global>();
 		Global.camMoving = moving;
 		destHolder = cameraHolder.transform;
+		Cursor.SetCursor(glo.cursorTexture, glo.hotSpot, glo.cursorMode);
 	}
 
-	public void Zoom(GameObject dclicked)
-	{
+	//TODO: Ver que paso con la animacion de la vela !important 1
+	//TODO: Agrandar habitacion important 0
+	//TODO: Animar Flechitas !important 0.75 (si no funciona usar Transform.RotateAround)
+	//TODO: Poner textura correcta manija puerta !important 0.25
+	//TODO: Poner llave cuando termina la animacion, y sacar el planito !important 0.75
+	//TODO: Cambiar caja por sprite posta !important 0.5
+	//TODO: Poner caja roja en inv al volver
+
+	void OnMouseOver() {
+		Cursor.SetCursor(glo.cursorTextureLupa, glo.hotSpot, glo.cursorMode);
+	}
+
+	void OnMouseEnter() {
+		Cursor.SetCursor(glo.cursorTextureLupa, glo.hotSpot, glo.cursorMode);
+	}
+
+	void OnMouseExit() {
+		Cursor.SetCursor(glo.cursorTexture, glo.hotSpot, glo.cursorMode);
+	}
+
+	public void Zoom(GameObject dclicked) {
 		if (moving) {
 			if (!glo.IsNear (Camera.main.transform, cameraHolder.transform, near)) {
 				Debug.Log (dclicked.ToString () + "was LEFT Double Clicked!");

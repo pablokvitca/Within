@@ -1,13 +1,13 @@
 fileFormatVersion: 2
 guid: e565f890affa8b24b88e8a91246c5c80
-timeCreated: 1435450970
+timeCreated: 1436367786
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: Arc001
-    100002: Base que gira
-    100004: Box001
+    100000: Base que gira
+    100002: Box001
+    100004: Box002
     100006: Coso donde van los lasers
     100008: Cylinder001
     100010: Cylinder003
@@ -17,9 +17,9 @@ ModelImporter:
     100018: Cylinder011
     100020: Cylinder012
     100022: //RootNode
-    400000: Arc001
-    400002: Base que gira
-    400004: Box001
+    400000: Base que gira
+    400002: Box001
+    400004: Box002
     400006: Coso donde van los lasers
     400008: Cylinder001
     400010: Cylinder003
@@ -31,35 +31,37 @@ ModelImporter:
     400022: //RootNode
     2300000: Base que gira
     2300002: Box001
-    2300004: Coso donde van los lasers
-    2300006: Cylinder001
-    2300008: Cylinder003
-    2300010: Cylinder004
-    2300012: Cylinder009
-    2300014: Cylinder010
-    2300016: Cylinder011
-    2300018: Cylinder012
+    2300004: Box002
+    2300006: Coso donde van los lasers
+    2300008: Cylinder001
+    2300010: Cylinder003
+    2300012: Cylinder004
+    2300014: Cylinder009
+    2300016: Cylinder010
+    2300018: Cylinder011
+    2300020: Cylinder012
     3300000: Base que gira
     3300002: Box001
-    3300004: Coso donde van los lasers
-    3300006: Cylinder001
-    3300008: Cylinder003
-    3300010: Cylinder004
-    3300012: Cylinder009
-    3300014: Cylinder010
-    3300016: Cylinder011
-    3300018: Cylinder012
+    3300004: Box002
+    3300006: Coso donde van los lasers
+    3300008: Cylinder001
+    3300010: Cylinder003
+    3300012: Cylinder004
+    3300014: Cylinder009
+    3300016: Cylinder010
+    3300018: Cylinder011
+    3300020: Cylinder012
     4300000: Base que gira
     4300002: Cylinder009
     4300004: Cylinder001
     4300006: Coso donde van los lasers
-    4300008: Box001
-    4300010: Cylinder003
-    4300012: Cylinder004
-    4300014: Cylinder010
-    4300016: Cylinder011
-    4300018: Cylinder012
-    7400000: Take 001
+    4300008: Cylinder012
+    4300010: Cylinder011
+    4300012: Cylinder010
+    4300014: Box001
+    4300016: Cylinder003
+    4300018: Cylinder004
+    4300020: Box002
     9500000: //RootNode
   materials:
     importMaterials: 1

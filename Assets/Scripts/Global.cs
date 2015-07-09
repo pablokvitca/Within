@@ -19,10 +19,25 @@ public class Global : MonoBehaviour {
 
 	public bool[] stateHolders;
 
-	static public bool camMoving = false;
+	public static bool camMoving = false;
+
+	public static GameObject progress;
+
+
+
+	public Texture2D cursorTextureLupa;
+	public Texture2D cursorTexture;
+	public CursorMode cursorMode = CursorMode.Auto;
+	public Vector2 hotSpot = Vector2.zero;
 
 	void Awake() {
-		DontDestroyOnLoad (GameObjectFinder ("ScriptGlobal"));
+		//DontDestroyOnLoad (GameObjectFinder ("ScriptGlobal"));
+		/*if (progress != null) {
+			Destroy(GameObject.Find("ScriptGlobal"));
+			progress.name = "ScriptGlobal";
+			Debug.Log("Progress loaded.");
+		}*/
+
 	}
 
 	// Use this for initialization
@@ -82,22 +97,18 @@ public class Global : MonoBehaviour {
 			Debug.Log(objeto.name + "2111");
 			if(nowOrbitingName != "")
 				GameObjectFinder(nowOrbitingName).SetActive(false);
-			if (objeto.name == "Vela" || objeto.name == "Vela prendida" || objeto.name == "LlaveHole") {
-				Debug.Log ("Este objeto no se puede orbitar. Lo sentimos.");
-			} else {
-				nowOrbitingName = "";
-				nowOrbitingName = objeto.name;
-				objeto.gameObject.SetActive (true);
-				GameObject cam = GameObject.Find ("CamaraOrbit");
-				Camera camara = cam.GetComponent<Camera> ();
-				camara.GetComponent<Camera> ().depth = 5;
-				GameObject o = GameObject.Find ("Orbiting");
-				Debug.Log(objeto.transform.position.ToString());
-				Debug.Log(o.transform.position.ToString());
-				objeto.transform.position = o.transform.position;
-				//objeto.GetComponent<Renderer>().enabled=true;
-				Debug.Log (objeto.gameObject.transform.position.ToString() + "2058");
-			}
+			nowOrbitingName = "";
+			nowOrbitingName = objeto.name;
+			objeto.gameObject.SetActive (true);
+			GameObject cam = GameObject.Find ("CamaraOrbit");
+			Camera camara = cam.GetComponent<Camera> ();
+			camara.GetComponent<Camera> ().depth = 5;
+			GameObject o = GameObject.Find ("Orbiting");
+			Debug.Log(objeto.transform.position.ToString());
+			Debug.Log(o.transform.position.ToString());
+			objeto.transform.position = o.transform.position;
+			//objeto.GetComponent<Renderer>().enabled=true;
+			Debug.Log (objeto.gameObject.transform.position.ToString() + "2058");
 		}
 		if (Combinar) {
 			if (contarobj==1) {

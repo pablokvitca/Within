@@ -35,6 +35,8 @@ public class Clicked : MonoBehaviour {
 			try {
 				GameObject go = GameObject.Find (sg.nowOrbitingName);
 				go.GetComponent<RotacionObjetos> ().enabled = true;
+				//if (sg.nowOrbitingName == "Vela prendida")
+				//	sg.GameObjectFinder("Vela prendida").transform.FindChild("Llenado").gameObject.SetActive(false);
 				if (Input.GetMouseButton (1)) {
 					sg.Orbit = false;
 					//this.GetComponent<Renderer>().enabled=false;
@@ -43,6 +45,8 @@ public class Clicked : MonoBehaviour {
 					//.gameObject.SetActive(false);
 					c.GetComponent<Camera> ().depth = -2;
 					go.GetComponent<RotacionObjetos> ().enabled = false;
+					//if (sg.nowOrbitingName == "Vela prendida")
+					//	sg.GameObjectFinder("Vela prendida").transform.FindChild("Llenado").gameObject.SetActive(true);
 				}
 			} catch {
 			}

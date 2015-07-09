@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{05FDFF7D-F008-45FB-7A7B-5C6DB01AE643}</ProjectGuid>
+	<ProjectGuid>{153B148D-80B4-0357-2208-D153CF638E79}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\Clicked.cs" />
      <Compile Include="Assets\Scripts\Clicking.cs" />
      <Compile Include="Assets\Scripts\Combinar.cs" />
+     <Compile Include="Assets\Scripts\CreepyEyeFollow.cs" />
      <Compile Include="Assets\Scripts\DragTurn.cs" />
      <Compile Include="Assets\Scripts\FollowMouse.cs" />
      <Compile Include="Assets\Scripts\GeneralThings.cs" />

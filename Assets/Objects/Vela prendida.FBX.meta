@@ -32,6 +32,18 @@ ModelImporter:
     100048: Shape 002
     100050: Speed 001
     100052: Speed 002
+    100054: Plane001
+    100056: Sphere001
+    100058: Sphere002
+    100060: Sphere003
+    100062: Sphere004
+    100064: Sphere005
+    100066: Sphere006
+    100068: Sphere007
+    100070: Sphere008
+    100072: Sphere009
+    100074: Llenado
+    100076: VelaCera
     400000: Object001
     400002: Vela
     400004: //RootNode
@@ -59,18 +71,66 @@ ModelImporter:
     400048: Shape 002
     400050: Speed 001
     400052: Speed 002
+    400054: Plane001
+    400056: Sphere001
+    400058: Sphere002
+    400060: Sphere003
+    400062: Sphere004
+    400064: Sphere005
+    400066: Sphere006
+    400068: Sphere007
+    400070: Sphere008
+    400072: Sphere009
+    400074: Llenado
+    400076: VelaCera
     2300000: Object001
     2300002: Vela
     2300004: Line001
     2300006: Line002
+    2300008: Plane001
+    2300010: Sphere001
+    2300012: Sphere002
+    2300014: Sphere003
+    2300016: Sphere004
+    2300018: Sphere005
+    2300020: Sphere006
+    2300022: Sphere007
+    2300024: Sphere008
+    2300026: Sphere009
+    2300028: Llenado
+    2300030: VelaCera
     3300000: Object001
     3300002: Vela
     3300004: Line001
     3300006: Line002
+    3300008: Plane001
+    3300010: Sphere001
+    3300012: Sphere002
+    3300014: Sphere003
+    3300016: Sphere004
+    3300018: Sphere005
+    3300020: Sphere006
+    3300022: Sphere007
+    3300024: Sphere008
+    3300026: Sphere009
+    3300028: Llenado
+    3300030: VelaCera
     4300000: Vela
     4300002: Object001
     4300004: Line001
     4300006: Line002
+    4300008: Sphere001
+    4300010: Sphere002
+    4300012: Sphere003
+    4300014: Sphere004
+    4300016: Sphere005
+    4300018: Sphere006
+    4300020: Sphere007
+    4300022: Sphere008
+    4300024: Sphere009
+    4300026: Plane001
+    4300028: VelaCera
+    4300030: Llenado
     7400000: Take 001
     9500000: //RootNode
   materials:
@@ -88,7 +148,87 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Birth 001
+        weight: 1
+      - path: Birth 002
+        weight: 1
+      - path: Blizzard001
+        weight: 1
+      - path: Display 001
+        weight: 1
+      - path: Display 002
+        weight: 1
+      - path: Display 003
+        weight: 1
+      - path: Display 004
+        weight: 1
+      - path: Event 001
+        weight: 1
+      - path: Event 002
+        weight: 1
+      - path: Event 003
+        weight: 1
+      - path: Event 004
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      - path: Position Icon 001
+        weight: 1
+      - path: Position Icon 002
+        weight: 1
+      - path: Render 001
+        weight: 1
+      - path: Render 002
+        weight: 1
+      - path: Rotation 001
+        weight: 1
+      - path: Rotation 002
+        weight: 1
+      - path: Shape 001
+        weight: 1
+      - path: Shape 002
+        weight: 1
+      - path: Speed 001
+        weight: 1
+      - path: Speed 002
+        weight: 1
+      - path: Vela
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
