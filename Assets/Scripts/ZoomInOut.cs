@@ -36,15 +36,21 @@ public class ZoomInOut : MonoBehaviour {
 	//TODO: Poner caja roja en inv al volver
 
 	void OnMouseOver() {
-		Cursor.SetCursor(glo.cursorTextureLupa, glo.hotSpot, glo.cursorMode);
+		try {
+			Cursor.SetCursor(glo.cursorTextureLupa, glo.hotSpot, glo.cursorMode);
+		} catch {}
 	}
 
 	void OnMouseEnter() {
-		Cursor.SetCursor(glo.cursorTextureLupa, glo.hotSpot, glo.cursorMode);
+		try {
+			Cursor.SetCursor(glo.cursorTextureLupa, glo.hotSpot, glo.cursorMode);
+		} catch {}
 	}
 
 	void OnMouseExit() {
-		Cursor.SetCursor(glo.cursorTexture, glo.hotSpot, glo.cursorMode);
+		try {
+			Cursor.SetCursor(glo.cursorTexture, glo.hotSpot, glo.cursorMode);
+		} catch {}
 	}
 
 	public void Zoom(GameObject dclicked) {

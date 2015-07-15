@@ -223,7 +223,12 @@ public class Global : MonoBehaviour {
 	public static GameObject StaticGameObjectFinder(string name) {
 		GameObject go = new GameObject ("unique");
 		go.AddComponent<Global> ();
-		return go.GetComponent<Global> ().GameObjectFinder (name);
+		GameObject goR = go.GetComponent<Global> ().GameObjectFinder (name);
+		Destroy (go);
+		try {
+			Destroy(GameObject.Find("unique"));
+		} catch {}
+		return goR;
 	}
 
 	public bool IsNear (Transform obj, Transform destiny, float nearFactor) {

@@ -14,10 +14,12 @@ public class Trigger : MonoBehaviour {
 		*/
 
 		if (entra.tag == "TablaPeriodica") {
-			Debug.Log ("Ganaste, sos re crack");
+			Debug.Log ("Ganaste, sos re crack!");
 			try {
 				Destroy(GameObject.Find("SBManager"));
 				Debug.Log("Sucess in destroying SBManager :)");
+				Global.StaticGameObjectFinder("cajitaRojaSB").SetActive(true);
+				GameObject.Find("cajitaRojaSB").GetComponent<ClickControl>().ExternalCodeClick("up");
 			} catch {
 				Debug.Log("SH*T! I F*CK*NG HATE UNITY");
 			}

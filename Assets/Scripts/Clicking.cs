@@ -14,6 +14,9 @@ public class Clicking : MonoBehaviour {
 	//DEBUGGING ********************************
 
 
+	float timer = -10.0f;
+	public const float animDuration = 3.05f; //0.5f; //TODO: <--
+
 	Global gl;
 
 	// Use this for initialization
@@ -31,6 +34,25 @@ public class Clicking : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		/*if (timer != -10.0f && Time.time - timer <= animDuration) {
+			Debug.Log ("Animacion termino, duro " + animDuration.ToString () + "segundo/s");
+			timer = -10.0f;
+			Global.StaticGameObjectFinder("Vela prendida").transform.GetChild(0).gameObject.SetActive(false); //Llenado debe estar en index 0 !important
+			gl.GameObjectFinder ("Llave").SetActive (true); //TODO: <--
+			Debug.Log("hey, it worked!");
+		}*/
+		Animator an = Global.StaticGameObjectFinder ("Vela prendida").GetComponent<Animator> ();
+		if (an.recorderStartTime != -1 && timer != -10) {
+			if (Time.time - timer >= animDuration) {
+				Debug.Log ("Animacion termino, duro " + animDuration.ToString () + "segundo/s");
+				timer = -10.0f;
+				Global.StaticGameObjectFinder ("Vela prendida").transform.GetChild (0).gameObject.SetActive (false); //Llenado debe estar en index 0 !important
+				gl.GameObjectFinder ("Llave").SetActive (true); //TODO: <--
+				Debug.Log ("hey, it worked!");
+				Global.StaticGameObjectFinder ("Vela prendida").GetComponent<Animator> ().StopRecording();
+				Global.StaticGameObjectFinder ("Vela prendida").GetComponent<Clicked>().enabled = false;
+			}
+		}
 		/*timerAnimation = timerAnimation - Time.time;
 		if (timerAnimation <= 2.1f && timerAnimation >= 1.9f)
 			AnimationFinished ();*/
@@ -85,7 +107,7 @@ public class Clicking : MonoBehaviour {
 			break;
 			case "LlaveHole":
 				if (invs.IsInInventory ("Vela prendida") && sglob.Selected == "Vela prendida") {
-					gl.GameObjectFinder ("Llave").SetActive (true);
+					//gl.GameObjectFinder ("Llave").SetActive (true); //TODO: <--
 					sglob.Selected = "Vela prendida";
 					objetoquevaalpresionarse = gl.GameObjectFinder("Vela prendida");
 					GameObject vp = gl.GameObjectFinder("Vela prendida");
@@ -99,6 +121,11 @@ public class Clicking : MonoBehaviour {
 					vp.GetComponent<Animator>().SetBool("openNow", true);
 					Debug.Log("aiofhasfhasuioh " + vp.GetComponent<Animator>().GetBool("openNow").ToString());
 					timerAnimation = Time.time;
+					//UNITY ANIMATION ENDER
+					//Debug.Log ("unity sucks " + vp.GetComponent<Animator>().playbackTime.ToString()); //TODO: <--
+					timer = Time.time; //TODO: <--
+					vp.GetComponent<Animator>().StartRecording(0);
+					//UNITY ANIMATION ENDER
 					vp.transform.position = GameObject.Find("VelaPrendidaHolder").transform.position;
 					vp.transform.rotation = GameObject.Find("VelaPrendidaHolder").transform.rotation;
 					vp.transform.localScale = GameObject.Find("VelaPrendidaHolder").transform.localScale;

@@ -22,7 +22,7 @@ public class FollowMouse : MonoBehaviour {
 		float x = Input.mousePosition.x;
 		float y = Input.mousePosition.y;
 		if (y < Screen.height / 6 || x > Screen.width / 8 * 7 || y > Screen.height / 6 * 5 || (x < Screen.width / 8 && x > Screen.width / 100 * 8)) {
-			if (y  > Screen.height / 100 * 12 && x > Screen.width / 100 * 8) {
+			if (y  > Screen.height / 100 * 10) {
 				Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 				RaycastHit RayHit;
 				if (Physics.Raycast(ray, out RayHit)) {

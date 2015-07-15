@@ -54,6 +54,13 @@ public class ClickControl : MonoBehaviour {
 		}
 	}
 
+	public void ExternalCodeClick(string when) {
+		if (when == "up")
+			OnMouseUp ();
+		else if (when == "down")
+			OnMouseDown ();
+	}
+
 	void OnMouseUp() {
 		bool rot = false;
 		try {
