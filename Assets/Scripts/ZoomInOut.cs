@@ -27,13 +27,9 @@ public class ZoomInOut : MonoBehaviour {
 		Cursor.SetCursor(glo.cursorTexture, glo.hotSpot, glo.cursorMode);
 	}
 
-	//TODO: Ver que paso con la animacion de la vela !important 1
 	//TODO: Agrandar habitacion important 0
 	//TODO: Animar Flechitas !important 0.75 (si no funciona usar Transform.RotateAround)
-	//TODO: Poner textura correcta manija puerta !important 0.25
-	//TODO: Poner llave cuando termina la animacion, y sacar el planito !important 0.75
-	//TODO: Cambiar caja por sprite posta !important 0.5
-	//TODO: Poner caja roja en inv al volver
+	//TODO: Poner caja roja en inv al volver DEJO DE ANDAR :'(
 
 	void OnMouseOver() {
 		try {

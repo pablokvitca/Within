@@ -35,6 +35,8 @@ public class Clicked : MonoBehaviour {
 			try {
 				GameObject go = GameObject.Find (sg.nowOrbitingName);
 				go.GetComponent<RotacionObjetos> ().enabled = true;
+				if (sg.nowOrbitingName == "cajitaRojaSB")
+					GameObject.Find(sg.nowOrbitingName).GetComponent<PlayAnimations>().enabled = true;
 				//if (sg.nowOrbitingName == "Vela prendida")
 				//	sg.GameObjectFinder("Vela prendida").transform.FindChild("Llenado").gameObject.SetActive(false);
 				if (Input.GetMouseButton (1)) {

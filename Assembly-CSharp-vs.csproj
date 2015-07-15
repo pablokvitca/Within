@@ -52,12 +52,16 @@
      <Compile Include="Assets\Scenes\SlidingBlocks\Trigger.cs" />
      <Compile Include="Assets\Scripts\BackToMenu.cs" />
      <Compile Include="Assets\Scripts\BotonInventario.cs" />
+     <Compile Include="Assets\Scripts\Clck.cs" />
      <Compile Include="Assets\Scripts\ClickControl.cs" />
      <Compile Include="Assets\Scripts\Clicked.cs" />
+     <Compile Include="Assets\Scripts\ClickedLeft.cs" />
+     <Compile Include="Assets\Scripts\ClickedRight.cs" />
      <Compile Include="Assets\Scripts\Clicking.cs" />
      <Compile Include="Assets\Scripts\Combinar.cs" />
      <Compile Include="Assets\Scripts\CreepyEyeFollow.cs" />
      <Compile Include="Assets\Scripts\DragTurn.cs" />
+     <Compile Include="Assets\Scripts\Fading.cs" />
      <Compile Include="Assets\Scripts\FollowMouse.cs" />
      <Compile Include="Assets\Scripts\GeneralThings.cs" />
      <Compile Include="Assets\Scripts\Global.cs" />
@@ -69,15 +73,18 @@
      <Compile Include="Assets\Scripts\LoadCreditos.cs" />
      <Compile Include="Assets\Scripts\LoadInstrucciones.cs" />
      <Compile Include="Assets\Scripts\LoadJuego.cs" />
+     <Compile Include="Assets\Scripts\LoadLevel.cs" />
      <Compile Include="Assets\Scripts\LoadSlidingBlocks.cs" />
      <Compile Include="Assets\Scripts\MovPersonaje.cs" />
      <Compile Include="Assets\Scripts\NumInt.cs" />
      <Compile Include="Assets\Scripts\OrbitZoom.cs" />
      <Compile Include="Assets\Scripts\PlayAnimations.cs" />
      <Compile Include="Assets\Scripts\RotacionObjetos.cs" />
+     <Compile Include="Assets\Scripts\Rotato.cs" />
      <Compile Include="Assets\Scripts\ZoomInOnDoubleClick.cs" />
      <Compile Include="Assets\Scripts\ZoomInOut.cs" />
      <Compile Include="Assets\Scripts\btnLaserBehaviour.cs" />
+     <Compile Include="Assets\Scripts\itemsMenu.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
