@@ -4,8 +4,8 @@ using System.Collections;
 public class itemsMenu : MonoBehaviour {
 
 	//For Animation
-	public float max = 2.0f;
-	public float speed = 2.0f;
+	public float max = 20.0f;
+	public const float speed = 2.0f;
 	private Vector3 starting;
 	private bool goingUp = true;
 
@@ -22,9 +22,9 @@ public class itemsMenu : MonoBehaviour {
 
 	void AnimateItem() {
 		if (goingUp)
-			this.transform.position += new Vector3(0, speed, 0);
+			this.transform.position += new Vector3(0, speed * Time.deltaTime, 0);
 		else
-			this.transform.position -= new Vector3(0, speed, 0);
+			this.transform.position -= new Vector3(0, speed * Time.deltaTime, 0);
 		if (this.transform.position.y - starting.y >= max)
 			goingUp = false;
 		if (this.transform.position.y - starting.y < 0)

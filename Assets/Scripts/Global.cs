@@ -15,7 +15,7 @@ public class Global : MonoBehaviour {
 
 	public Vector3 posicioncubo = new Vector3 (-4.44f, 0.0f, -4.44f);
 
-	public string[,] unitingMatrix = new string[3,3];
+	public string[,] unitingMatrix = new string[3,4];
 
 	public bool[] stateHolders;
 
@@ -55,6 +55,9 @@ public class Global : MonoBehaviour {
 		unitingMatrix[0,2] = "Vela prendida";
 		unitingMatrix[1,2] = "LlaveHole";
 		unitingMatrix[2,2] = "Llave";
+		unitingMatrix[0,3] = "Libro";
+		unitingMatrix[1,3] = "llave libro";
+		unitingMatrix[2,3] = "LibroLlave";
 	}
 
 	// Update is called once per frame
@@ -83,7 +86,7 @@ public class Global : MonoBehaviour {
 	public string Unite(string A, string B) {
 		string res="";
 		FillUnitingMatrix ();
-		for (int i = 0; i < unitingMatrix.GetLength(0); i++) {
+		for (int i = 0; i < unitingMatrix.GetLength(1); i++) {
 			if ((unitingMatrix[0, i] == A && unitingMatrix[1,i] == B) || (unitingMatrix[0, i] == B && unitingMatrix[1,i] == A))
 				res= unitingMatrix[2,i];
 		}

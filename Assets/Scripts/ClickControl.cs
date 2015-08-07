@@ -35,23 +35,27 @@ public class ClickControl : MonoBehaviour {
 
 		//Single clicking
 		if (doubleClickStart != -1 && Time.time - doubleClickStart > 0.5f && doubleClickHelper) {
-			//Single click code HERE!
-			if (go.tag == "Animated" || go.tag == "caja partes") {
-				try {
-					pa.RunAnimation(go);
-				} catch {
-					Debug.Log("This object (" + this.ToString() + ") is not animated into.");
-				}
-			} else {
-				try {
-					ins.ManageInventory(go);
-				} catch {
-					Debug.Log("This object (" + this.ToString() + ") cannot be inventored into.");
-				}
-			}
-			doubleClickStart = -1;
-			Debug.Log ("Single click!");
+			OnSingleClick();
 		}
+	}
+
+	void OnSingleClick() {
+		//Single click code HERE!
+		if (go.tag == "Animated" || go.tag == "caja partes") {
+			try {
+				pa.RunAnimation(go);
+			} catch {
+				Debug.Log("This object (" + this.ToString() + ") is not animated into.");
+			}
+		} //else { //TODO: <--
+			try {
+				ins.ManageInventory(go);
+			} catch {
+				Debug.Log("This object (" + this.ToString() + ") cannot be inventored into.");
+			}
+		//} //TODO: <--
+		doubleClickStart = -1;
+		Debug.Log ("Single click!");
 	}
 
 	public void ExternalCodeClick(string when) {

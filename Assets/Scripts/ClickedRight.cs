@@ -8,10 +8,10 @@ public class ClickedRight : MonoBehaviour {
 
 	bool clicking = false;
 
+	Vector3 targetRot = Vector3.zero;
 	// Use this for initialization
 	void Start () {
-	
-
+		targetRot = candelabro.transform.rotation.eulerAngles;
 	}
 	
 	// Update is called once per frame
@@ -22,7 +22,9 @@ public class ClickedRight : MonoBehaviour {
 	
 	void OnMouseDown() {
 		clicking = true;
+		targetRot += new Vector3(0.0f, 90.0f, 0.0f);
 	}
+
 	
 	void OnMouseUp() {
 		clicking = false;
