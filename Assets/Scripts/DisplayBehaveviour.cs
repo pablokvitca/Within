@@ -54,15 +54,14 @@ public class DisplayBehaveviour : MonoBehaviour {
 	}
 
 	private void Cofre() {
-		//Cae cofre
-		//Escena Torres de Hanoi
-		Debug.Log ("Muy bien!");
 		if (correct) {
+			Debug.Log ("Muy bien!");
 			if (GameObject.Find("CofreHanoi").transform.position.y >= 1.0f)
-				GameObject.Find("CofreHanoi").transform.position -= new Vector3(0, 0.1f, 0);
+				GameObject.Find("CofreHanoi").transform.position -= new Vector3(0, 0.5f, 0);
 			else {
 				GameObject.Find("CofreHanoi").transform.GetChild(0).gameObject.GetComponent<Animator>().SetBool("openNow", true);
 				correct = false;
+				Hanoi.active = true;
 			}
 		}
 	}

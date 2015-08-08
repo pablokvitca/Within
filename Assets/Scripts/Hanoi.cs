@@ -9,6 +9,14 @@ public class Hanoi : MonoBehaviour {
 	public int post;
 	private static int click1 = -1;
 	private static int click2 = -1;
+	public GameObject disc1;
+	public GameObject disc2;
+	public GameObject disc3;
+	public GameObject disc4;
+
+	public static bool active = false;
+
+	private static bool won = false;
 
 	// Use this for initialization
 	void Awake () {
@@ -44,9 +52,29 @@ public class Hanoi : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		postes[0].TrimExcess();
-		postes[1].TrimExcess();
+		if (active) {
+			postes[0].TrimExcess();
+			postes[1].TrimExcess();
+			postes[2].TrimExcess();
+			if (IsCorrect() && !Hanoi.won) {
+				//Animation
+				Debug.Log("Hanoi won!");
+				Hanoi.won = true;
+			}
+		}
+	}
+
+	bool IsCorrect() {
 		postes[2].TrimExcess();
+		objective.TrimExcess();
+		int[] a = postes[2].ToArray();
+		int[] b = objective.ToArray();
+		Stack<int> tempA = postes[2];
+		Stack<int> tempB = objective;
+		if (postes[2].Count > 4)
+			return (a[0] == b[0] && a[1] == b[1] && a[2] == b[2] && a[3] == b[3]);
+		else
+			return false;
 	}
 
 	void OnMouseDown() {
@@ -74,18 +102,36 @@ public class Hanoi : MonoBehaviour {
 	private void Animate(int post, int dest, GameObject disc) {
 		GoUp(disc);
 		GoRightLeft(disc, GameObject.Find("HanoiPoste" + dest.ToString()));
-		GoDown(disc);
+		GoDown(disc, dest);
 	}
 
 	private void GoUp(GameObject disc) {
 		disc.transform.position += new Vector3(0, 10, 0);
 	}
 
-	private void GoDown(GameObject disc) {
+	private void GoDown(GameObject disc, int dest) {
 		//disc.transform.position -= new Vector3(0, 10, 0);
-		RaycastHit hit;
-		Physics.Raycast (disc.transform.position, -disc.transform.up, out hit, 30.0f);
-		disc.transform.position -= new Vector3(0, hit.distance, 0);
+		//RaycastHit hit;
+		//Physics.Raycast (disc.transform.position, -disc.transform.up, out hit, 30.0f);
+		//disc.transform.position -= new Vector3(0, hit.distance, 0);
+		disc.transform.position = Destiny(dest);
+	}
+
+	private Vector3 Destiny(int post) {
+		switch (postes[post].Count) {
+		case 0:
+		default:
+			Debug.Log("Hanoi error");
+			return Vector3.zero;
+		case 1:
+			return this.transform.FindChild("HanoiDiscPosition4").position;
+		case 2:
+			return this.transform.FindChild("HanoiDiscPosition3").position;
+		case 3:
+			return this.transform.FindChild("HanoiDiscPosition2").position;
+		case 4:
+			return this.transform.FindChild("HanoiDiscPosition1").position;
+		}
 	}
 
 	private void GoRightLeft(GameObject disc, GameObject destPost) {
