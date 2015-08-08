@@ -58,10 +58,10 @@ public class DisplayBehaveviour : MonoBehaviour {
 		//Escena Torres de Hanoi
 		Debug.Log ("Muy bien!");
 		if (correct) {
-			if (GameObject.Find("Cofre").transform.position.y >= 1.0f)
-				GameObject.Find("Cofre").transform.position -= new Vector3(0, 0.1f, 0);
+			if (GameObject.Find("CofreHanoi").transform.position.y >= 1.0f)
+				GameObject.Find("CofreHanoi").transform.position -= new Vector3(0, 0.1f, 0);
 			else {
-				GameObject.Find("Cofre").transform.GetChild(0).gameObject.GetComponent<Animator>().SetBool("openNow", true);
+				GameObject.Find("CofreHanoi").transform.GetChild(0).gameObject.GetComponent<Animator>().SetBool("openNow", true);
 				correct = false;
 			}
 		}
