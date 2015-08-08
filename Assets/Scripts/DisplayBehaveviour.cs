@@ -56,8 +56,8 @@ public class DisplayBehaveviour : MonoBehaviour {
 	private void Cofre() {
 		if (correct) {
 			Debug.Log ("Muy bien!");
-			if (GameObject.Find("CofreHanoi").transform.position.y >= 1.0f)
-				GameObject.Find("CofreHanoi").transform.position -= new Vector3(0, 0.5f, 0);
+			if (GameObject.Find("CofreHanoi").transform.position.y > -5.0f)
+				GameObject.Find("CofreHanoi").transform.position -= new Vector3(0, 0.2f, 0);
 			else {
 				GameObject.Find("CofreHanoi").transform.GetChild(0).gameObject.GetComponent<Animator>().SetBool("openNow", true);
 				correct = false;

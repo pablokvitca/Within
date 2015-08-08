@@ -14,6 +14,12 @@ ModelImporter:
     100012: tapa atras
     100014: tapa dereca
     100016: tapa izquierda
+    100018: Cylinder001
+    100020: Tapa
+    100022: tapa frente
+    100024: tapa frente001
+    100026: tapa iz
+    100028: tapa iz001
     400000: Box005
     400002: Box006
     400004: //RootNode
@@ -23,6 +29,12 @@ ModelImporter:
     400012: tapa atras
     400014: tapa dereca
     400016: tapa izquierda
+    400018: Cylinder001
+    400020: Tapa
+    400022: tapa frente
+    400024: tapa frente001
+    400026: tapa iz
+    400028: tapa iz001
     2300000: Box005
     2300002: Box006
     2300004: Cylinder002
@@ -31,6 +43,13 @@ ModelImporter:
     2300010: tapa atras
     2300012: tapa dereca
     2300014: tapa izquierda
+    2300016: //RootNode
+    2300018: Cylinder001
+    2300020: Tapa
+    2300022: tapa frente
+    2300024: tapa frente001
+    2300026: tapa iz
+    2300028: tapa iz001
     3300000: Box005
     3300002: Box006
     3300004: Cylinder002
@@ -39,6 +58,13 @@ ModelImporter:
     3300010: tapa atras
     3300012: tapa dereca
     3300014: tapa izquierda
+    3300016: //RootNode
+    3300018: Cylinder001
+    3300020: Tapa
+    3300022: tapa frente
+    3300024: tapa frente001
+    3300026: tapa iz
+    3300028: tapa iz001
     4300000: tapa dereca
     4300002: Box005
     4300004: tapa izquierda
@@ -47,6 +73,13 @@ ModelImporter:
     4300010: Cylinder003
     4300012: Cylinder002
     4300014: Box006
+    4300016: piso
+    4300018: tapa frente
+    4300020: tapa iz
+    4300022: tapa frente001
+    4300024: Tapa
+    4300026: Cylinder001
+    4300028: tapa iz001
     7400000: Take 001
     9500000: //RootNode
   materials:

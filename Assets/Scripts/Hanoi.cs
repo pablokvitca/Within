@@ -9,10 +9,17 @@ public class Hanoi : MonoBehaviour {
 	public int post;
 	private static int click1 = -1;
 	private static int click2 = -1;
+	private static int hover = -1;
 	public GameObject disc1;
 	public GameObject disc2;
 	public GameObject disc3;
 	public GameObject disc4;
+	public Light p0;
+	public Light p1;
+	public Light p2;
+	public Light p0b;
+	public Light p1b;
+	public Light p2b;
 
 	public static bool active = false;
 
@@ -49,15 +56,77 @@ public class Hanoi : MonoBehaviour {
 			//postes[2].Push(1);
 		}
 	}
-	
+
+	void OnMouseEnter() {
+		Hanoi.hover = post;
+	}
+
+	void OnMouseExit() {
+		Hanoi.hover = -1;
+	}
+
+	void Lights() {
+		switch (click1) {
+		case 0:
+			p0.enabled = true;
+			p1.enabled = false;
+			p2.enabled = false;
+			break;
+		case 1:
+			p0.enabled = false;
+			p1.enabled = true;
+			p2.enabled = false;
+			break;
+		case 2:
+			p0.enabled = false;
+			p1.enabled = false;
+			p2.enabled = true;
+			break;
+		default:
+			p0.enabled = false;
+			p1.enabled = false;
+			p2.enabled = false;
+			break;
+		}
+		switch (hover) {
+		case 0:
+			p0b.enabled = true;
+			p1b.enabled = false;
+			p2b.enabled = false;
+			break;
+		case 1:
+			p0b.enabled = false;
+			p1b.enabled = true;
+			p2b.enabled = false;
+			break;
+		case 2:
+			p0b.enabled = false;
+			p1b.enabled = false;
+			p2b.enabled = true;
+			break;
+		default:
+			p0b.enabled = false;
+			p1b.enabled = false;
+			p2b.enabled = false;
+			break;
+		}
+		if (Hanoi.won) {
+			p0.enabled = true;
+			p1.enabled = true;
+			p2.enabled = true;
+		}
+	}
+
 	// Update is called once per frame
 	void Update () {
+		Lights();
 		if (active) {
 			postes[0].TrimExcess();
 			postes[1].TrimExcess();
 			postes[2].TrimExcess();
 			if (IsCorrect() && !Hanoi.won) {
-				//Animation
+				//CD
+				GameObject.Find("CD").GetComponent<ClickControl>().OnSingleClick();
 				Debug.Log("Hanoi won!");
 				Hanoi.won = true;
 			}

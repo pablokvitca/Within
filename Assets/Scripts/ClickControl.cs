@@ -39,7 +39,7 @@ public class ClickControl : MonoBehaviour {
 		}
 	}
 
-	void OnSingleClick() {
+	public void OnSingleClick() {
 		//Single click code HERE!
 		if (go.tag == "Animated" || go.tag == "caja partes") {
 			try {
