@@ -8,6 +8,8 @@ public class PlayAnimations : MonoBehaviour {
 	public Animator anim;
 	public string boolName;
 
+	private string pass = "unitysucks";
+
 	float timer = -10.0f;
 	//public float animDuration = 2.0f; //0.5f; //TODO: <--
 
@@ -50,10 +52,18 @@ public class PlayAnimations : MonoBehaviour {
 			Debug.Log ("Running Animation " + boolName + " , " + toAnimate.name.ToString());
 			if (toAnimate.name == "Tapa( la que sirve)") { //esto tambien
 				toAnimate.GetComponent<MeshCollider> ().enabled = false;
-				toAnimate.transform.transform.transform.transform.transform.transform.transform.transform.parent.gameObject.transform.transform.transform.GetChild (0).GetComponent<MeshCollider> ().enabled = true;
+				toAnimate.transform.parent.gameObject.transform.GetChild (0).GetComponent<MeshCollider> ().enabled = true;
 			}
 			anim.SetBool (boolName, true);
 		}
+
+		try {
+			if (anim.gameObject.name == "Lib") {
+				//MuebleRotate.rotate = true;
+				MuebleRotate.GirarMueble(pass);
+				pass = "yepitdoes";
+			}
+		} catch {}
 		Debug.Log ("Running Animation " + boolName + " , " + toAnimate.name.ToString());
 	}
 }

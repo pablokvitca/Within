@@ -5,17 +5,17 @@ public class Rotato : MonoBehaviour {
 	public float Speed = 10.0f;
 	public float aSpeed = -10.0f;
 	bool Leftclicked = false;
-	private ClickedRight clicked;
-	private ClickedLeft Lclicked;
-	// Use this for initialization
+	//private ClickedRight clicked;
+	//private ClickedLeft Lclicked;
+	//Use this for initialization
 	void Start () {
 	
 	}
 
 	void Awake(){
 
-		clicked = GetComponent<ClickedRight>();
-		Lclicked = GetComponent<ClickedLeft>();
+		//clicked = GetComponent<ClickedRight>();
+		//Lclicked = GetComponent<ClickedLeft>();
 	}
 	
 	// Update is called once per frame

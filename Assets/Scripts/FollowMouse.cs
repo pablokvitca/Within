@@ -19,6 +19,7 @@ public class FollowMouse : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//KeepCameraInside();
 		float x = Input.mousePosition.x;
 		float y = Input.mousePosition.y;
 		if (y < Screen.height / 6 || x > Screen.width / 8 * 7 || y > Screen.height / 6 * 5 || (x < Screen.width / 8 && x > Screen.width / 100 * 8)) {
@@ -31,6 +32,24 @@ public class FollowMouse : MonoBehaviour {
 					cam.transform.rotation = Quaternion.Slerp(cam.transform.rotation, targetRotation, Time.deltaTime * speed);
 				}
 			}
+		}
+	}
+
+	private void KeepCameraInside() {
+		Vector3 min = new Vector3 (GameObject.Find ( "LeftWall"  ).gameObject.transform.position.x, 
+		                           GameObject.Find ( "Ceilling"  ).gameObject.transform.position.y, 
+		                           GameObject.Find ( "FrontWall" ).gameObject.transform.position.z);
+		Vector3 max = new Vector3 (GameObject.Find ( "RightWall" ).gameObject.transform.position.x, 
+		                           GameObject.Find (   "Floor"   ).gameObject.transform.position.y, 
+		                           GameObject.Find ( "BackWall"  ).gameObject.transform.position.z);
+		if (this.transform.position.x < min.x 
+		 || this.transform.position.y < min.y 
+		 || this.transform.position.z < min.z 
+		 || this.transform.position.x > max.x 
+		 || this.transform.position.y > max.y 
+		 || this.transform.position.z > max.z) {
+			this.transform.position = GameObject.Find("RoomStructure").transform.GetChild(0).transform.position;
+			//TODO: change to movement, not snap
 		}
 	}
 
