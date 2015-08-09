@@ -1,24 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FinLoad.cs">
-    <Files>
-      <File FileName="Assets\Scripts\FinLoad.cs" Line="20" Column="25" />
-      <File FileName="Assets\Scripts\candadito.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Hanoi.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Clicking.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ComputerSecuenceKeypadBehaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LoadCreditos.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="C:\Users\Pablo Kvitca\Documents\GitHub\Within\Within\Assets\Scripts\Global.cs" line="93" />
-      <Breakpoint file="C:\Users\Pablo Kvitca\Documents\GitHub\Within\Within\Assets\Scripts\Global.cs" line="88" />
-      <Breakpoint file="C:\Users\Pablo Kvitca\Documents\GitHub\Within\Within\Assets\Scripts\candadito.cs" line="112" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="Assets\Scripts\Hanoi.cs" line="74" offsetX="794" offsetY="1082" expression="b" liveUpdate="False" />
-    <Watch file="Assets\Scripts\Hanoi.cs" line="74" offsetX="638" offsetY="1084" expression="a" liveUpdate="False" />
-  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

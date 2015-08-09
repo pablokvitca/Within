@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scenes\SlidingBlocks\Trigger.cs" />
      <Compile Include="Assets\Scripts\BackToMenu.cs" />
      <Compile Include="Assets\Scripts\BotonInventario.cs" />
+     <Compile Include="Assets\Scripts\ChangeScene.cs" />
      <Compile Include="Assets\Scripts\Clck.cs" />
      <Compile Include="Assets\Scripts\ClickControl.cs" />
      <Compile Include="Assets\Scripts\Clicked.cs" />
@@ -89,6 +90,7 @@
      <Compile Include="Assets\Scripts\PlayAnimations.cs" />
      <Compile Include="Assets\Scripts\RotacionObjetos.cs" />
      <Compile Include="Assets\Scripts\Rotato.cs" />
+     <Compile Include="Assets\Scripts\Scrolling.cs" />
      <Compile Include="Assets\Scripts\ZoomInOnDoubleClick.cs" />
      <Compile Include="Assets\Scripts\ZoomInOut.cs" />
      <Compile Include="Assets\Scripts\btnLaserBehaviour.cs" />
