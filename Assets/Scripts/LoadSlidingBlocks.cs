@@ -3,7 +3,7 @@ using System.Collections;
 
 public class LoadSlidingBlocks : MonoBehaviour {
 
-	public bool active = false;
+	public static bool active = false;
 
 	void OnMouseUp() {
 		/*if (active) {
@@ -16,10 +16,12 @@ public class LoadSlidingBlocks : MonoBehaviour {
 			this.GetComponent<LoadSlidingBlocks>().enabled = false;
 			Debug.Log("THIS SCRIPT WAS DISABLED! HURRAY!");
 		}*/
-		if (active) {
+		if (LoadSlidingBlocks.active) {
+			Messenger.Message("Saca el cubo rojo", 0.01f, Color.yellow, true, true);
 			Application.LoadLevelAdditive("SB");
-			active = false;
+			LoadSlidingBlocks.active = false;
 			this.GetComponent<LoadSlidingBlocks>().enabled = false;
+			this.GetComponent<BoxCollider>().enabled = false;
 			Debug.Log("THIS SCRIPT WAS DISABLED! HURRAY!");
 		}
 	}

@@ -112,6 +112,7 @@ public class Global : MonoBehaviour {
 			objeto.transform.position = o.transform.position;
 			//objeto.GetComponent<Renderer>().enabled=true;
 			Debug.Log (objeto.gameObject.transform.position.ToString() + "2058");
+			Messenger.Message("Haz click derecho " + "\n" + "para salir", 0.01f, Color.yellow, true, false);
 		}
 		if (Combinar) {
 			if (contarobj==1) {

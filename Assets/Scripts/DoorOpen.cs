@@ -5,11 +5,6 @@ public class DoorOpen : MonoBehaviour {
 
 	bool opening = false;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
 	// Update is called once per frame
 	void Update () {
 		if (opening) {
@@ -20,6 +15,7 @@ public class DoorOpen : MonoBehaviour {
 
 	public void Open(string pass) {
 		if (pass == "rycbar123") {
+			Messenger.Message("MUY BIEN!!!", 0.1f, Color.green, true, true);
 			Debug.Log("Opening Door");
 			Debug.Log("YOU WON!!!!!");
 			opening = true;

@@ -10,6 +10,10 @@ public class Lasers : MonoBehaviour {
 	public int maxCantHits = 6;
 	public static int cantHits = 0;
 
+	private static bool won = false;
+
+	float timer = - 1;
+
 	// Use this for initialization
 	void Start () {
 		colores[0] = Color.white;   //blanco
@@ -36,6 +40,8 @@ public class Lasers : MonoBehaviour {
 		this.GetComponent<LineRenderer> ().material.color = colores [btnLaserBehaviour.intResColor];
 
 		if (cantHits <= maxCantHits) {
+			timer -= Time.deltaTime;
+			if (timer <= 1.0f) ChangePosition(GameObject.Find("Receptor"));
 			if (Physics.Raycast (this.transform.position, direccion, out hit, Mathf.Infinity)) {
 				if (hit.collider.gameObject.name == "Receptor") {
 					GameObject go = GameObject.Find (hit.collider.gameObject.name);
@@ -48,29 +54,29 @@ public class Lasers : MonoBehaviour {
 					}
 				}
 			}
-		} else {
+		} else if (!Lasers.won) {
 			this.GetComponent<LineRenderer>().enabled = false;
-			//TODO: ONLY RUN THIS SCRIPT IF LASER IS ACTIVE
-			//GameObject.Find("Receptor").SetActive(false);
 			Global.StaticGameObjectFinder("Receptor").SetActive(false);
-			OpenSlidingBlocks(); //Opens SlidingBlocks Cube
+			Lasers.won = true;
+			Messenger.Message("MUY BIEN!!!", 0.01f, Color.green, true, true);
+			OpenSlidingBlocks();
 		}
 	}
 
 	void OpenSlidingBlocks() {
 		//GameObject.Find ("SlidingBlocks").transform.localPosition = new Vector3 (3.7f, 1.15f, 5.0f);
+		//Messenger.Message("MUY BIEN!!!", 0.01f, Color.green, true, true);
 		GameObject.Find ("SlidingBlocks").GetComponent<Animator> ().SetBool ("openNow", true);
-		GameObject.Find ("SlidingBlocks").GetComponent<LoadSlidingBlocks>().active = true;
+		LoadSlidingBlocks.active = true;
 	}
 
 	void ChangePosition(GameObject go) {
-		//go.transform.position = ReceptorPossiblePositions[Random.Range(0, ReceptorPossiblePositions.Length - 1)].transform.position;
+		timer = 45.0f; //TODO: <--
 		NewPosition (go, this.gameObject);
 	}
 
 	Vector3 NewPosition(GameObject go, GameObject laser) {
 		//Get min & max positions for the receptor to be inside the room
-		//TODO: make it a little smaller.
 		Debug.Log ("Left: "     +  GameObject.Find ( "LeftWall"  ).gameObject.transform.position.x +
 		           "; Right: "  +  GameObject.Find ( "RightWall" ).gameObject.transform.position.x +
 		           "; Top: "    +  GameObject.Find ( "Ceilling"  ).gameObject.transform.position.y +

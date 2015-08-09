@@ -9,26 +9,18 @@ public class Clicking : MonoBehaviour {
 	public float timerAnimation = 0;
 
 
-	//DEBUGGING ********************************
-	/* */ private Vector3 previousPosition; // *
-	//DEBUGGING ********************************
-
-
 	float timer = -10.0f;
-	public const float animDuration = 3.05f; //0.5f; //TODO: <--
+	public const float animDuration = 3.0f; //0.5f; //TODO: <--
 
 	Global gl;
 
 	// Use this for initialization
 	void Start () {
 		gl = GameObject.Find ("ScriptGlobal").GetComponent<Global> ();
-		//DEBUGGING *******************************************************************
-		/* */ previousPosition = gl.GameObjectFinder("lasers").transform.position; // *
-		//DEBUGGING *******************************************************************
 	}
 
 	void AnimationFinished() {
-		GameObject.Find ("Llenado").SetActive(false);
+		GameObject.Find ("LlenadoCeraUnique").SetActive(false);
 		gl.GameObjectFinder ("Llave").SetActive (true);
 	}
 	
@@ -37,7 +29,7 @@ public class Clicking : MonoBehaviour {
 		/*if (timer != -10.0f && Time.time - timer <= animDuration) {
 			Debug.Log ("Animacion termino, duro " + animDuration.ToString () + "segundo/s");
 			timer = -10.0f;
-			Global.StaticGameObjectFinder("Vela prendida").transform.GetChild(0).gameObject.SetActive(false); //Llenado debe estar en index 0 !important
+			Global.StaticGameObjectFinder("Vela prendida").transform.GetChild(0).gameObject.SetActive(false); //LlenadoCeraUnique debe estar en index 0 !important
 			gl.GameObjectFinder ("Llave").SetActive (true); //TODO: <--
 			Debug.Log("hey, it worked!");
 		}*/
@@ -46,8 +38,9 @@ public class Clicking : MonoBehaviour {
 			if (Time.time - timer >= animDuration) {
 				Debug.Log ("Animacion termino, duro " + animDuration.ToString () + "segundo/s");
 				timer = -10.0f;
-				Global.StaticGameObjectFinder ("Vela prendida").transform.GetChild (0).gameObject.SetActive (false); //Llenado debe estar en index 0 !important
-				gl.GameObjectFinder ("Llave").SetActive (true); //TODO: <--
+				Global.StaticGameObjectFinder ("Vela prendida").transform.GetChild (0).gameObject.SetActive (false); //LlenadoCeraUnique debe estar en index 0 !important
+				gl.GameObjectFinder ("Llave").SetActive (true);
+				gl.GameObjectFinder("LlenadoCeraUnique").SetActive(false);
 				Debug.Log ("hey, it worked!");
 				Global.StaticGameObjectFinder ("Vela prendida").GetComponent<Animator> ().StopRecording();
 				Global.StaticGameObjectFinder ("Vela prendida").GetComponent<Clicked>().enabled = false;
@@ -101,7 +94,9 @@ public class Clicking : MonoBehaviour {
 					key.GetComponent<InventorySystem>().enabled = false;
 					sglob.Selected = "Llave";
 					objetoquevaalpresionarse = gl.GameObjectFinder("Llave");
+					Messenger.Message("MUY BIEN!!!", 0.01f, Color.green, true, true);
 				} else {
+					Messenger.Message("Necesitas una llave para abrir esto", 0.01f, Color.red, true, false);
 					Debug.Log ("You need a key to open this.");
 				}
 			break;
@@ -117,7 +112,8 @@ public class Clicking : MonoBehaviour {
 					//sglob.desobjeto(vp.name);
 					//vp.transform.position = Posiciondelobjetonuevo;
 					Debug.Log(vp.transform.position.ToString() + "0333");
-					//vp.transform.GetChild(0).gameObject.SetActive(true); //Este es el plano de llenado ("LLenado"). DEJAR SIEMPRE EN INDEX 0 !important
+					//vp.transform.GetChild(0).gameObject.SetActive(true); //Este es el plano de LlenadoCeraUnique ("LlenadoCeraUnique"). DEJAR SIEMPRE EN INDEX 0 !important
+					gl.GameObjectFinder("LlenadoCeraUnique").SetActive(true);	
 					vp.GetComponent<Animator>().SetBool("openNow", true);
 					Debug.Log("aiofhasfhasuioh " + vp.GetComponent<Animator>().GetBool("openNow").ToString());
 					timerAnimation = Time.time;
@@ -129,7 +125,9 @@ public class Clicking : MonoBehaviour {
 					vp.transform.position = GameObject.Find("VelaPrendidaHolder").transform.position;
 					vp.transform.rotation = GameObject.Find("VelaPrendidaHolder").transform.rotation;
 					vp.transform.localScale = GameObject.Find("VelaPrendidaHolder").transform.localScale;
+					Messenger.Message("MUY BIEN!!!", 0.01f, Color.green, true, true);
 				} else {
+					Messenger.Message("Necesitas una vela y fuego.", 0.01f, Color.red, true, false);
 					Debug.Log ("You need a fire and some wax.");
 				}
 			break;
@@ -149,8 +147,10 @@ public class Clicking : MonoBehaviour {
 				//Debug.Log("Next laser position: " + Posiciondelobjetonuevo.ToString() + "; Supposed: " + ls.transform.localPosition.ToString() + ";");
 				//Debug.Log(ls.transform.position.ToString() + "0352");
 				Debug.Log("Lasers position after activating: " + gl.GameObjectFinder("lasers").transform.position.ToString());
+				Messenger.Message("MUY BIEN!!!", 0.01f, Color.green, true, true);
 			} else {
 				Debug.Log ("You need the lasers.");
+				Messenger.Message("Necesitas 3 lasers.", 0.01f, Color.red, true, false);
 			}
 			break;
 		case "Computadora":
@@ -169,7 +169,8 @@ public class Clicking : MonoBehaviour {
 				gl.GameObjectFinder("pantallaComp").transform.GetChild(1).gameObject.SetActive(true);
 				objetoquevaalpresionarse = gl.GameObjectFinder("CD");
 			} else {
-				Debug.Log ("Hmm, there you be a CD for this...");
+				Messenger.Message("Hmm, necesito un CD para esto...", 0.01f, Color.red, true, false);
+				Debug.Log ("Hmm, there should be a CD for this...");
 			}
 			break;
 		}
@@ -184,10 +185,8 @@ public class Clicking : MonoBehaviour {
 				//objetoquevaalpresionarse.transform.localRotation = Quaternion.Euler(0, 0, 0);
 				sglob.Selected=""; 
 				Clicked sc = objetoquevaalpresionarse.GetComponent<Clicked>();
-				sc.visible=true;
-			} catch {
-				//?
-			}
+				sc.visible = true;
+			} catch {}
 		} 
 	}
 	

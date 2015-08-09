@@ -45,15 +45,16 @@ public class ClickControl : MonoBehaviour {
 			try {
 				pa.RunAnimation(go);
 			} catch {
+				//Messenger.Message("Este objeto no esta animado.", 0.1f, Color.red, true, false);
 				Debug.Log("This object (" + this.ToString() + ") is not animated into.");
 			}
-		} //else { //TODO: <--
+		}
 			try {
 				ins.ManageInventory(go);
 			} catch {
+				//Messenger.Message("Este objeto no se puede agregar al inventario.", 0.1f, Color.red, true, false);
 				Debug.Log("This object (" + this.ToString() + ") cannot be inventored into.");
 			}
-		//} //TODO: <--
 		doubleClickStart = -1;
 		Debug.Log ("Single click!");
 	}
@@ -96,6 +97,7 @@ public class ClickControl : MonoBehaviour {
 		doubleClickHelper = false;
 		if (Global.camMoving) {
 			Debug.Log ("Camera is already moving. Please wait for it to finish.");
+			Messenger.Message("Ya te estas moviendo", 0.025f, Color.red, true, false);
 		} else {
 			try {
 				if (!Global.camMoving) {

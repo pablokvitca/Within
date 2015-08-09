@@ -15,6 +15,10 @@ public class RotacionObjetos : MonoBehaviour {
 	private Vector3 targetSpeedX;
 
 
+	void Start() {
+		Messenger.Message("Haz click derecho " + "\n" + "para salir", 0.01f, Color.yellow, true, false);
+	}
+
 	void OnMouseDown() {
 		isDragging = true;	
 	}

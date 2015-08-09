@@ -74,6 +74,7 @@
      <Compile Include="Assets\Scripts\Helps.cs" />
      <Compile Include="Assets\Scripts\Inven.cs" />
      <Compile Include="Assets\Scripts\InventorySystem.cs" />
+     <Compile Include="Assets\Scripts\KeepIn.cs" />
      <Compile Include="Assets\Scripts\Keys.cs" />
      <Compile Include="Assets\Scripts\Lasers.cs" />
      <Compile Include="Assets\Scripts\LoadCreditos.cs" />
@@ -82,6 +83,7 @@
      <Compile Include="Assets\Scripts\LoadJuego.cs" />
      <Compile Include="Assets\Scripts\LoadLevel.cs" />
      <Compile Include="Assets\Scripts\LoadSlidingBlocks.cs" />
+     <Compile Include="Assets\Scripts\Messenger.cs" />
      <Compile Include="Assets\Scripts\MovPersonaje.cs" />
      <Compile Include="Assets\Scripts\MuebleRotate.cs" />
      <Compile Include="Assets\Scripts\NumInt.cs" />

@@ -5,11 +5,6 @@ public class MuebleRotate : MonoBehaviour {
 
 	public static bool rotate = false;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-
 	// Update is called once per frame
 	void Update () {
 		if (rotate == true) {
@@ -20,8 +15,10 @@ public class MuebleRotate : MonoBehaviour {
 
 	public static void GirarMueble(string pass) {
 		try {
-			if (pass == "unitysucks")
+			if (pass == "unitysucks") {
+				Messenger.Message("MUY BIEN!!!", 0.01f, Color.green, true, true);
 				GameObject.Find("Mueble").transform.Rotate(new Vector3(0,180,0));
+			}
 			else
 				Debug.Log("odd, they couldn't guess the password: " + pass + " :(");
 		} catch {

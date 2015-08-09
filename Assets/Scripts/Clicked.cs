@@ -38,7 +38,7 @@ public class Clicked : MonoBehaviour {
 				if (sg.nowOrbitingName == "cajitaRojaSB")
 					GameObject.Find(sg.nowOrbitingName).GetComponent<PlayAnimations>().enabled = true;
 				//if (sg.nowOrbitingName == "Vela prendida")
-				//	sg.GameObjectFinder("Vela prendida").transform.FindChild("Llenado").gameObject.SetActive(false);
+				//	sg.GameObjectFinder("Vela prendida").transform.FindChild("LlenadoCeraUnique").gameObject.SetActive(false);
 				if (Input.GetMouseButton (1)) {
 					sg.Orbit = false;
 					//this.GetComponent<Renderer>().enabled=false;
@@ -48,7 +48,7 @@ public class Clicked : MonoBehaviour {
 					c.GetComponent<Camera> ().depth = -2;
 					go.GetComponent<RotacionObjetos> ().enabled = false;
 					//if (sg.nowOrbitingName == "Vela prendida")
-					//	sg.GameObjectFinder("Vela prendida").transform.FindChild("Llenado").gameObject.SetActive(true);
+					//	sg.GameObjectFinder("Vela prendida").transform.FindChild("LlenadoCeraUnique").gameObject.SetActive(true);
 				}
 			} catch {
 			}

@@ -14,6 +14,8 @@ public class Helps : MonoBehaviour {
 	public float speed = 0.001f;
 	private Vector3 starting;
 	private bool goingUp = true;
+	
+	public string helpText;
 
 	// Use this for initialization
 	void Start () {
@@ -54,20 +56,21 @@ public class Helps : MonoBehaviour {
 	}
 
 	void OnMouseUp() {
-		if (click)
+		/*if (click)
 			click = false;
 		else {
 			click = true;
 			planito.GetComponent<Renderer> ().material = materials [matPos];
 
-		}
+		}*/
+		Messenger.Message(helpText, 0.005f, Color.yellow, true, false);
 	}
 
-	string parsear(string A) {
+	string parsear(string A)
+	{
 		int contador = 0;
 		string [] Palabras = new string[A.Length];
 		Palabras = A.Split (new char[] { ' ' });
-   		string texto = "";
     	for (int i = 0; i < Palabras.Length; i++) {
         	if (contador == 6) {
             	Palabras[i] = Palabras[i] + "/n";

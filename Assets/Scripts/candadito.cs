@@ -70,6 +70,7 @@ public class candadito : MonoBehaviour {
 
 	public static void Door() {
 		//GameObject.Find("Puerta").GetComponent<DoorOpen>().Open("rycbar123");
+		Messenger.Message("MUY BIEN!!!", 0.01f, Color.green, true, true);
 		Application.LoadLevel("FIN");
 	}
 
@@ -78,6 +79,7 @@ public class candadito : MonoBehaviour {
 			if(ingresado[i] != 10)
 				ingresado[i] = 10;
 		}
+		Messenger.Message("Deleted", 0.1f, Color.yellow, true, false);
 	}
 
 	public static void Clear() {

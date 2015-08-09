@@ -10,7 +10,7 @@ public class FinLoad : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		audioss.clip = mt.audioClip;
+		//audioss.clip = mt.audioClip;
 		mt.Play();
 		audioss.Play();
 	}

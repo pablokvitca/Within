@@ -5,21 +5,12 @@ public class ComputerSecuenceKeypadBehaviour : MonoBehaviour {
 
 	public int n;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
 	void OnMouseUp() {
 		if (candadito.active && n < 10) candadito.Add(n) ;
 		else if (candadito.active && n == 10) candadito.Del();
 		else if (candadito.active && n == 11) 
 		if (candadito.Check())  {
+			Messenger.Message("MUY BIEN!!!", 0.1f, Color.green, true, true);
 			candadito.Door();
 			candadito.active = false;
 		}

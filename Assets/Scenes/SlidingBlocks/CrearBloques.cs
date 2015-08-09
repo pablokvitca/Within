@@ -10,9 +10,9 @@ public class CrearBloques : MonoBehaviour {
 		{0, 5, 6, 3, 3, 0},
 		{0, 5, 6, 0, 0, 0}
 	};
-	int cv2 =0;
-	float xv2 =0;
-	float zv2 =0;
+	//int cv2 = 0;
+	//float xv2 = 0;
+	//float zv2 = 0;
 	// Use this for initialization
 	void Start () {
 		/*for (int i=0; i<Bloques.GetLength(0); i++) {

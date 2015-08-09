@@ -5,24 +5,24 @@ public class MovPersonaje : MonoBehaviour {
 
 	float speed = 0.3f;
 	float sensitivity = 2.0f;
+
+	public static bool locked = false;
+
 	//float spacing = 1.0f;
 	//Vector3 pos;
-
-	
-	void Start() {
-		//pos = this.transform.position;
-	}
 	
 	void Update() {
-		if (Input.GetKey(KeyCode.W) && CanMoveTowardsDirection(this.transform.parent.gameObject, this.transform.parent.forward, sensitivity))
-			this.transform.parent.position += new Vector3(this.transform.parent.transform.forward.x * speed, 0, this.transform.parent.transform.forward.z * speed);
-		if (Input.GetKey(KeyCode.S) && CanMoveTowardsDirection(this.transform.parent.gameObject, -this.transform.parent.forward, sensitivity))
-			this.transform.parent.position -= new Vector3(this.transform.parent.transform.forward.x * speed, 0, this.transform.parent.transform.forward.z * speed);
-		if (Input.GetKey(KeyCode.A) && CanMoveTowardsDirection(this.transform.parent.gameObject, -this.transform.parent.right, sensitivity))
-			this.transform.parent.position -= new Vector3(this.transform.parent.transform.right.x * speed, 0, this.transform.parent.transform.right.z * speed);
-		if (Input.GetKey(KeyCode.D) && CanMoveTowardsDirection(this.transform.parent.gameObject, this.transform.parent.right, sensitivity))
-			this.transform.parent.position += new Vector3(this.transform.parent.transform.right.x * speed, 0, this.transform.parent.transform.right.z * speed);
-		this.transform.localPosition = Vector3.zero;
+		if (!Global.camMoving) {
+			if (Input.GetKey(KeyCode.W) && CanMoveTowardsDirection(this.transform.parent.gameObject, this.transform.parent.forward, sensitivity))
+				this.transform.parent.position += new Vector3(this.transform.parent.transform.forward.x * speed, 0, this.transform.parent.transform.forward.z * speed);
+			if (Input.GetKey(KeyCode.S) && CanMoveTowardsDirection(this.transform.parent.gameObject, -this.transform.parent.forward, sensitivity))
+				this.transform.parent.position -= new Vector3(this.transform.parent.transform.forward.x * speed, 0, this.transform.parent.transform.forward.z * speed);
+			if (Input.GetKey(KeyCode.A) && CanMoveTowardsDirection(this.transform.parent.gameObject, -this.transform.parent.right, sensitivity))
+				this.transform.parent.position -= new Vector3(this.transform.parent.transform.right.x * speed, 0, this.transform.parent.transform.right.z * speed);
+			if (Input.GetKey(KeyCode.D) && CanMoveTowardsDirection(this.transform.parent.gameObject, this.transform.parent.right, sensitivity))
+				this.transform.parent.position += new Vector3(this.transform.parent.transform.right.x * speed, 0, this.transform.parent.transform.right.z * speed);
+			this.transform.localPosition = Vector3.zero;
+		}
 	}
 
 	private bool CanMoveTowardsDirection(GameObject go, Vector3 dir, float sensitivity) {

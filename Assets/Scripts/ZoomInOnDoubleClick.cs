@@ -97,7 +97,7 @@ public class ZoomInOnDoubleClick : MonoBehaviour {
 	}
 
 	bool IsInInventory(string nameTarget) {
-		Global sg = GameObject.Find ("ScriptGlobal").GetComponent<Global> ();
+		//Global sg = GameObject.Find ("ScriptGlobal").GetComponent<Global> ();
 		foreach (string name in gl.Inventario) {
 			if (name == nameTarget)
 				return true;

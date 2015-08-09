@@ -6,16 +6,6 @@ public class Inven : MonoBehaviour {
 
 	public string LinkImagen;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
 	public void AddGO (Sprite sprite){
 		GameObject Inventario = GameObject.Find ("Inventario 1");
 		UnityEngine.UI.Button btn = Inventario.GetComponent<UnityEngine.UI.Button> ();
@@ -76,6 +66,7 @@ public class Inven : MonoBehaviour {
 	public void Orbitar(){
 		GameObject global = GameObject.Find ("ScriptGlobal");
 		Global sglob = global.GetComponent<Global> ();
+		Messenger.Message("Haz click derecho " + "\n" + "para salir", 0.01f, Color.yellow, true, false);
 		sglob.Orbit = true;
 	}
 }

@@ -127,6 +127,7 @@ public class Hanoi : MonoBehaviour {
 			if (IsCorrect() && !Hanoi.won) {
 				//CD
 				GameObject.Find("CD").GetComponent<ClickControl>().OnSingleClick();
+				Messenger.Message("MUY BIEN!!!", 0.1f, Color.green, true, true);
 				Debug.Log("Hanoi won!");
 				Hanoi.won = true;
 			}
@@ -138,8 +139,8 @@ public class Hanoi : MonoBehaviour {
 		objective.TrimExcess();
 		int[] a = postes[2].ToArray();
 		int[] b = objective.ToArray();
-		Stack<int> tempA = postes[2];
-		Stack<int> tempB = objective;
+		//Stack<int> tempA = postes[2];
+		//Stack<int> tempB = objective;
 		if (postes[2].Count > 4)
 			return (a[0] == b[0] && a[1] == b[1] && a[2] == b[2] && a[3] == b[3]);
 		else
@@ -190,6 +191,7 @@ public class Hanoi : MonoBehaviour {
 		switch (postes[post].Count) {
 		case 0:
 		default:
+			Messenger.Message("Error, por favor reinicie el juego", 0.0001f, Color.red, true, false);
 			Debug.Log("Hanoi error");
 			return Vector3.zero;
 		case 1:

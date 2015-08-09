@@ -4,17 +4,11 @@ using System.Collections;
 public class Scrolling : MonoBehaviour {
 
 	public GameObject flr;
-	public GUIText[] elementos;
+	public GameObject[] elementos;
 	public float creditsDelay = 5.0f;
 	public float creditsTime = 5.0f;
 	public float creditsSpeed = 0.2f;
 
-	void Start () {
-
-		//flr = GameObject.Find ("Filler");
-
-	}
-	
 	// Update is called once per frame
 	void Update () {
 	
@@ -26,14 +20,18 @@ public class Scrolling : MonoBehaviour {
 		}
 		if (creditsTime < 0) {
 
-			foreach (GUIText text in elementos)
+			foreach (GameObject element in elementos)
 			{
 				if (flr.transform.position.y < 0.5f){
 
-				text.transform.Translate (Vector3.up * Time.deltaTime * creditsSpeed);
+					element.transform.Translate (Vector3.up * Time.deltaTime * creditsSpeed);
 
 				}
 			}
+		}
+
+		if(Input.GetMouseButtonDown(1)) {
+			ChangeScene.changeScene("Menu");
 		}
 
 	}
