@@ -55,7 +55,7 @@ public class Global : MonoBehaviour {
 		unitingMatrix[0,2] = "Vela prendida";
 		unitingMatrix[1,2] = "LlaveHole";
 		unitingMatrix[2,2] = "Llave";
-		unitingMatrix[0,3] = "Libro";
+		unitingMatrix[0,3] = "libro";
 		unitingMatrix[1,3] = "llave libro";
 		unitingMatrix[2,3] = "LibroLlave";
 	}
