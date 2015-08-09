@@ -90,7 +90,7 @@ public class Clicking : MonoBehaviour {
 		InventorySystem invs = GameObject.Find("ScriptGlobal").GetComponent<InventorySystem> ();
 
 		switch (this.name) {
-			case "Placa":
+		case "Placa":
 				if (invs.IsInInventory ("Llave") && sglob.Selected == "Llave") {
 					GameObject key = gl.GameObjectFinder ("Llave");
 					GameObject newPos = gl.GameObjectFinder ("KeyHolder");
@@ -105,7 +105,7 @@ public class Clicking : MonoBehaviour {
 					Debug.Log ("You need a key to open this.");
 				}
 			break;
-			case "LlaveHole":
+		case "LlaveHole":
 				if (invs.IsInInventory ("Vela prendida") && sglob.Selected == "Vela prendida") {
 					//gl.GameObjectFinder ("Llave").SetActive (true); //TODO: <--
 					sglob.Selected = "Vela prendida";
@@ -151,6 +151,25 @@ public class Clicking : MonoBehaviour {
 				Debug.Log("Lasers position after activating: " + gl.GameObjectFinder("lasers").transform.position.ToString());
 			} else {
 				Debug.Log ("You need the lasers.");
+			}
+			break;
+		case "Computadora":
+			if (invs.IsInInventory ("CD") && sglob.Selected == "CD") {
+				GameObject cd = gl.GameObjectFinder ("CD");
+				GameObject newPos = gl.GameObjectFinder ("Computadora");
+				cd.transform.parent = newPos.transform.parent;
+				cd.transform.position = newPos.transform.position;
+				cd.transform.rotation = newPos.transform.rotation;
+				cd.GetComponent<Clicked>().enabled = false;
+				cd.GetComponent<InventorySystem>().enabled = false;
+				cd.SetActive(false);
+				sglob.Selected = "CD";
+				candadito.active = true;
+				gl.GameObjectFinder("pantallaComp").transform.GetChild(0).gameObject.SetActive(true);
+				gl.GameObjectFinder("pantallaComp").transform.GetChild(1).gameObject.SetActive(true);
+				objetoquevaalpresionarse = gl.GameObjectFinder("CD");
+			} else {
+				Debug.Log ("Hmm, there you be a CD for this...");
 			}
 			break;
 		}

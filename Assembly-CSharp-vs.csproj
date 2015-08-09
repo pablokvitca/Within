@@ -59,10 +59,13 @@
      <Compile Include="Assets\Scripts\ClickedRight.cs" />
      <Compile Include="Assets\Scripts\Clicking.cs" />
      <Compile Include="Assets\Scripts\Combinar.cs" />
+     <Compile Include="Assets\Scripts\ComputerSecuenceKeypadBehaviour.cs" />
      <Compile Include="Assets\Scripts\CreepyEyeFollow.cs" />
      <Compile Include="Assets\Scripts\DisplayBehaveviour.cs" />
+     <Compile Include="Assets\Scripts\DoorOpen.cs" />
      <Compile Include="Assets\Scripts\DragTurn.cs" />
      <Compile Include="Assets\Scripts\Fading.cs" />
+     <Compile Include="Assets\Scripts\FinLoad.cs" />
      <Compile Include="Assets\Scripts\FollowMouse.cs" />
      <Compile Include="Assets\Scripts\GeneralThings.cs" />
      <Compile Include="Assets\Scripts\Global.cs" />
@@ -89,6 +92,7 @@
      <Compile Include="Assets\Scripts\ZoomInOnDoubleClick.cs" />
      <Compile Include="Assets\Scripts\ZoomInOut.cs" />
      <Compile Include="Assets\Scripts\btnLaserBehaviour.cs" />
+     <Compile Include="Assets\Scripts\candadito.cs" />
      <Compile Include="Assets\Scripts\itemsMenu.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
