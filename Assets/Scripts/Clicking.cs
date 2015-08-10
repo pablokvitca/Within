@@ -150,7 +150,7 @@ public class Clicking : MonoBehaviour {
 				Messenger.Message("MUY BIEN!!!", 0.01f, Color.green, true, true);
 			} else {
 				Debug.Log ("You need the lasers.");
-				Messenger.Message("Necesitas 3 lasers.", 0.01f, Color.red, true, false);
+				Messenger.Message("Necesitas 3 lasers.", 0.01f, Color.red, true, false, true);
 			}
 			break;
 		case "Computadora":

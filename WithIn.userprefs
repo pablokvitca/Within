@@ -1,11 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Scrolling.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FinLoad.cs">
     <Files>
+      <File FileName="Assets\Scripts\Clicking.cs" Line="152" Column="40" />
       <File FileName="Assets\Scripts\NumpadBehaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DisplayBehaveviour.cs" Line="58" Column="17" />
+      <File FileName="Assets\Scripts\DisplayBehaveviour.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Inven.cs" Line="69" Column="3" />
       <File FileName="Assets\Scripts\Scrolling.cs" Line="27" Column="13" />
+      <File FileName="Assets\Scripts\Messenger.cs" Line="31" Column="102" />
+      <File FileName="Assets\Scripts\FinLoad.cs" Line="20" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

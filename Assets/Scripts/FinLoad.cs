@@ -17,7 +17,10 @@ public class FinLoad : MonoBehaviour {
 
 	void Update() {
 		if (!mt.isPlaying) {
-			Application.LoadLevel("Creditos");
+			ChangeScene.changeScene("Creditos");
+		}
+		if (Input.GetMouseButtonDown(1)) {
+			ChangeScene.changeScene("Menu");
 		}
 	}
 }
