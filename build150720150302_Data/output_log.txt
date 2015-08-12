@@ -15,7 +15,7 @@ Platform assembly: C:\Users\Pablo Kvitca\Documents\GitHub\Within\Within\build150
 Loading C:\Users\Pablo Kvitca\Documents\GitHub\Within\Within\build150720150302_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
 Platform assembly: C:\Users\Pablo Kvitca\Documents\GitHub\Within\Within\build150720150302_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Pablo Kvitca\Documents\GitHub\Within\Within\build150720150302_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.103 seconds
+- Completed reload, in  0.088 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -23,5 +23,2031 @@ desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 Platform assembly: C:\Users\Pablo Kvitca\Documents\GitHub\Within\Within\build150720150302_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Pablo Kvitca\Documents\GitHub\Within\Within\build150720150302_Data\Managed\System.dll (this message is harmless)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 16c6c -> priority: 1 
-  Thread -> id: 173fc -> priority: 1 
+  Thread -> id: 15e48 -> priority: 1 
+  Thread -> id: ed94 -> priority: 1 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.793271 ms
+
+Unloading 127 unused Assets to reduce memory usage. Loaded Objects now: 8377.
+Total: 1.418852 ms (FindLiveObjects: 0.223337 ms CreateObjectMapping: 0.358818 ms MarkObjects: 0.698751 ms  DeleteObjects: 0.137122 ms)
+
+Input string is: - - - - -
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Vela (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Vela (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+A Turn Flag was Cleared.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+A Turn Flag was Cleared.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+A Turn Flag was Cleared.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+A Turn Flag was Cleared.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Tapa( la que sirve) (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (CAJA AN 1 (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Tapa( la que sirve) (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Tapa( la que sirve) (ZoomInOnDoubleClick)was LEFT Double Clicked!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (CAJA AN 1 (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+CAJA AN 1 (UnityEngine.GameObject)was LEFT Double Clicked!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Zooming in
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Zooming in finished
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Tapa( la que sirve) (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (CAJA AN 1 (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Running Animation openNow , CAJA AN 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Running Animation openNow , CAJA AN 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object (Tapa( la que sirve) (ClickControl)) cannot be inventored into.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Separador (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (CAJA AN 1 (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Running Animation openNow , CAJA AN 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Running Animation openNow , CAJA AN 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object (Separador (ClickControl)) cannot be inventored into.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Carta (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Carta (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Cajadefosforos (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Cajadefosforos (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Running Animation openNow , Carta
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Running Animation openNow , Carta
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object (Carta (ClickControl)) cannot be inventored into.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Fosforo (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Fosforo (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Mesa (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Mesa (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object (Mesa (ClickControl)) cannot be inventored into.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (LeftWall (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (LeftWall (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+LeftWall (UnityEngine.GameObject)was LEFT Double Clicked!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Zooming in
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Zooming in finished
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (RightWall (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (RightWall (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Cuadro (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object (RightWall (ClickControl)) cannot be inventored into.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object (Cuadro (ClickControl)) cannot be inventored into.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Mesa (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Mesa (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+(2.2, 6.4, 13.2)0333
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+aiofhasfhasuioh True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (LlaveHole (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (LlaveHole (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object (Mesa (ClickControl)) cannot be inventored into.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0035
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+You need a fire and some wax.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (LlaveHole (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (LlaveHole (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+You need a fire and some wax.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (LlaveHole (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+LlaveHole (UnityEngine.GameObject)was LEFT Double Clicked!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Zooming in
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Zooming in finished
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (LlaveHole (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+LlaveHole (ZoomInOnDoubleClick)was LEFT Double Clicked!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Animacion termino, duro 3segundo/s
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+hey, it worked!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Llave (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+A Turn Flag was Cleared.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Llave (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Silla (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Silla (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Silla (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Silla (ZoomInOnDoubleClick)was LEFT Double Clicked!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Silla (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Silla (UnityEngine.GameObject)was LEFT Double Clicked!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Zooming in
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Zooming in finished
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Opened box drawer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Placa (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (CAJA AN 1 (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Running Animation openNow , CAJA AN 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+unity sucks -1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Running Animation openNow , CAJA AN 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Running Animation openNow , CAJA AN 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object (Placa (ClickControl)) cannot be inventored into.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Llave (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+A Turn Flag was Cleared.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Llave (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (lasers juntos (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Mesa (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Mesa (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Mesa (ZoomInOnDoubleClick)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Mesa (ZoomInOnDoubleClick)was LEFT Double Clicked!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Mesa (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Mesa (UnityEngine.GameObject)was LEFT Double Clicked!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Zooming in
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Zooming in finished
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Lasers position before activating: (-0.6, 8.9, -19.1)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+You need the lasers.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Cabeza (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+A Turn Flag was Cleared.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0035
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0341
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (LeftWall (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object (LeftWall (ClickControl)) cannot be inventored into.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Lasers position before activating: (-0.6, 8.9, -19.1)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Lasers position after activating: (-0.6, 8.9, -19.1)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Left: 21; Right: -21; Top: 30; Floor: 0; Front: 37.6; Back: -38;
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Can't add component 'Transform' to newGO because such a component is already added to the game object!
+ 
+(Filename:  Line: 87)
+
+yey (Cabeza (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+A Turn Flag was Cleared.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0035
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Laser states are: red(False); green(True); blue(False)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Lasers position before activating: (-0.6, 8.9, -19.1)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+You need the lasers.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Cabeza (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+A Turn Flag was Cleared.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Lasers position before activating: (-0.6, 8.9, -19.1)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+You need the lasers.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Cabeza (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+A Turn Flag was Cleared.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Laser states are: red(True); green(True); blue(False)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0035
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object is being rotated
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Lasers position before activating: (0.1, 8.9, -19.9)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+You need the lasers.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object is being rotated
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+receptor: RGBA(1.000, 0.922, 0.016, 1.000); laser: RGBA(1.000, 0.922, 0.016, 1.000);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Left: 21; Right: -21; Top: 30; Floor: 0; Front: 37.6; Back: -38;
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Can't add component 'Transform' to newGO because such a component is already added to the game object!
+ 
+(Filename:  Line: 87)
+
+Targets agarrados: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object is being rotated
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Lasers position before activating: (0.0, 8.7, -19.7)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+You need the lasers.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object is being rotated
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+receptor: RGBA(1.000, 0.922, 0.016, 1.000); laser: RGBA(1.000, 0.922, 0.016, 1.000);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Left: 21; Right: -21; Top: 30; Floor: 0; Front: 37.6; Back: -38;
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Can't add component 'Transform' to newGO because such a component is already added to the game object!
+ 
+(Filename:  Line: 87)
+
+Targets agarrados: 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object is being rotated
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Lasers position before activating: (-0.2, 8.8, -18.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+You need the lasers.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+yey (Cabeza (UnityEngine.GameObject)was LEFT clicked)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+A Turn Flag was Cleared.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+0035
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Single click!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Laser states are: red(True); green(True); blue(True)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Lasers position before activating: (-0.2, 8.8, -18.6)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+You need the lasers.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object is being rotated
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+receptor: RGBA(1.000, 1.000, 1.000, 1.000); laser: RGBA(1.000, 1.000, 1.000, 1.000);
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Left: 21; Right: -21; Top: 30; Floor: 0; Front: 37.6; Back: -38;
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Can't add component 'Transform' to newGO because such a component is already added to the game object!
+ 
+(Filename:  Line: 87)
+
+Targets agarrados: 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+This object is being rotated
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+All Turn Flags Cleared
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Sorry, you can't move there
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+THIS SCRIPT WAS DISABLED! HURRAY!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.559503 ms
+
+Unloading 1103 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 2.818818 ms (FindLiveObjects: 0.107152 ms CreateObjectMapping: 0.078825 ms MarkObjects: 0.189262 ms  DeleteObjects: 2.442757 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.462686 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.345680 ms (FindLiveObjects: 0.054192 ms CreateObjectMapping: 0.053781 ms MarkObjects: 0.228674 ms  DeleteObjects: 0.008210 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.458581 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.369903 ms (FindLiveObjects: 0.085804 ms CreateObjectMapping: 0.035717 ms MarkObjects: 0.233601 ms  DeleteObjects: 0.013137 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.396588 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.244686 ms (FindLiveObjects: 0.034485 ms CreateObjectMapping: 0.021759 ms MarkObjects: 0.180640 ms  DeleteObjects: 0.006979 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.321458 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.211021 ms (FindLiveObjects: 0.025453 ms CreateObjectMapping: 0.023401 ms MarkObjects: 0.154776 ms  DeleteObjects: 0.006979 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.367029 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.222516 ms (FindLiveObjects: 0.026275 ms CreateObjectMapping: 0.021348 ms MarkObjects: 0.167913 ms  DeleteObjects: 0.006568 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.399462 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.211842 ms (FindLiveObjects: 0.027096 ms CreateObjectMapping: 0.023811 ms MarkObjects: 0.153544 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.309142 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.189262 ms (FindLiveObjects: 0.019706 ms CreateObjectMapping: 0.029148 ms MarkObjects: 0.117416 ms  DeleteObjects: 0.006568 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.309963 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.232369 ms (FindLiveObjects: 0.033254 ms CreateObjectMapping: 0.024222 ms MarkObjects: 0.167092 ms  DeleteObjects: 0.006979 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.348965 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.231548 ms (FindLiveObjects: 0.037359 ms CreateObjectMapping: 0.021348 ms MarkObjects: 0.165040 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.402336 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.235243 ms (FindLiveObjects: 0.031201 ms CreateObjectMapping: 0.034075 ms MarkObjects: 0.162576 ms  DeleteObjects: 0.006979 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.364566 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.261518 ms (FindLiveObjects: 0.039002 ms CreateObjectMapping: 0.032433 ms MarkObjects: 0.182693 ms  DeleteObjects: 0.006979 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.340754 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.229085 ms (FindLiveObjects: 0.034075 ms CreateObjectMapping: 0.025453 ms MarkObjects: 0.162576 ms  DeleteObjects: 0.006568 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.316942 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.199936 ms (FindLiveObjects: 0.024632 ms CreateObjectMapping: 0.029969 ms MarkObjects: 0.138765 ms  DeleteObjects: 0.006158 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.310784 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.234012 ms (FindLiveObjects: 0.036128 ms CreateObjectMapping: 0.021759 ms MarkObjects: 0.168735 ms  DeleteObjects: 0.006979 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.313247 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.223748 ms (FindLiveObjects: 0.032843 ms CreateObjectMapping: 0.021348 ms MarkObjects: 0.162576 ms  DeleteObjects: 0.006568 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.378935 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.253307 ms (FindLiveObjects: 0.032433 ms CreateObjectMapping: 0.030380 ms MarkObjects: 0.182693 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.371955 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.254539 ms (FindLiveObjects: 0.038180 ms CreateObjectMapping: 0.026275 ms MarkObjects: 0.181461 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.392893 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.239759 ms (FindLiveObjects: 0.035307 ms CreateObjectMapping: 0.023811 ms MarkObjects: 0.172429 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.390020 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.229906 ms (FindLiveObjects: 0.043518 ms CreateObjectMapping: 0.020937 ms MarkObjects: 0.158471 ms  DeleteObjects: 0.006568 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.412600 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.208968 ms (FindLiveObjects: 0.025864 ms CreateObjectMapping: 0.030791 ms MarkObjects: 0.144923 ms  DeleteObjects: 0.006979 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.363334 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.194599 ms (FindLiveObjects: 0.025043 ms CreateObjectMapping: 0.020937 ms MarkObjects: 0.141228 ms  DeleteObjects: 0.006979 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.398231 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.190494 ms (FindLiveObjects: 0.022169 ms CreateObjectMapping: 0.020527 ms MarkObjects: 0.141228 ms  DeleteObjects: 0.006568 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.361692 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.208968 ms (FindLiveObjects: 0.030791 ms CreateObjectMapping: 0.020937 ms MarkObjects: 0.149849 ms  DeleteObjects: 0.006979 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.321869 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.186388 ms (FindLiveObjects: 0.029969 ms CreateObjectMapping: 0.021348 ms MarkObjects: 0.129732 ms  DeleteObjects: 0.005337 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.245096 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.161755 ms (FindLiveObjects: 0.020527 ms CreateObjectMapping: 0.020937 ms MarkObjects: 0.115363 ms  DeleteObjects: 0.004105 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.339522 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.255771 ms (FindLiveObjects: 0.051728 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.172840 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.330490 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.248791 ms (FindLiveObjects: 0.050497 ms CreateObjectMapping: 0.021348 ms MarkObjects: 0.167913 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.327206 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.256592 ms (FindLiveObjects: 0.049676 ms CreateObjectMapping: 0.021759 ms MarkObjects: 0.175714 ms  DeleteObjects: 0.008210 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.333364 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.227443 ms (FindLiveObjects: 0.035717 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.160524 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.391251 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.263982 ms (FindLiveObjects: 0.052960 ms CreateObjectMapping: 0.021348 ms MarkObjects: 0.181872 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.351018 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.229085 ms (FindLiveObjects: 0.042696 ms CreateObjectMapping: 0.021759 ms MarkObjects: 0.156008 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.520163 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.252076 ms (FindLiveObjects: 0.051318 ms CreateObjectMapping: 0.021348 ms MarkObjects: 0.171198 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.380988 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.255771 ms (FindLiveObjects: 0.048034 ms CreateObjectMapping: 0.022169 ms MarkObjects: 0.167503 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.399462 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.259465 ms (FindLiveObjects: 0.057476 ms CreateObjectMapping: 0.021348 ms MarkObjects: 0.171608 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.366208 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.242633 ms (FindLiveObjects: 0.040644 ms CreateObjectMapping: 0.021759 ms MarkObjects: 0.172019 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.330080 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.259465 ms (FindLiveObjects: 0.047623 ms CreateObjectMapping: 0.021348 ms MarkObjects: 0.172019 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.325153 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.204042 ms (FindLiveObjects: 0.027096 ms CreateObjectMapping: 0.021348 ms MarkObjects: 0.148207 ms  DeleteObjects: 0.006568 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.351839 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.227032 ms (FindLiveObjects: 0.042286 ms CreateObjectMapping: 0.020937 ms MarkObjects: 0.156418 ms  DeleteObjects: 0.006979 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.355534 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.265624 ms (FindLiveObjects: 0.067740 ms CreateObjectMapping: 0.021759 ms MarkObjects: 0.168324 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.386735 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.247560 ms (FindLiveObjects: 0.048034 ms CreateObjectMapping: 0.021348 ms MarkObjects: 0.169966 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.378114 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.257413 ms (FindLiveObjects: 0.057476 ms CreateObjectMapping: 0.022169 ms MarkObjects: 0.169556 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.353070 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.269319 ms (FindLiveObjects: 0.062403 ms CreateObjectMapping: 0.029969 ms MarkObjects: 0.168735 ms  DeleteObjects: 0.006979 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.378935 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.222106 ms (FindLiveObjects: 0.034485 ms CreateObjectMapping: 0.022169 ms MarkObjects: 0.157239 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.392072 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.260697 ms (FindLiveObjects: 0.049676 ms CreateObjectMapping: 0.020937 ms MarkObjects: 0.172019 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.381398 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.256181 ms (FindLiveObjects: 0.049265 ms CreateObjectMapping: 0.022169 ms MarkObjects: 0.175714 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.369492 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.244686 ms (FindLiveObjects: 0.041875 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.172019 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.374829 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.326385 ms (FindLiveObjects: 0.080467 ms CreateObjectMapping: 0.046391 ms MarkObjects: 0.191315 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.359229 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.233190 ms (FindLiveObjects: 0.033254 ms CreateObjectMapping: 0.022169 ms MarkObjects: 0.160113 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.402747 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.233190 ms (FindLiveObjects: 0.036128 ms CreateObjectMapping: 0.030380 ms MarkObjects: 0.158471 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.385093 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.244275 ms (FindLiveObjects: 0.041875 ms CreateObjectMapping: 0.021348 ms MarkObjects: 0.172429 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.386325 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.268498 ms (FindLiveObjects: 0.038591 ms CreateObjectMapping: 0.021759 ms MarkObjects: 0.200757 ms  DeleteObjects: 0.006979 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.331722 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.251665 ms (FindLiveObjects: 0.040233 ms CreateObjectMapping: 0.022169 ms MarkObjects: 0.178998 ms  DeleteObjects: 0.009032 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.366618 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.253718 ms (FindLiveObjects: 0.057066 ms CreateObjectMapping: 0.020527 ms MarkObjects: 0.167913 ms  DeleteObjects: 0.006979 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.376061 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.270961 ms (FindLiveObjects: 0.067740 ms CreateObjectMapping: 0.021759 ms MarkObjects: 0.174072 ms  DeleteObjects: 0.006568 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.384682 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.266034 ms (FindLiveObjects: 0.068150 ms CreateObjectMapping: 0.021348 ms MarkObjects: 0.167913 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.332953 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.235243 ms (FindLiveObjects: 0.045570 ms CreateObjectMapping: 0.021759 ms MarkObjects: 0.159702 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.335006 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.259055 ms (FindLiveObjects: 0.048855 ms CreateObjectMapping: 0.021759 ms MarkObjects: 0.169966 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.387967 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.221695 ms (FindLiveObjects: 0.035717 ms CreateObjectMapping: 0.020527 ms MarkObjects: 0.158060 ms  DeleteObjects: 0.006979 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.333775 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.251255 ms (FindLiveObjects: 0.049265 ms CreateObjectMapping: 0.021348 ms MarkObjects: 0.172840 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.372777 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.263160 ms (FindLiveObjects: 0.049265 ms CreateObjectMapping: 0.022169 ms MarkObjects: 0.173251 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.415884 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.238528 ms (FindLiveObjects: 0.043107 ms CreateObjectMapping: 0.023811 ms MarkObjects: 0.162987 ms  DeleteObjects: 0.008210 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.327206 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.254539 ms (FindLiveObjects: 0.050907 ms CreateObjectMapping: 0.021759 ms MarkObjects: 0.172429 ms  DeleteObjects: 0.008210 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.381398 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.237296 ms (FindLiveObjects: 0.036128 ms CreateObjectMapping: 0.040644 ms MarkObjects: 0.152723 ms  DeleteObjects: 0.006979 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.330901 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.224980 ms (FindLiveObjects: 0.034485 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.159292 ms  DeleteObjects: 0.008210 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.333775 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 0.254128 ms (FindLiveObjects: 0.041465 ms CreateObjectMapping: 0.021759 ms MarkObjects: 0.172019 ms  DeleteObjects: 0.007389 ms)
+
