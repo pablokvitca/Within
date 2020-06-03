@@ -10,16 +10,16 @@ public class Messenger : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		Color c = Camera.main.transform.FindChild("Messenger").GetComponent<TextMesh>().color;
+		Color c = Camera.main.transform.Find("Messenger").GetComponent<TextMesh>().color;
 		c.a -= speed;
-		Camera.main.transform.FindChild("Messenger").GetComponent<TextMesh>().color = c;
+		Camera.main.transform.Find("Messenger").GetComponent<TextMesh>().color = c;
 	}
 
 	public static void Message(string message, float _speed, Color color, bool overwrite, bool playsound) {
 		if (overwrite) {
-			Camera.main.transform.FindChild("Messenger").GetComponent<TextMesh>().text = message;
-			Camera.main.transform.FindChild("Messenger").GetComponent<TextMesh>().color = Color.black;//color;
-			if (playsound) Camera.main.transform.FindChild("Messenger").GetComponent<AudioSource>().Play();
+			Camera.main.transform.Find("Messenger").GetComponent<TextMesh>().text = message;
+			Camera.main.transform.Find("Messenger").GetComponent<TextMesh>().color = Color.black;//color;
+			if (playsound) Camera.main.transform.Find("Messenger").GetComponent<AudioSource>().Play();
 			speed = _speed;
 		}
 	}
@@ -27,9 +27,9 @@ public class Messenger : MonoBehaviour {
 	public static void Message(string message, float _speed, Color color, bool overwrite, bool playsound, bool once) {
 		if (overwrite && !Onced(message)) {
 			oncedList.Add(message);
-			Camera.main.transform.FindChild("Messenger").GetComponent<TextMesh>().text = message;
-			Camera.main.transform.FindChild("Messenger").GetComponent<TextMesh>().color = Color.black;//color;
-			if (playsound) Camera.main.transform.FindChild("Messenger").GetComponent<AudioSource>().Play();
+			Camera.main.transform.Find("Messenger").GetComponent<TextMesh>().text = message;
+			Camera.main.transform.Find("Messenger").GetComponent<TextMesh>().color = Color.black;//color;
+			if (playsound) Camera.main.transform.Find("Messenger").GetComponent<AudioSource>().Play();
 			speed = _speed;
 		}
 	}

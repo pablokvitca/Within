@@ -195,13 +195,13 @@ public class Hanoi : MonoBehaviour {
 			Debug.Log("Hanoi error");
 			return Vector3.zero;
 		case 1:
-			return this.transform.FindChild("HanoiDiscPosition4").position;
+			return this.transform.Find("HanoiDiscPosition4").position;
 		case 2:
-			return this.transform.FindChild("HanoiDiscPosition3").position;
+			return this.transform.Find("HanoiDiscPosition3").position;
 		case 3:
-			return this.transform.FindChild("HanoiDiscPosition2").position;
+			return this.transform.Find("HanoiDiscPosition2").position;
 		case 4:
-			return this.transform.FindChild("HanoiDiscPosition1").position;
+			return this.transform.Find("HanoiDiscPosition1").position;
 		}
 	}
 
